@@ -689,7 +689,17 @@
 				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPersonArms/Animations/FP_Falling.uasset",
 				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPersonArms/Animations/FP_Idle.uasset",
 				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FPWeapon/Mesh/SK_FPGun.uasset",
-				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_HUD.uasset"
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_HUD.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/TX_Blood.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/TXGreen.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/STR_Weapon.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Structs/STR_Weapon.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Maps/FirstPersonMap.umap",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/TX_Gold.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/TX_Silver.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Maps/MainMenu.umap",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset",
+				"C:/Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Buttons.uasset"
 			]
 		}
 	]
