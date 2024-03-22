@@ -1135,3 +1135,687 @@ LogInit: Object subsystem initialized
 [2024.03.22-12.46.37:052][  1]LogAssetRegistry: AssetRegistryGather time 1.0455s: AssetDataDiscovery 0.0478s, AssetDataGather 0.9476s, StoreResults 0.0501s.
 [2024.03.22-12.46.37:081][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2024.03.22-12.46.37:133][  2]LogD3D12RHI: Cannot end block when stack is empty
+[2024.03.22-12.47.14:395][127]LogSlate: Took 0.000584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.22-12.47.42:248][743]LogSkeletalMesh: Building Skeletal Mesh SK_M9_Knife_X...
+[2024.03.22-12.47.42:252][743]LogSkeletalMesh: Building Skeletal Mesh SK_M9_Knife...
+[2024.03.22-12.47.42:254][743]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife.SK_M9_Knife
+[2024.03.22-12.47.42:272][743]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 1/2 (SK_M9_Knife_X) ...
+[2024.03.22-12.47.42:272][743]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X.SK_M9_Knife_X
+[2024.03.22-12.47.42:335][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Stripes__Pattern.T_Stripes__Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:346][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.22-12.47.42:383][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/M9_Knife/T_M9_ALB.T_M9_ALB (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 301.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:420][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/M9_Knife/T_M9_NRM.T_M9_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:423][743]LogStaticMesh: Display: Building static mesh SM_M9_Knife...
+[2024.03.22-12.47.42:475][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/M9_Knife/T_M9_M_MSK.T_M9_M_MSK (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 301.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:483][743]LogStaticMesh: Built static mesh [0.06s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SM_M9_Knife.SM_M9_Knife
+[2024.03.22-12.47.42:568][743]LogStaticMesh: Display: Building static mesh SM_M9_Knife_X...
+[2024.03.22-12.47.42:610][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA74U/T_KA74U_M_MSK.T_KA74U_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:629][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA74U/T_KA74U_NRM.T_KA74U_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:630][743]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA74U/T_KA74U_ALB.T_KA74U_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.47.42:632][743]LogStaticMesh: Built static mesh [0.07s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SM_M9_Knife_X.SM_M9_Knife_X
+[2024.03.22-12.47.44:620][743]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.47.44:629][743]LogUObjectGlobals: Force Deleting 8 Package(s):
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SM_M9_Knife_X.SM_M9_Knife_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SM_M9_Knife.SM_M9_Knife
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X_Skeleton.SK_M9_Knife_X_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X_Physics.SK_M9_Knife_X_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X.SK_M9_Knife_X
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_Skeleton.SK_M9_Knife_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_Physics.SK_M9_Knife_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife.SK_M9_Knife
+	Asset Type: SkeletalMesh
+[2024.03.22-12.47.44:782][743]LogSkeletalMesh: Building Skeletal Mesh SK_M9_Knife...
+[2024.03.22-12.47.44:786][743]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife.SK_M9_Knife
+[2024.03.22-12.47.44:792][743]LogSkeletalMesh: Building Skeletal Mesh SK_M9_Knife_X...
+[2024.03.22-12.47.44:797][743]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X.SK_M9_Knife_X
+[2024.03.22-12.47.44:958][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.22-12.47.44:962][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.22-12.47.44:965][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.03.22-12.48.07:019][  0]LogSkeletalMesh: Building Skeletal Mesh SK_G67_X...
+[2024.03.22-12.48.07:021][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X.SK_G67_X
+[2024.03.22-12.48.07:024][  0]LogSkeletalMesh: Building Skeletal Mesh SK_G67...
+[2024.03.22-12.48.07:025][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67.SK_G67
+[2024.03.22-12.48.07:029][  0]LogStaticMesh: Display: Building static mesh SM_G67...
+[2024.03.22-12.48.07:029][  0]LogStaticMesh: Display: Building static mesh SM_G67_X...
+[2024.03.22-12.48.07:032][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.22-12.48.07:033][  0]LogStaticMesh: Display: Building static mesh SM_G67_Thrown...
+[2024.03.22-12.48.07:038][  0]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67.SM_G67
+[2024.03.22-12.48.07:039][  0]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_X.SM_G67_X
+[2024.03.22-12.48.07:049][  0]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/G67_Grenade/T_G67_ALB.T_G67_ALB (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 121.770823 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.07:085][  0]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/G67_Grenade/T_G67_M_MSK.T_G67_M_MSK (TFO_DXT1, 1024x1024 x1x1x1) (Required Memory Estimate: 121.770823 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.07:089][  0]LogStaticMesh: Built static mesh [0.06s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown
+[2024.03.22-12.48.07:091][  0]LogStaticMesh: Warning: Mesh SM_G67_Thrown is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown.
+[2024.03.22-12.48.07:112][  0]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/G67_Grenade/T_G67_NRM.T_G67_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 262.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.08:360][  0]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.48.08:370][  0]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_X.SM_G67_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67_Thrown.SM_G67_Thrown
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SM_G67.SM_G67
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X_Skeleton.SK_G67_X_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X_Physics.SK_G67_X_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X.SK_G67_X
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_Skeleton.SK_G67_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_Physics.SK_G67_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67.SK_G67
+	Asset Type: SkeletalMesh
+[2024.03.22-12.48.08:479][  0]LogSkeletalMesh: Building Skeletal Mesh SK_G67...
+[2024.03.22-12.48.08:481][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67.SK_G67
+[2024.03.22-12.48.08:485][  0]LogSkeletalMesh: Building Skeletal Mesh SK_G67_X...
+[2024.03.22-12.48.08:488][  0]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X.SK_G67_X
+[2024.03.22-12.48.08:542][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.22-12.48.08:550][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.22-12.48.08:554][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.03.22-12.48.24:919][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_762x39_ALB.T_762x39_ALB (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.24:925][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_762x39_M_MSK.T_762x39_M_MSK (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.24:928][915]LogStaticMesh: Display: Building static mesh SM_KA_Val_Mag_X...
+[2024.03.22-12.48.24:934][915]LogSkeletalMesh: Building Skeletal Mesh SK_KA_Val_Y...
+[2024.03.22-12.48.24:935][915]LogStaticMesh: Display: Building static mesh SM_KA_Val_Mag_Y...
+[2024.03.22-12.48.24:940][915]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y.SK_KA_Val_Y
+[2024.03.22-12.48.24:949][915]LogSkeletalMesh: Building Skeletal Mesh SK_KA_Val_X...
+[2024.03.22-12.48.24:954][915]LogStaticMesh: Display: Building static mesh SM_KA_Val_MAG_Loaded_Y...
+[2024.03.22-12.48.24:957][915]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_X.SK_KA_Val_X
+[2024.03.22-12.48.24:966][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.22-12.48.24:968][915]LogStaticMesh: Display: Building static mesh SM_KA_Val_Y...
+[2024.03.22-12.48.24:972][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_762x39_NRM.T_762x39_NRM (TFO_BC5, 256x256 x1x1x1) (Required Memory Estimate: 18.812259 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.24:980][915]LogStaticMesh: Display: Building static mesh SM_KA_Val_X...
+[2024.03.22-12.48.24:982][915]LogStaticMesh: Built static mesh [0.05s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_X.SM_KA_Val_Mag_X
+[2024.03.22-12.48.24:982][915]LogStaticMesh: Built static mesh [0.05s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_Y.SM_KA_Val_Mag_Y
+[2024.03.22-12.48.25:028][915]LogStaticMesh: Built static mesh [0.06s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Y.SM_KA_Val_Y
+[2024.03.22-12.48.25:036][915]LogStaticMesh: Built static mesh [0.06s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_X.SM_KA_Val_X
+[2024.03.22-12.48.25:061][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA_Val/T_KA_Val_ALB.T_KA_Val_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.25:096][915]LogStaticMesh: Built static mesh [0.14s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_MAG_Loaded_Y.SM_KA_Val_MAG_Loaded_Y
+[2024.03.22-12.48.25:141][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA_Val/T_KA_Val_NRM.T_KA_Val_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.25:206][915]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA_Val/T_KA_Val_M_MSK.T_KA_Val_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.48.26:289][915]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.130 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1802 files in 2642 folders with total size 54 MiB.
+[2024.03.22-12.48.27:186][915]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.48.27:197][915]LogUObjectGlobals: Force Deleting 11 Package(s):
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Y.SM_KA_Val_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_X.SM_KA_Val_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_Y.SM_KA_Val_Mag_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_X.SM_KA_Val_Mag_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_MAG_Loaded_Y.SM_KA_Val_MAG_Loaded_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y_Skeleton.SK_KA_Val_Y_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y_Physics.SK_KA_Val_Y_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y.SK_KA_Val_Y
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_X_Skeleton.SK_KA_Val_X_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_X_Physics.SK_KA_Val_X_Physics
+	Asset Type: PhysicsAsset
+[2024.03.22-12.48.27:308][915]LogSkeletalMesh: Building Skeletal Mesh SK_KA_Val_X...
+[2024.03.22-12.48.27:325][915]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_KA_Val_X) ...
+[2024.03.22-12.48.27:325][915]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_X.SK_KA_Val_X
+[2024.03.22-12.48.27:331][915]LogSkeletalMesh: Building Skeletal Mesh SK_KA_Val_Y...
+[2024.03.22-12.48.27:341][915]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y.SK_KA_Val_Y
+[2024.03.22-12.48.27:498][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.03.22-12.48.27:502][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.22-12.48.27:505][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.22-12.48.45:099][928]LogStaticMesh: Display: Building static mesh SM_KA74U_Mag_Empty_X...
+[2024.03.22-12.48.45:103][928]LogSkeletalMesh: Building Skeletal Mesh SK_KA74U_Y...
+[2024.03.22-12.48.45:109][928]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y.SK_KA74U_Y
+[2024.03.22-12.48.45:113][928]LogStaticMesh: Display: Building static mesh SM_KA74U_Mag_Y...
+[2024.03.22-12.48.45:114][928]LogStaticMesh: Display: Building static mesh SM_KA74U_Mag_Empty_Y...
+[2024.03.22-12.48.45:120][928]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_X.SM_KA74U_Mag_Empty_X
+[2024.03.22-12.48.45:120][928]LogStaticMesh: Display: Building static mesh SM_KA74U_Mag_X...
+[2024.03.22-12.48.45:121][928]LogSkeletalMesh: Building Skeletal Mesh SK_KA74U_X...
+[2024.03.22-12.48.45:123][928]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_Y.SM_KA74U_Mag_Empty_Y
+[2024.03.22-12.48.45:124][928]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Y.SM_KA74U_Mag_Y
+[2024.03.22-12.48.45:126][928]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_X.SK_KA74U_X
+[2024.03.22-12.48.45:134][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.22-12.48.45:135][928]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_X.SM_KA74U_Mag_X
+[2024.03.22-12.48.45:150][928]LogStaticMesh: Display: Building static mesh SM_KA74U_X...
+[2024.03.22-12.48.45:165][928]LogStaticMesh: Display: Building static mesh SM_KA74U_Y...
+[2024.03.22-12.48.45:222][928]LogStaticMesh: Built static mesh [0.07s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_X.SM_KA74U_X
+[2024.03.22-12.48.45:234][928]LogStaticMesh: Built static mesh [0.07s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Y.SM_KA74U_Y
+[2024.03.22-12.48.46:288][928]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.48.46:301][928]LogUObjectGlobals: Force Deleting 12 Package(s):
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Y.SM_KA74U_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_X.SM_KA74U_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Y.SM_KA74U_Mag_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_X.SM_KA74U_Mag_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_Y.SM_KA74U_Mag_Empty_Y
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_X.SM_KA74U_Mag_Empty_X
+	Asset Type: StaticMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y_Skeleton.SK_KA74U_Y_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y_Physics.SK_KA74U_Y_Physics
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y.SK_KA74U_Y
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_X_Skeleton.SK_KA74U_X_Skeleton
+	Asset Type: Skeleton
+[2024.03.22-12.48.46:425][928]LogSkeletalMesh: Building Skeletal Mesh SK_KA74U_X...
+[2024.03.22-12.48.46:442][928]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_X.SK_KA74U_X
+[2024.03.22-12.48.46:444][928]LogSkeletalMesh: Building Skeletal Mesh SK_KA74U_Y...
+[2024.03.22-12.48.46:458][928]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y.SK_KA74U_Y
+[2024.03.22-12.48.46:519][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.22-12.48.46:524][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.22-12.48.46:528][928]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.03.22-12.49.14:287][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.03.22-12.49.15:726][521]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.49.15:742][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.03.22-12.49.15:747][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.03.22-12.49.15:752][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.22-12.49.24:362][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.03.22-12.49.25:738][  7]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.49.25:755][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.03.22-12.49.25:761][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.03.22-12.49.25:765][  7]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2024.03.22-12.49.28:748][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.22-12.49.28:752][170]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_LeafSpray_Pattern.T_LeafSpray_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.49.28:903][170]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA74U/T_KA74U_Gold_ALB.T_KA74U_Gold_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.49.29:027][170]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA74U/T_KA74U_Gold_M_MSK.T_KA74U_Gold_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.49.29:910][170]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.49.29:926][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.03.22-12.49.29:933][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.03.22-12.49.29:943][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 0 (Found bundle for host: 0x8e81b950000 [serially])
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 6 (Closing connection)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 9 (  Trying 35.171.37.243:443...)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (35.171.37.243) port 443)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 25 (Server certificate:)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 34 (Closing connection)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: 000008E8767AB900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.49.33:139][353]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-12.49.43:619][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.03.22-12.49.44:785][971]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.49.44:809][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.22-12.49.44:813][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.03.22-12.49.44:822][971]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.03.22-12.49.48:168][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.03.22-12.49.48:341][166]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.50.16:603][166]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Total job queries 5, among them cache hits 0 (0.00%)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: RAM used: 127.72 KiB of 1.60 GiB budget. Usage: 0.01%
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Shaders Compiled: 5
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Jobs assigned 5, completed 5 (100%)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.12 s
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Job execution time: average 1.31 s, max 1.47 s
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Job life time (pending + execution): average 1.38 s, max 1.47
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Shader code size: average 34.965 KiB, min 28.871 KiB, max 38.184 KiB
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.47 s
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Jobs were issued in 5 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Average processing rate: 3.41 jobs/sec
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Total thread time: 4.026 s
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Total thread preprocess time: 2.762 s
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Percentage time preprocessing: 68.59%
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Effective parallelization: 2.75 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.91% of total time (compiled    1 times, average 0.92 sec, max 0.92 sec, min 0.92 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.32% of total time (compiled    1 times, average 0.78 sec, max 0.78 sec, min 0.78 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                                 FLumenCardVS - 18.89% of total time (compiled    1 times, average 0.76 sec, max 0.76 sec, min 0.76 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                                  FVelocityPS - 16.63% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.50.16:615][166]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 16.41% of total time (compiled    1 times, average 0.66 sec, max 0.66 sec, min 0.66 sec)
+[2024.03.22-12.50.16:617][166]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.50.21:058][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.22-12.50.22:208][414]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.22-12.50.22:257][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.03.22-12.50.22:263][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.22-12.50.22:266][414]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.03.22-12.51.10:281][206]LogStaticMesh: StaticMesh /Game/MilitaryWeapDark/Weapons/GrenadeLauncherB_Ammo.GrenadeLauncherB_Ammo should be resaved to improve async compilation performance.
+[2024.03.22-12.51.10:285][206]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/MilitaryWeapDark/Weapons/GrenadeLauncherB_Ammo.GrenadeLauncherB_Ammo
+[2024.03.22-12.51.10:294][206]LogStaticMesh: Display: Building static mesh GrenadeLauncherB_Ammo...
+[2024.03.22-12.51.10:304][206]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapDark/Weapons/GrenadeLauncherB_Ammo.GrenadeLauncherB_Ammo
+[2024.03.22-12.51.10:306][206]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/MilitaryWeapDark/Weapons/GrenadeLauncherB_Ammo) ...
+[2024.03.22-12.51.10:428][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Assault_Rifle_B_Masks.Assault_Rifle_B_Masks (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:487][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Assault_Rifle_B_Diff.Assault_Rifle_B_Diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:504][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Grenade_Launcher_B_Masks.Grenade_Launcher_B_Masks (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:506][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Grenade_Launcher_B_Diff.Grenade_Launcher_B_Diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:525][206]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.51.10:525][206]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.22-12.51.10:561][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Assault_Rifle_B_Norm.Assault_Rifle_B_Norm (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:572][206]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Grenade_Launcher_B_Norm.Grenade_Launcher_B_Norm (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.51.10:609][206]LogTexture: Display: Waiting for textures to be ready 0/1 (/Engine/EditorMaterials/AssetViewer/EpicQuadPanorama_CC+EV1) ...
+[2024.03.22-12.51.10:724][206]LogTexture: Display: Waiting for textures to be ready 0/3 (/Game/MilitaryWeapDark/Weapons/Textures/Grenade_Launcher_B_Norm) ...
+[2024.03.22-12.51.11:692][206]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.51.11:718][206]LogViewport: Scene viewport resized to 1403x848, mode Windowed.
+[2024.03.22-12.51.16:748][486]LogSlate: Window 'GrenadeLauncherB_Ammo' being destroyed
+[2024.03.22-12.51.16:754][486]LogSlate: Window 'GrenadeLauncherB_Ammo' being destroyed
+[2024.03.22-12.51.16:801][486]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.22-12.51.16:801][486]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.22-12.51.51:023][493]Cmd: DUPLICATE
+[2024.03.22-12.51.51:023][493]Cmd: ACTOR DUPLICATE
+[2024.03.22-12.51.51:715][531]Cmd: DUPLICATE
+[2024.03.22-12.51.51:715][531]Cmd: ACTOR DUPLICATE
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 0 (Found bundle for host: 0x8e81b950ab0 [serially])
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 6 (Closing connection)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 9 (  Trying 54.205.202.192:443...)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.205.202.192) port 443)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 25 (Server certificate:)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 34 (Closing connection)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: 000008E89AF54B00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.52.33:157][967]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-12.52.47:749][822]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.03.22-12.52.50:427][968]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.22-12.52.50:431][968]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.52.50:431][968]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.22-12.52.50:453][968]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.22-12.52.52:437][968]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.03.22-12.52.52:890][968]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.453787s
+[2024.03.22-12.52.52:934][968]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 2.497941s (0.497941s overbudget)
+[2024.03.22-12.52.52:980][968]LogSlate: Took 0.007307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.22-12.53.22:366][670]LogViewport: Scene viewport resized to 1139x813, mode Windowed.
+[2024.03.22-12.53.26:334][888]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.53.35:458][409]LogViewport: Scene viewport resized to 722x434, mode Windowed.
+[2024.03.22-12.53.43:419][803]LogViewport: Scene viewport resized to 1139x813, mode Windowed.
+[2024.03.22-12.54.43:744][230]LogSkeletalMesh: Building Skeletal Mesh Grenade_Launcher_B...
+[2024.03.22-12.54.43:747][230]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapDark/Weapons/Grenade_Launcher_B.Grenade_Launcher_B
+[2024.03.22-12.54.43:749][230]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/MilitaryWeapDark/Weapons/Grenade_Launcher_B.Grenade_Launcher_B
+[2024.03.22-12.54.43:769][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.54.43:769][230]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.22-12.54.43:781][230]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.22-12.54.44:387][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.54.44:418][230]LogViewport: Scene viewport resized to 1428x803, mode Windowed.
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Total job queries 11, among them cache hits 0 (0.00%)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Tracking 11 distinct input hashes that result in 8 distinct outputs (72.73%)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: RAM used: 257.66 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Shaders Compiled: 11
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Average time worker was idle: 125.30 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.12 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Job execution time: average 0.94 s, max 1.47 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Job life time (pending + execution): average 0.99 s, max 1.47
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Shader code size: average 35.604 KiB, min 28.871 KiB, max 38.184 KiB
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.96 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Average processing rate: 3.72 jobs/sec
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Total thread time: 5.78 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Total thread preprocess time: 2.999 s
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Percentage time preprocessing: 51.89%
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Effective parallelization: 1.95 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.55 sec, max 0.92 sec, min 0.33 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.51 sec, max 0.76 sec, min 0.26 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.47 sec, max 0.78 sec, min 0.28 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.39 sec, max 0.66 sec, min 0.13 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.48% of total time (compiled    3 times, average 0.55 sec, max 0.92 sec, min 0.33 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.50% of total time (compiled    3 times, average 0.47 sec, max 0.78 sec, min 0.28 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.73% of total time (compiled    2 times, average 0.51 sec, max 0.76 sec, min 0.26 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.64% of total time (compiled    2 times, average 0.39 sec, max 0.66 sec, min 0.13 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display:                                                  FVelocityPS - 11.59% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.54.45:107][259]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.54.45:277][268]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.54.45:307][269]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.54.47:089][368]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.22-12.54.47:089][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 0 (Found bundle for host: 0x8e81b9508a0 [serially])
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 6 (Closing connection)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 9 (  Trying 34.227.45.0:443...)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.227.45.0) port 443)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 25 (Server certificate:)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 34 (Closing connection)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: 000008E8AC4FD200: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.55.33:276][967]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-12.56.53:607][496]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.22-12.56.53:662][496]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2024.03.22-12.56.54:665][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.22-12.56.54:839][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.56.54:933][550]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.012988 seconds
+[2024.03.22-12.56.54:964][550]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.22-12.56.54:964][550]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle9E0CDC33414894F3E623E98280B1C452.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.22-12.56.54:995][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 330 ms
+[2024.03.22-12.56.54:999][550]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.22-12.56.54:999][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.22-12.56.59:612][813]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.22-12.56.59:620][813]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.22-12.56.59:621][813]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.22-12.56.59:626][813]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 5 ms
+[2024.03.22-12.56.59:629][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.22-12.56.59:635][813]PIE: New page: PIE session: FirstPersonMap (Mar 22, 2024, 4:56:59 PM)
+[2024.03.22-12.56.59:637][813]LogPlayLevel: Display: Creating online subsystem for client :Context_11
+[2024.03.22-12.56.59:640][813]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.03.22-12.56.59:671][814]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.22-12.56.59:680][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008848s)
+[2024.03.22-12.56.59:680][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008922s)
+[2024.03.22-12.56.59:704][814]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.22-12.56.59:709][814]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.56.59:709][814]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.22-12.56.59:710][814]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.22-12.56.59:711][814]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.22-12.56.59:711][814]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.22-12.56.59:711][814]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.22-12.56.59:711][814]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.22-12.56.59:713][814]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.22-12.56.59:713][814]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 515 ms)
+[2024.03.22-12.56.59:713][814]LogPlayLevel: PIE: World Init took: (0.004945s)
+[2024.03.22-12.56.59:714][814]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.22-12.56.59:714][814]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.22-12.56.59:714][814]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.22-12.56.59:714][814]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.22-12.56.59:714][814]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.22-12.56.59:714][814]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.22-12.56.59:716][814]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.22-12.56.59:849][814]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.22-12.56.59:849][814]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.22-12.56.59:849][814]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.22-12.56.59:849][814]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.22-12.56.59:851][814]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.22-12.56.59:851][814]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.22-12.56.59:852][814]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.22-12.56.59:852][814]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.22-12.56.59:852][814]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.22-12.56.59:852][814]LogAudio: Display: Audio Device (ID: 2) registered with world 'FirstPersonMap'.
+[2024.03.22-12.56.59:852][814]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.22-12.56.59:861][814]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.22-12.56.59:863][814]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.03.22-14.56.59
+[2024.03.22-12.56.59:864][814]LogWorld: Bringing up level for play took: 0.003327
+[2024.03.22-12.56.59:908][814]PIE: Server logged in
+[2024.03.22-12.56.59:910][814]PIE: Play in editor total start time 0.29 seconds.
+[2024.03.22-12.57.13:661][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.22-12.57.13:661][627]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.22-12.57.13:662][627]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.22-12.57.13:663][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.22-12.57.13:663][627]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.22-12.57.13:674][627]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.22-12.57.13:677][627]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.22-12.57.13:692][627]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.22-12.57.13:692][627]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.22-12.57.13:692][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.22-12.57.13:695][627]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.22-12.57.13:727][627]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2024.03.22-12.57.13:790][628]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.03.22-12.57.27:077][394]Cmd: DELETE
+[2024.03.22-12.57.27:079][394]Cmd: ACTOR DELETE
+[2024.03.22-12.57.27:090][394]LogEditorActor: Deleted Actor: BP_Pickup_Rifle_C
+[2024.03.22-12.57.27:104][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.22-12.57.27:107][394]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2024.03.22-12.57.29:806][554]Cmd: DELETE
+[2024.03.22-12.57.29:806][554]Cmd: ACTOR DELETE
+[2024.03.22-12.57.29:809][554]LogEditorActor: Deleted Actor: BP_Pickup_Rifle_C
+[2024.03.22-12.57.29:821][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.22-12.57.29:824][554]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2024.03.22-12.57.35:967][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.57.36:022][908]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.57.39:773][117]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2024.03.22-12.57.39:773][117]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2024.03.22-12.57.39:773][117]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_0
+[2024.03.22-12.57.39:775][117]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_0
+[2024.03.22-12.57.41:710][232]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2024.03.22-12.57.41:711][232]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C
+[2024.03.22-12.57.41:716][232]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.22-12.57.41:717][232]LogActorFactory: Actor Factory spawned Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle as actor: BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.22-12.59.17:126][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9mm_ALB.T_9mm_ALB (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:126][618]LogSkeletalMesh: Building Skeletal Mesh SK_SMG11_Y...
+[2024.03.22-12.59.17:127][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9mm_NRM.T_9mm_NRM (TFO_BC5, 256x256 x1x1x1) (Required Memory Estimate: 18.562259 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:128][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9mm_M_MSK.T_9mm_M_MSK (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:131][618]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Y.SK_SMG11_Y
+[2024.03.22-12.59.17:133][618]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Y.SK_SMG11_Y
+[2024.03.22-12.59.17:135][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.59.17:136][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.22-12.59.17:146][618]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.22-12.59.17:164][618]LogTexture: Display: Waiting for textures to be ready 0/9 (/Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_NRM) ...
+[2024.03.22-12.59.17:185][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_Rem_ALB.T_SMG11_Rem_ALB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:195][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_Rem_M_MSK.T_SMG11_Rem_M_MSK (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:212][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_Rem_NRM.T_SMG11_Rem_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 258.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:301][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_ALB.T_SMG11_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:358][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_NRM.T_SMG11_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:399][618]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_M_MSK.T_SMG11_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.22-12.59.17:523][618]LogTexture: Display: Waiting for textures to be ready 2/9 (/Game/FPS_Weapon_Bundle/Weapons/Textures/SMG11/T_SMG11_M_MSK) ...
+[2024.03.22-12.59.17:770][618]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2024.03.22-12.59.17:827][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.59.17:841][618]LogViewport: Scene viewport resized to 1428x803, mode Windowed.
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Total job queries 20, among them cache hits 4 (20.00%)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Tracking 12 distinct input hashes that result in 9 distinct outputs (75.00%)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: RAM used: 260.54 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Shaders Compiled: 12
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Jobs assigned 16, completed 12 (75.00%)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Average time worker was idle: 257.92 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.12 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Job execution time: average 0.90 s, max 1.47 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Job life time (pending + execution): average 0.96 s, max 1.47
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Shader code size: average 33.208 KiB, min 4.465 KiB, max 38.184 KiB
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.59 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Jobs were issued in 16 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Average processing rate: 3.34 jobs/sec
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Total thread time: 5.983 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Total thread preprocess time: 3.039 s
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Percentage time preprocessing: 50.79%
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Effective parallelization: 1.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.55 sec, max 0.92 sec, min 0.33 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.51 sec, max 0.76 sec, min 0.26 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.47 sec, max 0.78 sec, min 0.28 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.39 sec, max 0.66 sec, min 0.13 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.51% of total time (compiled    3 times, average 0.55 sec, max 0.92 sec, min 0.33 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.67% of total time (compiled    3 times, average 0.47 sec, max 0.78 sec, min 0.28 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.12% of total time (compiled    2 times, average 0.51 sec, max 0.76 sec, min 0.26 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.18% of total time (compiled    2 times, average 0.39 sec, max 0.66 sec, min 0.13 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display:                                                  FVelocityPS - 11.19% of total time (compiled    1 times, average 0.67 sec, max 0.67 sec, min 0.67 sec)
+[2024.03.22-12.59.18:494][646]LogShaderCompilers: Display: ================================================
+[2024.03.22-12.59.19:067][672]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.22-12.59.20:298][733]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.03.22-12.59.20:298][733]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.22-12.59.33:201][447]LogHttp: Warning: 000008E8DD5A2800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 0 (Found bundle for host: 0x8e81b9508a0 [serially])
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 6 (Closing connection)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 9 (  Trying 52.7.212.244:443...)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.7.212.244) port 443)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 25 (Server certificate:)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 34 (Closing connection)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: 000008E8DD5A2800: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-12.59.33:202][447]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.22-13.00.19:506][946]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.22-13.00.19:548][946]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.22-13.00.20:341][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.22-13.00.20:478][980]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.22-13.00.20:479][980]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle01ABA09C401D0B73AAD7BE9BFA80A709.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.22-13.00.20:490][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 478 ms)
+[2024.03.22-13.00.20:492][980]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.22-13.00.20:492][980]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.22-13.01.22:810][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.22-13.01.22:820][356]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1
+[2024.03.22-13.01.22:820][356]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/EAHCBN229IT8APJO305AH5_Auto1E30DAC0B4FDFD701957E2A90A24248BB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5_Auto1.uasset'
+[2024.03.22-13.01.22:823][356]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY_Auto1
+[2024.03.22-13.01.22:823][356]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/DSPABH7Z4XQVCYT1N98MTY_Auto1EF66D1094B9D104766EA6E99A457081B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY_Auto1.uasset'
+[2024.03.22-13.01.22:824][356]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.034
+[2024.03.22-13.01.22:824][356]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.034
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 0 (Found bundle for host: 0x8e81b950ed0 [serially])
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 6 (Closing connection)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 9 (  Trying 52.22.57.53:443...)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.22.57.53) port 443)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.22-13.02.33:607][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 25 (Server certificate:)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 34 (Closing connection)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: 000008E844B14100: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.22-13.02.33:608][570]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8AD64BFF-4CBE-3D72-BA68-76B127C72F54%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
