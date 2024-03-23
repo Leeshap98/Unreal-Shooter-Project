@@ -4429,3 +4429,93 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.03.23-19.23.50:082][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Chochip_Pattern.T_Chochip_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
 [2024.03.23-19.23.50:214][ 79]LogStaticMesh: Built static mesh [0.60s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47_X.SM_KA47_X
 [2024.03.23-19.23.50:223][ 79]LogStaticMesh: Built static mesh [0.59s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47.SM_KA47
+[2024.03.23-19.24.18:066][ 79]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: ================================================
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Total job queries 26, among them cache hits 2 (7.69%)
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Tracking 17 distinct input hashes that result in 12 distinct outputs (70.59%)
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: RAM used: 370.45 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Jobs assigned 8, completed 1 (12.50%)
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.04 s
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Job execution time: average 0.38 s, max 0.38 s
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Job life time (pending + execution): average 0.42 s, max 0.42
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Shader code size: average 4.359 KiB, min 4.359 KiB, max 4.359 KiB
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.42 s
+[2024.03.23-19.24.18:558][ 91]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Average processing rate: 2.41 jobs/sec
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Total thread time: 0.131 s
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Total thread preprocess time: 0.021 s
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Percentage time preprocessing: 15.95%
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Effective parallelization: 0.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display:                                                  FHitProxyPS (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display:                                                  FHitProxyPS - 100.00% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.03.23-19.24.18:559][ 91]LogShaderCompilers: Display: ================================================
+[2024.03.23-19.24.21:251][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.03.23-19.24.21:257][320]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.026
+[2024.03.23-19.24.21:261][320]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Input/Actions/IA_Rifle] ([1] browsable assets)...
+[2024.03.23-19.24.21:261][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Input/Actions/IA_Rifle]
+[2024.03.23-19.24.21:261][320]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Input/Actions/IA_Rifle_Auto3
+[2024.03.23-19.24.21:261][320]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IA_Rifle_Auto39784C3CC48F42ABB1D6664BA4DF11E42.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Input/Actions/IA_Rifle_Auto3.uasset'
+[2024.03.23-19.24.21:262][320]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPerson/Input/Actions/IA_GrenadeLauncher] ([1] browsable assets)...
+[2024.03.23-19.24.21:262][320]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Input/Actions/IA_GrenadeLauncher]
+[2024.03.23-19.24.21:263][320]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Input/Actions/IA_GrenadeLauncher_Auto3
+[2024.03.23-19.24.21:263][320]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IA_GrenadeLauncher_Auto34A8BECED471EEFC58C9D22B45A5D42A7.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Input/Actions/IA_GrenadeLauncher_Auto3.uasset'
+[2024.03.23-19.24.21:265][320]LogFileHelpers: Auto-saving content packages took 0.008
+[2024.03.23-19.24.25:769][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.24.25:834][621]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.24.25:861][622]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.24.25:913][624]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.24.34:146][314]LogObjectTools: Deleting 1 worlds: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase
+[2024.03.23-19.24.34:147][314]LogObjectTools: Currently 31 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_26, /Engine/Transient.World_35, /Engine/Transient.World_36, /Engine/Transient.World_37, /Engine/Transient.World_38, /Engine/Transient.World_39, /Engine/Transient.World_40, /Engine/Transient.World_41, /Engine/Transient.World_42, /Engine/Transient.World_43, /Engine/Transient.World_44, /Engine/Transient.World_45, /Engine/Transient.World_46, /Engine/Transient.World_48, /Engine/Transient.World_49, /Engine/Transient.World_51, /Engine/Transient.World_52, /Engine/Transient.World_53, /Engine/Transient.World_54, /Engine/Transient.World_55, /Engine/Transient.World_56, /Engine/Transient.World_57, /Engine/Transient.World_58, /Engine/Transient.World_59, /Engine/Transient.World_60, /Engine/Transient.World_61, /Engine/Transient.World_62
+[2024.03.23-19.24.34:157][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.23-19.24.53:190][314]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.23-19.25.07:487][125]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-19.25.07:533][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.03.23-19.25.08:237][151]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.25.08:317][151]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-19.25.08:317][151]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle1CBF7A214F4E26358BFBF09AA0D85085.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-19.25.08:326][151]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 6.12 sec)
+[2024.03.23-19.25.08:333][151]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-19.25.08:334][151]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-19.25.14:449][460]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.25.14:471][461]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.25.14:519][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.25.14:541][464]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.25.14:569][465]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.25.21:754][872]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-19.25.21:793][872]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.23-19.25.22:599][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.25.22:702][880]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-19.25.22:703][880]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle7D2A62394576D860BA13F39F202822EC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-19.25.22:710][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 6.23 sec)
+[2024.03.23-19.25.22:710][880]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-19.25.22:710][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-19.25.30:886][524]LogObjectTools: Deleting 1 worlds: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase
+[2024.03.23-19.25.30:886][524]LogObjectTools: Currently 36 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_26, /Engine/Transient.World_35, /Engine/Transient.World_36, /Engine/Transient.World_37, /Engine/Transient.World_38, /Engine/Transient.World_39, /Engine/Transient.World_40, /Engine/Transient.World_41, /Engine/Transient.World_42, /Engine/Transient.World_43, /Engine/Transient.World_44, /Engine/Transient.World_45, /Engine/Transient.World_46, /Engine/Transient.World_48, /Engine/Transient.World_49, /Engine/Transient.World_51, /Engine/Transient.World_52, /Engine/Transient.World_53, /Engine/Transient.World_54, /Engine/Transient.World_55, /Engine/Transient.World_56, /Engine/Transient.World_57, /Engine/Transient.World_58, /Engine/Transient.World_59, /Engine/Transient.World_60, /Engine/Transient.World_61, /Engine/Transient.World_62, /Engine/Transient.World_63, /Engine/Transient.World_64, /Engine/Transient.World_65, /Engine/Transient.World_66, /Engine/Transient.World_67
+[2024.03.23-19.25.30:907][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.23-19.25.50:310][524]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.23-19.25.50:342][524]LogWorld: UWorld::CleanupWorld for Weapons_Showcase, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.25.50:342][524]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.25.50:673][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.03.23-19.25.50:688][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.03.23-19.25.50:704][524]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.23-19.26.56:649][ 76]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.26.56:712][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.03.23-19.26.57:772][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.26.57:891][127]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.26.57:891][127]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter3DEC0DDC461D641F76EA8CA5FCC04284.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.26.57:901][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 6.36 sec)
+[2024.03.23-19.26.57:905][127]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.26.57:905][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.27.16:295][ 96]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.27.16:358][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.23-19.27.17:095][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.27.17:214][127]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.27.17:215][127]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter48316CFE491EDA73F8E2948BE4FE88A8.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.27.17:227][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 133 ms (total: 6.49 sec)
+[2024.03.23-19.27.17:230][127]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.27.17:230][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
