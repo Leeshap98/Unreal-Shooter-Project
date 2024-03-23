@@ -3176,3 +3176,1256 @@ LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy 
 [2024.03.23-18.57.15:633][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 3.54 sec)
 [2024.03.23-18.57.15:647][409]AssetCheck: New page: Asset Save: STR_Weapon
 [2024.03.23-18.57.15:647][409]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Structs/STR_Weapon.STR_Weapon
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 0 (Found bundle for host: 0x9391b960300 [serially])
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 6 (Closing connection)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 9 (  Trying 54.83.111.215:443...)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.83.111.215) port 443)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-18.58.06:163][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 34 (Closing connection)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: 000009399F42BE00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-18.58.06:164][667]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-18.58.12:481][ 31]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-18.58.12:520][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.23-18.58.13:289][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-18.58.13:410][ 66]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-18.58.13:412][ 66]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleC79F8B20412AB8E024D2DE8DDF0FC330.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-18.58.13:419][ 66]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 3.66 sec)
+[2024.03.23-18.58.13:424][ 66]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-18.58.13:424][ 66]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-18.58.16:984][270]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-18.58.17:030][271]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-18.58.51:865][212]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_5 via property SMG, but TRASH_SkeletalMeshComponent_5 is not valid (pending kill or garbage)
+	BP_Pickup_Rifle_C /Engine/Transient.World_35:PersistentLevel.BP_Pickup_Rifle_C_0
+	Function /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C:UserConstructionScript:000D
+[2024.03.23-18.58.51:865][212]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_5 via property SMG, but TRASH_SkeletalMeshComponent_5 is not valid (pending kill or garbage)
+	BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+	Function /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C:UserConstructionScript:000D
+[2024.03.23-18.58.51:866][212]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_5 via property SMG, but TRASH_SkeletalMeshComponent_5 is not valid (pending kill or garbage)
+	BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+	Function /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C:UserConstructionScript:000D
+[2024.03.23-18.58.51:867][212]LogScript: Warning: Attempted to access TRASH_SkeletalMeshComponent_3 via property SMG, but TRASH_SkeletalMeshComponent_3 is not valid (pending kill or garbage)
+	BP_Pickup_Rifle_C /Engine/Transient.World_11:PersistentLevel.BP_Pickup_Rifle_C_1
+	Function /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C:UserConstructionScript:000D
+[2024.03.23-18.58.56:316][458]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-18.58.56:350][458]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.03.23-18.58.57:517][506]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-18.58.57:633][506]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-18.58.57:633][506]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle0CA4584243E56B87238B6AB075B3DDAB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-18.58.57:642][506]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 3.79 sec)
+[2024.03.23-18.58.57:647][506]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-18.58.57:647][506]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-18.59.11:231][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-18.59.11:342][262]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-18.59.11:343][262]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleE4C40D52468B1DEB0FC62E9762BEAA24.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-18.59.11:360][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 130 ms (total: 3.92 sec)
+[2024.03.23-18.59.11:362][262]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-18.59.11:362][262]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-18.59.12:808][342]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-18.59.12:843][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.23-18.59.13:549][370]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-18.59.13:646][370]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-18.59.13:647][370]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle6F05D90445BDBDF309265AB5F5E53983.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-18.59.13:654][370]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 4.03 sec)
+[2024.03.23-18.59.13:659][370]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-18.59.13:659][370]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-18.59.40:100][296]Cmd: DUPLICATE
+[2024.03.23-18.59.40:100][296]Cmd: ACTOR DUPLICATE
+[2024.03.23-18.59.58:000][808]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-18.59.58:075][808]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2024.03.23-18.59.58:075][808]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/EAHCBN229IT8APJO305AH525D5F03A47DA308998F8E5B04A66EAEC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2024.03.23-18.59.58:077][808]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY
+[2024.03.23-18.59.58:077][808]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/DSPABH7Z4XQVCYT1N98MTY934184EC42E5BD34E4BE0EBC6A076BD0.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY.uasset'
+[2024.03.23-18.59.58:079][808]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH
+[2024.03.23-18.59.58:080][808]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/FQ09OEJFSNEIHTEGQVQTRH36176D724990C676F4ED0EB0F2434F47.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH.uasset'
+[2024.03.23-18.59.58:099][808]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.12 sec)
+[2024.03.23-18.59.58:100][808]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.23-18.59.58:100][808]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2024.03.23-18.59.58:100][808]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.23-18.59.58:100][808]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEF45E501_1980793127
+[2024.03.23-19.01.52:082][426]LogSkeletalMesh: Building Skeletal Mesh Assault_Rifle_B...
+[2024.03.23-19.01.52:087][426]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/MilitaryWeapDark/Weapons/Assault_Rifle_B.Assault_Rifle_B
+[2024.03.23-19.01.52:093][426]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.01.52:172][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: ================================================
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: Total job queries 12, among them cache hits 0 (0.00%)
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: Tracking 12 distinct input hashes that result in 10 distinct outputs (83.33%)
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: RAM used: 282.91 KiB of 1.60 GiB budget. Usage: 0.02%
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.03.23-19.01.52:173][427]LogShaderCompilers: Display: ================================================
+[2024.03.23-19.01.52:255][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.02.02:939][288]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.087 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2399 files in 3530 folders with total size 103 MiB.
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 0 (Found bundle for host: 0x9391b960660 [serially])
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 9 (  Trying 54.166.17.16:443...)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.166.17.16) port 443)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.02.06:131][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: 00000939D6C5B900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.02.06:132][529]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.02.15:058][142]LogSkeletalMesh: Building Skeletal Mesh Pistols_B...
+[2024.03.23-19.02.15:060][142]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/MilitaryWeapDark/Weapons/Pistols_B.Pistols_B
+[2024.03.23-19.02.15:066][142]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.02.15:120][143]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.02.15:170][145]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Pistols_B_Masks.Pistols_B_Masks (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.02.15:193][145]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Pistols_B_Diff.Pistols_B_Diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.02.15:210][146]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Pistols_B_Norm.Pistols_B_Norm (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.02.19:769][529]LogViewport: Scene viewport resized to 1270x729, mode Windowed.
+[2024.03.23-19.02.21:394][631]LogViewport: Scene viewport resized to 1523x845, mode Windowed.
+[2024.03.23-19.02.44:468][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.02.44:512][607]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.03.07:874][635]LogSkeletalMesh: Building Skeletal Mesh Rocket_launcher_B...
+[2024.03.23-19.03.07:877][635]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapDark/Weapons/Rocket_launcher_B.Rocket_launcher_B
+[2024.03.23-19.03.07:879][635]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/MilitaryWeapDark/Weapons/Rocket_launcher_B.Rocket_launcher_B
+[2024.03.23-19.03.07:901][635]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.03.07:901][635]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.03.07:958][635]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.23-19.03.07:976][635]LogTexture: Display: Waiting for textures to be ready 0/3 (/Game/MilitaryWeapDark/Weapons/Textures/Rocket_launcher_B_Norm) ...
+[2024.03.23-19.03.07:987][635]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Rocket_launcher_B_Masks.Rocket_launcher_B_Masks (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.03.08:014][635]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Rocket_launcher_B_Norm.Rocket_launcher_B_Norm (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.03.08:018][635]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Rocket_launcher_B_Diff.Rocket_launcher_B_Diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.03.08:155][635]LogTexture: Display: Waiting for textures to be ready 1/3 (/Game/MilitaryWeapDark/Weapons/Textures/Rocket_launcher_B_Diff) ...
+[2024.03.23-19.03.08:595][635]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.03.08:622][635]LogViewport: Scene viewport resized to 1428x803, mode Windowed.
+[2024.03.23-19.03.08:925][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.03.23:264][422]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/MilitaryWeapDark/Weapons/Grenade_Launcher_B.Grenade_Launcher_B
+[2024.03.23-19.03.23:264][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.03.23:265][422]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.03.23:278][422]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.03.23-19.03.23:518][422]LogToolMenus: Warning: Menu already registered : SkeletalMeshEditor.MeshContextMenu
+[2024.03.23-19.03.23:662][422]LogViewport: Scene viewport resized to 1428x803, mode Windowed.
+[2024.03.23-19.03.59:095][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.03.59:167][904]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2024.03.23-19.03.59:168][904]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/EAHCBN229IT8APJO305AH58467DC6744812BC9B6B57BB263C0D9FA.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2024.03.23-19.03.59:170][904]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY
+[2024.03.23-19.03.59:171][904]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/DSPABH7Z4XQVCYT1N98MTYFD079220404DF462A0B2F28F79425236.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY.uasset'
+[2024.03.23-19.03.59:173][904]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH
+[2024.03.23-19.03.59:173][904]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/FQ09OEJFSNEIHTEGQVQTRHE840A920461664E9F387EFB11C1DC684.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH.uasset'
+[2024.03.23-19.03.59:187][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 4.22 sec)
+[2024.03.23-19.03.59:189][904]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.23-19.03.59:190][904]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2024.03.23-19.03.59:190][904]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.23-19.03.59:190][904]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEF45E501_1980793127
+[2024.03.23-19.04.00:627][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.03.23-19.04.00:633][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.04.00:727][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.03.23-19.04.00:750][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 4.33 sec)
+[2024.03.23-19.04.46:984][449]LogStaticMesh: StaticMesh /Game/MilitaryWeapDark/Weapons/AssaultRifleB_Ammo.AssaultRifleB_Ammo should be resaved to improve async compilation performance.
+[2024.03.23-19.04.46:990][449]LogStaticMesh: Display: Building static mesh AssaultRifleB_Ammo...
+[2024.03.23-19.04.46:996][449]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapDark/Weapons/AssaultRifleB_Ammo.AssaultRifleB_Ammo
+[2024.03.23-19.04.47:024][450]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.04.56:756][335]LogStaticMesh: StaticMesh /Game/MilitaryWeapDark/Weapons/PistolB_Ammo.PistolB_Ammo should be resaved to improve async compilation performance.
+[2024.03.23-19.04.56:758][335]LogStaticMesh: Display: Building static mesh PistolB_Ammo...
+[2024.03.23-19.04.56:764][335]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapDark/Weapons/PistolB_Ammo.PistolB_Ammo
+[2024.03.23-19.05.05:517][ 36]LogStaticMesh: StaticMesh /Game/MilitaryWeapDark/Weapons/GrenadeLauncherB_Ammo.GrenadeLauncherB_Ammo should be resaved to improve async compilation performance.
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 0 (Found bundle for host: 0x9391b960e10 [serially])
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 9 (  Trying 107.22.176.201:443...)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (107.22.176.201) port 443)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.05.06:114][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: 0000093985397D00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.05.06:115][ 71]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.05.07:693][233]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.05.07:759][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5
+[2024.03.23-19.05.07:759][233]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/EAHCBN229IT8APJO305AH581E7B449400252E1B72C9A8C33411574.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/5/8C/EAHCBN229IT8APJO305AH5.uasset'
+[2024.03.23-19.05.07:761][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY
+[2024.03.23-19.05.07:761][233]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/DSPABH7Z4XQVCYT1N98MTY05C2DDF34CF0B0B357D807AC95570D3B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY.uasset'
+[2024.03.23-19.05.07:763][233]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH
+[2024.03.23-19.05.07:763][233]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/FQ09OEJFSNEIHTEGQVQTRH01AFA65E475F494E945F6C87F989688C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/4/XU/FQ09OEJFSNEIHTEGQVQTRH.uasset'
+[2024.03.23-19.05.07:777][233]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 4.42 sec)
+[2024.03.23-19.05.07:778][233]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.23-19.05.07:778][233]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Rifle_C_1
+[2024.03.23-19.05.07:778][233]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.23-19.05.07:778][233]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEF45E501_1980793127
+[2024.03.23-19.05.33:619][679]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.03.23-19.05.33:626][679]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.05.33:751][679]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.03.23-19.05.33:764][679]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 4.55 sec)
+[2024.03.23-19.05.38:641][969]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.03.23-19.05.38:643][969]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.016
+[2024.03.23-19.05.38:644][969]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Blood3_Auto2
+[2024.03.23-19.05.38:644][969]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Blood3_Auto22DE129784004676D81B59BBE16BA7250.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Blood3_Auto2.uasset'
+[2024.03.23-19.05.38:645][969]LogFileHelpers: Auto-saving content packages took 0.002
+[2024.03.23-19.05.39:897][ 41]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.39:897][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.41:061][ 94]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.41:061][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.48:935][561]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.48:935][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.48:939][561]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.48:939][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.49:785][602]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.49:786][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.49:790][602]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.49:790][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.50:585][639]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.50:585][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.05.50:589][639]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.05.50:589][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.06.05:001][633]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.03.23-19.06.05:001][633]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.06.05:001][633]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 0 (Found bundle for host: 0x9391b960f60 [serially])
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 9 (  Trying 3.229.186.2:443...)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.229.186.2) port 443)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: 0000093986699100: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.08.06:182][944]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.08.06:268][949]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-19.08.06:304][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.23-19.08.07:206][993]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.08.07:315][993]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-19.08.07:315][993]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle21D79778417D7A2D3EBE949EAC9D2DE6.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-19.08.07:324][993]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 4.67 sec)
+[2024.03.23-19.08.07:343][993]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-19.08.07:343][993]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-19.08.10:583][226]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.23-19.08.10:595][226]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.23-19.08.10:595][226]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.23-19.08.10:598][226]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 276 ms)
+[2024.03.23-19.08.10:599][226]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.23-19.08.10:599][226]PIE: New page: PIE session: FirstPersonMap (Mar 23, 2024, 11:08:10 PM)
+[2024.03.23-19.08.10:599][226]LogPlayLevel: Display: Creating online subsystem for client :Context_42
+[2024.03.23-19.08.10:601][226]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.03.23-19.08.10:625][227]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.10:631][227]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004984s)
+[2024.03.23-19.08.10:631][227]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.005043s)
+[2024.03.23-19.08.10:647][227]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.03.23-19.08.10:653][227]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.08.10:653][227]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.08.10:654][227]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.23-19.08.10:654][227]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.23-19.08.10:654][227]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.23-19.08.10:654][227]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.23-19.08.10:654][227]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.23-19.08.10:655][227]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.23-19.08.10:655][227]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 998 ms)
+[2024.03.23-19.08.10:655][227]LogPlayLevel: PIE: World Init took: (0.002497s)
+[2024.03.23-19.08.10:655][227]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.23-19.08.10:655][227]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.23-19.08.10:655][227]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.23-19.08.10:656][227]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.23-19.08.10:656][227]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.23-19.08.10:656][227]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.23-19.08.10:658][227]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.23-19.08.10:722][227]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.23-19.08.10:723][227]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.23-19.08.10:723][227]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.23-19.08.10:723][227]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.23-19.08.10:724][227]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.03.23-19.08.10:724][227]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.03.23-19.08.10:725][227]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.03.23-19.08.10:725][227]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.03.23-19.08.10:725][227]LogInit: FAudioDevice initialized with ID 12.
+[2024.03.23-19.08.10:725][227]LogAudio: Display: Audio Device (ID: 12) registered with world 'FirstPersonMap'.
+[2024.03.23-19.08.10:725][227]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.23-19.08.10:727][227]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.23-19.08.10:729][227]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.03.23-21.08.10
+[2024.03.23-19.08.10:730][227]LogWorld: Bringing up level for play took: 0.002017
+[2024.03.23-19.08.10:732][227]PIE: Server logged in
+[2024.03.23-19.08.10:733][227]PIE: Play in editor total start time 0.138 seconds.
+[2024.03.23-19.08.16:514][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.16:514][766]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.16:515][766]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.08.16:515][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.16:515][766]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.23-19.08.16:530][766]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.23-19.08.16:531][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.16:547][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.16:547][766]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.03.23-19.08.16:547][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.23-19.08.16:549][766]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.03.23-19.08.16:557][766]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.03.23-19.08.16:598][767]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.03.23-19.08.17:999][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.23-19.08.18:004][886]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.23-19.08.18:004][886]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.23-19.08.18:007][886]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 279 ms)
+[2024.03.23-19.08.18:008][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.23-19.08.18:008][886]PIE: New page: PIE session: FirstPersonMap (Mar 23, 2024, 11:08:18 PM)
+[2024.03.23-19.08.18:034][886]LogPlayLevel: Display: Creating online subsystem for client :Context_43
+[2024.03.23-19.08.18:036][886]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.03.23-19.08.18:049][887]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.18:053][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004308s)
+[2024.03.23-19.08.18:053][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004342s)
+[2024.03.23-19.08.18:070][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.03.23-19.08.18:072][887]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.08.18:072][887]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.08.18:073][887]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.23-19.08.18:073][887]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.23-19.08.18:073][887]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.23-19.08.18:073][887]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.23-19.08.18:073][887]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.23-19.08.18:074][887]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.23-19.08.18:074][887]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 999 ms)
+[2024.03.23-19.08.18:074][887]LogPlayLevel: PIE: World Init took: (0.002354s)
+[2024.03.23-19.08.18:074][887]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.23-19.08.18:074][887]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.23-19.08.18:074][887]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.23-19.08.18:075][887]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.23-19.08.18:075][887]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.23-19.08.18:075][887]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.23-19.08.18:078][887]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.23-19.08.18:136][887]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.23-19.08.18:136][887]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.23-19.08.18:137][887]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.23-19.08.18:137][887]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.23-19.08.18:137][887]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.03.23-19.08.18:137][887]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.03.23-19.08.18:139][887]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.03.23-19.08.18:139][887]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.03.23-19.08.18:139][887]LogInit: FAudioDevice initialized with ID 13.
+[2024.03.23-19.08.18:139][887]LogAudio: Display: Audio Device (ID: 13) registered with world 'FirstPersonMap'.
+[2024.03.23-19.08.18:139][887]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.23-19.08.18:142][887]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.23-19.08.18:146][887]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.03.23-21.08.18
+[2024.03.23-19.08.18:146][887]LogWorld: Bringing up level for play took: 0.003628
+[2024.03.23-19.08.18:149][887]PIE: Server logged in
+[2024.03.23-19.08.18:149][887]PIE: Play in editor total start time 0.146 seconds.
+[2024.03.23-19.08.23:944][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.23:944][457]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.23:944][457]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.08.23:944][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.23:945][457]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.23-19.08.23:948][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.23-19.08.23:950][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.23:965][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.23:965][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.03.23-19.08.23:965][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.23-19.08.23:968][457]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.03.23-19.08.23:986][457]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.23-19.08.24:025][458]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.03.23-19.08.25:196][572]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.23-19.08.25:203][572]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.23-19.08.25:203][572]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.23-19.08.25:206][572]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 282 ms)
+[2024.03.23-19.08.25:206][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.23-19.08.25:206][572]PIE: New page: PIE session: FirstPersonMap (Mar 23, 2024, 11:08:25 PM)
+[2024.03.23-19.08.25:206][572]LogPlayLevel: Display: Creating online subsystem for client :Context_44
+[2024.03.23-19.08.25:208][572]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.03.23-19.08.25:235][573]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.25:239][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004821s)
+[2024.03.23-19.08.25:239][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.004863s)
+[2024.03.23-19.08.25:257][573]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.23-19.08.25:260][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.08.25:260][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.08.25:260][573]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.23-19.08.25:261][573]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.23-19.08.25:261][573]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.23-19.08.25:261][573]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.23-19.08.25:261][573]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.23-19.08.25:262][573]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.23-19.08.25:262][573]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.03.23-19.08.25:262][573]LogPlayLevel: PIE: World Init took: (0.002038s)
+[2024.03.23-19.08.25:262][573]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.23-19.08.25:262][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.23-19.08.25:262][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.23-19.08.25:263][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.23-19.08.25:263][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.23-19.08.25:263][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.23-19.08.25:264][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.23-19.08.25:324][573]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.23-19.08.25:324][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.23-19.08.25:324][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.23-19.08.25:324][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.23-19.08.25:325][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.03.23-19.08.25:325][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.03.23-19.08.25:327][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.03.23-19.08.25:327][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.03.23-19.08.25:327][573]LogInit: FAudioDevice initialized with ID 14.
+[2024.03.23-19.08.25:327][573]LogAudio: Display: Audio Device (ID: 14) registered with world 'FirstPersonMap'.
+[2024.03.23-19.08.25:327][573]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.23-19.08.25:329][573]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.23-19.08.25:331][573]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.03.23-21.08.25
+[2024.03.23-19.08.25:331][573]LogWorld: Bringing up level for play took: 0.001572
+[2024.03.23-19.08.25:333][573]PIE: Server logged in
+[2024.03.23-19.08.25:333][573]PIE: Play in editor total start time 0.131 seconds.
+[2024.03.23-19.08.31:264][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.31:264][213]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.08.31:264][213]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.08.31:265][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.31:265][213]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.23-19.08.31:270][213]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.23-19.08.31:274][213]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.08.31:283][213]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.08.31:284][213]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.03.23-19.08.31:284][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.23-19.08.31:286][213]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.03.23-19.08.31:293][213]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.23-19.08.31:337][214]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.03.23-19.09.05:971][946]LogSkeletalMesh: Building Skeletal Mesh Shotgun_B...
+[2024.03.23-19.09.05:973][946]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/MilitaryWeapDark/Weapons/Shotgun_B.Shotgun_B
+[2024.03.23-19.09.05:977][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.09.06:102][949]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Shotgun_B_Masks.Shotgun_B_Masks (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.09.06:124][951]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Shotgun_B_Diff.Shotgun_B_Diff (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.09.06:130][951]LogTexture: Display: Building textures: /Game/MilitaryWeapDark/Weapons/Textures/Shotgun_B_Norm.Shotgun_B_Norm (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.09.10:203][273]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.09.20:036][ 19]LogStaticMesh: StaticMesh /Game/MilitaryWeapDark/Weapons/ShotgunB_Ammo.ShotgunB_Ammo should be resaved to improve async compilation performance.
+[2024.03.23-19.09.20:038][ 19]LogStaticMesh: Display: Building static mesh ShotgunB_Ammo...
+[2024.03.23-19.09.20:047][ 19]LogStaticMesh: Built static mesh [0.01s] /Game/MilitaryWeapDark/Weapons/ShotgunB_Ammo.ShotgunB_Ammo
+[2024.03.23-19.09.23:173][288]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.09.23:241][288]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY
+[2024.03.23-19.09.23:241][288]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/DSPABH7Z4XQVCYT1N98MTY42CD84C545A798BDFA83F2AC537D8D5C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/__ExternalActors__/FirstPerson/Maps/FirstPersonMap/8/ZH/DSPABH7Z4XQVCYT1N98MTY.uasset'
+[2024.03.23-19.09.23:254][288]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 4.75 sec)
+[2024.03.23-19.09.23:256][288]AssetCheck: New page: Asset Save: BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.23-19.09.23:256][288]LogContentValidation: Display: Validating /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle_C /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Pickup_Rifle_C_UAID_C87F54CC1FEFE1E401_1236580529
+[2024.03.23-19.09.24:625][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.03.23-19.09.24:634][413]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.09.24:714][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.03.23-19.09.24:731][413]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 4.85 sec)
+[2024.03.23-19.09.25:435][472]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.23-19.09.25:441][472]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.23-19.09.25:441][472]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.23-19.09.25:445][472]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 3 ms (total: 286 ms)
+[2024.03.23-19.09.25:445][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.23-19.09.25:445][472]PIE: New page: PIE session: FirstPersonMap (Mar 23, 2024, 11:09:25 PM)
+[2024.03.23-19.09.25:445][472]LogPlayLevel: Display: Creating online subsystem for client :Context_47
+[2024.03.23-19.09.25:450][472]LogOnline: OSS: Created online subsystem instance for: :Context_47
+[2024.03.23-19.09.25:467][473]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.09.25:476][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008627s)
+[2024.03.23-19.09.25:476][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.008828s)
+[2024.03.23-19.09.25:490][473]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.03.23-19.09.25:492][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.09.25:492][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.09.25:493][473]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.23-19.09.25:493][473]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.23-19.09.25:493][473]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.23-19.09.25:493][473]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.23-19.09.25:493][473]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.23-19.09.25:494][473]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.23-19.09.25:494][473]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.03.23-19.09.25:494][473]LogPlayLevel: PIE: World Init took: (0.002531s)
+[2024.03.23-19.09.25:494][473]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.23-19.09.25:494][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.23-19.09.25:495][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.23-19.09.25:495][473]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.23-19.09.25:495][473]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.23-19.09.25:495][473]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.23-19.09.25:496][473]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.23-19.09.25:573][473]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.23-19.09.25:574][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.23-19.09.25:574][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.23-19.09.25:574][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.23-19.09.25:574][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.03.23-19.09.25:574][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.03.23-19.09.25:578][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.03.23-19.09.25:578][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.03.23-19.09.25:578][473]LogInit: FAudioDevice initialized with ID 15.
+[2024.03.23-19.09.25:578][473]LogAudio: Display: Audio Device (ID: 15) registered with world 'FirstPersonMap'.
+[2024.03.23-19.09.25:578][473]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.23-19.09.25:580][473]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.23-19.09.25:583][473]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.03.23-21.09.25
+[2024.03.23-19.09.25:583][473]LogWorld: Bringing up level for play took: 0.001971
+[2024.03.23-19.09.25:586][473]PIE: Server logged in
+[2024.03.23-19.09.25:587][473]PIE: Play in editor total start time 0.144 seconds.
+[2024.03.23-19.09.33:004][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.09.33:004][220]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.09.33:004][220]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.09.33:005][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.09.33:005][220]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.23-19.09.33:008][220]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.23-19.09.33:011][220]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.09.33:030][220]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.09.33:031][220]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.03.23-19.09.33:031][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.23-19.09.33:033][220]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.03.23-19.09.33:041][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.03.23-19.09.33:081][221]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2024.03.23-19.09.35:964][479]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.03.23-19.09.35:971][479]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.09.36:057][479]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.03.23-19.09.36:067][479]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 4.95 sec)
+[2024.03.23-19.09.57:266][147]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_HUD.W_HUD
+[2024.03.23-19.09.57:266][147]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.09.57:266][147]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.09.57:281][147]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.09.57:282][147]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.11.17:872][675]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.11.17:955][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.23-19.11.18:738][706]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.11.18:836][706]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.11.18:836][706]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter6313E71D4BA10F37261E54A73009EBF4.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.11.18:847][706]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 5.06 sec)
+[2024.03.23-19.11.18:854][706]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.11.18:854][706]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.12.00:241][858]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.12.00:300][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.03.23-19.12.00:924][879]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.12.01:029][879]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.12.01:029][879]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter1251E8ED4AEE0FFB300A15A835278847.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.12.01:039][879]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 5.17 sec)
+[2024.03.23-19.12.01:041][879]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.12.01:041][879]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.12.03:684][ 46]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.23-19.12.03:691][ 46]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.23-19.12.03:691][ 46]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.03.23-19.12.03:697][ 46]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 6 ms (total: 292 ms)
+[2024.03.23-19.12.03:697][ 46]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.23-19.12.03:697][ 46]PIE: New page: PIE session: FirstPersonMap (Mar 23, 2024, 11:12:03 PM)
+[2024.03.23-19.12.03:698][ 46]LogPlayLevel: Display: Creating online subsystem for client :Context_50
+[2024.03.23-19.12.03:702][ 46]LogOnline: OSS: Created online subsystem instance for: :Context_50
+[2024.03.23-19.12.03:722][ 47]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.12.03:734][ 47]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012559s)
+[2024.03.23-19.12.03:734][ 47]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.012648s)
+[2024.03.23-19.12.03:753][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.23-19.12.03:760][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.12.03:760][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.23-19.12.03:760][ 47]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.23-19.12.03:761][ 47]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.23-19.12.03:761][ 47]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.23-19.12.03:761][ 47]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.23-19.12.03:761][ 47]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.23-19.12.03:762][ 47]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.23-19.12.03:762][ 47]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.00 sec)
+[2024.03.23-19.12.03:762][ 47]LogPlayLevel: PIE: World Init took: (0.002425s)
+[2024.03.23-19.12.03:762][ 47]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.23-19.12.03:762][ 47]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.23-19.12.03:762][ 47]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.23-19.12.03:762][ 47]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.23-19.12.03:762][ 47]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.23-19.12.03:762][ 47]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.23-19.12.03:764][ 47]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.23-19.12.03:821][ 47]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.23-19.12.03:821][ 47]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.23-19.12.03:821][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.23-19.12.03:821][ 47]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.23-19.12.03:822][ 47]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.03.23-19.12.03:822][ 47]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.03.23-19.12.03:824][ 47]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.23-19.12.03:824][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.03.23-19.12.03:824][ 47]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.23-19.12.03:824][ 47]LogAudio: Display: Audio Device (ID: 16) registered with world 'FirstPersonMap'.
+[2024.03.23-19.12.03:824][ 47]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.23-19.12.03:826][ 47]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.23-19.12.03:828][ 47]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.03.23-21.12.03
+[2024.03.23-19.12.03:828][ 47]LogWorld: Bringing up level for play took: 0.001823
+[2024.03.23-19.12.03:834][ 47]PIE: Server logged in
+[2024.03.23-19.12.03:834][ 47]PIE: Play in editor total start time 0.143 seconds.
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 0 (Found bundle for host: 0x9391b960f60 [serially])
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 9 (  Trying 3.232.42.187:443...)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.232.42.187) port 443)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.12.06:229][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: 00000939CFD7E600: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.12.06:230][292]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.12.09:346][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.12.09:346][595]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.03.23-19.12.09:346][595]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.23-19.12.09:346][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.12.09:346][595]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.23-19.12.09:351][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.23-19.12.09:353][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.23-19.12.09:370][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.23-19.12.09:370][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.23-19.12.09:371][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.23-19.12.09:372][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.23-19.12.09:382][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.23-19.12.09:441][597]LogPlayLevel: Display: Destroying online subsystem :Context_50
+[2024.03.23-19.12.50:657][151]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.03.23-19.12.50:699][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.03.23-19.12.51:591][189]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.12.51:718][189]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.03.23-19.12.51:718][189]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle07D47C874FC97DCE9F07468204798436.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.03.23-19.12.51:728][189]LogFileHelpers: InternalPromptForCheckoutAndSave took 137 ms (total: 5.31 sec)
+[2024.03.23-19.12.51:735][189]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.03.23-19.12.51:735][189]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 0 (Found bundle for host: 0x9391b960360 [serially])
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 3 (Recv failure: Connection was reset)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 4 (OpenSSL SSL_read: Connection was reset, errno 10054)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 7 (Closing connection)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 8 (Recv failure: Connection was reset)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 9 (Send failure: Connection was reset)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 10 (Recv failure: Connection was reset)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 12 (  Trying 3.92.11.105:443...)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (3.92.11.105) port 443)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 15 (SSL reusing session ID)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 18 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 19 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 20 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 21 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 22 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 23 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 24 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 25 (old SSL session ID is stale, removing)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 26 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 27 (ALPN: server accepted http/1.1)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 28 (Server certificate:)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 29 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 30 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 31 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 32 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 33 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 34 ( SSL certificate verify ok.)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 35 (using HTTP/1.1)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 36 (necessary data rewind wasn't possible)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 37 (Closing connection)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: 00000939F94B8700: libcurl info message cache 38 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.15.06:146][159]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.15.09:524][366]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.15.09:598][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.23-19.15.11:034][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.15.11:148][436]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.15.11:148][436]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter377700F8459A1FAD30FCBEB38B3B0AE3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.15.11:155][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 5.43 sec)
+[2024.03.23-19.15.11:174][436]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.15.11:174][436]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.15.25:905][449]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2024.03.23-19.15.38:311][268]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Weapons.IMC_Weapons
+[2024.03.23-19.16.05:554][101]LogContentBrowser: Deferred new asset file creation: NewInputAction
+[2024.03.23-19.16.05:574][101]LogContentBrowser: Creating deferred item: NewInputAction
+[2024.03.23-19.16.05:599][102]LogContentBrowser: Renaming the item being created (Deferred Item: NewInputAction).
+[2024.03.23-19.16.09:402][396]LogContentBrowser: Attempting asset rename: NewInputAction -> IA
+[2024.03.23-19.16.09:405][396]LogContentBrowser: End creating deferred item NewInputAction
+[2024.03.23-19.16.17:227][998]LogContentBrowser: Attempting asset rename: IA -> IA_Shotgun
+[2024.03.23-19.16.17:250][998]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.16.17:308][998]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/Actions/IA_Shotgun
+[2024.03.23-19.16.17:308][998]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IA_ShotgunCB4895B74C0FCDE91A555B958A0519DA.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Input/Actions/IA_Shotgun.uasset'
+[2024.03.23-19.16.17:316][998]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 5.50 sec)
+[2024.03.23-19.16.17:342][998]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.23-19.16.17:370][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.23-19.16.17:389][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.03.23-19.16.17:392][998]AssetCheck: New page: Asset Save: IA_Shotgun
+[2024.03.23-19.16.17:392][998]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/FirstPerson/Input/Actions/IA_Shotgun.IA_Shotgun
+[2024.03.23-19.16.18:960][132]LogContentBrowser: Deferred new asset file creation: IA_Shotgun1
+[2024.03.23-19.16.18:971][132]LogContentBrowser: Creating deferred item: IA_Shotgun1
+[2024.03.23-19.16.18:982][133]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Shotgun1).
+[2024.03.23-19.16.29:091][962]LogContentBrowser: Attempting asset rename: IA_Shotgun1 -> IA_Rifle
+[2024.03.23-19.16.29:092][962]LogContentBrowser: End creating deferred item IA_Shotgun1
+[2024.03.23-19.16.31:033][ 91]LogContentBrowser: Deferred new asset file creation: IA_Rifle1
+[2024.03.23-19.16.31:045][ 91]LogContentBrowser: Creating deferred item: IA_Rifle1
+[2024.03.23-19.16.31:062][ 92]LogContentBrowser: Renaming the item being created (Deferred Item: IA_Rifle1).
+[2024.03.23-19.16.40:735][886]LogContentBrowser: Attempting asset rename: IA_Rifle1 -> IA_GrenadeLauncher
+[2024.03.23-19.16.40:736][886]LogContentBrowser: End creating deferred item IA_Rifle1
+[2024.03.23-19.17.33:019][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.17.33:096][132]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.17.33:317][137]LogLinker: Warning: Failed to load '/Game/FirstPersonArms/Character/Mesh/SKM_Mannequin': Can't find file.
+[2024.03.23-19.17.33:317][137]LogLinker: Warning: Failed to load '/Game/FirstPersonArms/Character/Mesh/SKM_Mannequin': Can't find file.
+[2024.03.23-19.17.33:318][137]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonArms/Character/Mesh/SKM_Mannequin.SKM_Mannequin'
+[2024.03.23-19.17.51:478][561]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 0 (Found bundle for host: 0x9391b960690 [serially])
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 9 (  Trying 54.146.52.44:443...)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.146.52.44) port 443)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.19.06:127][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.19.06:128][618]LogHttp: Warning: 00000939CD947800: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.19.06:128][618]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.19.20:480][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.19.20:544][548]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/IMC_Default
+[2024.03.23-19.19.20:545][548]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IMC_Default7E5C115E4F5F5B3C1DB216A1532A1365.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Input/IMC_Default.uasset'
+[2024.03.23-19.19.20:554][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 5.57 sec)
+[2024.03.23-19.19.20:558][548]AssetCheck: New page: Asset Save: IMC_Default
+[2024.03.23-19.19.20:558][548]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2024.03.23-19.19.44:257][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.19.44:340][ 97]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/IMC_Default
+[2024.03.23-19.19.44:340][ 97]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IMC_DefaultD4DC7BC2426442305C6D88B12B22518E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Input/IMC_Default.uasset'
+[2024.03.23-19.19.44:348][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 5.66 sec)
+[2024.03.23-19.19.44:350][ 97]AssetCheck: New page: Asset Save: IMC_Default
+[2024.03.23-19.19.44:350][ 97]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2024.03.23-19.19.50:521][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.19.50:595][487]LogSavePackage: Moving output files for package: /Game/FirstPerson/Input/IMC_Default
+[2024.03.23-19.19.50:595][487]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/IMC_Default785107C04A91F3FCE7BEC78333A8C8E9.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Input/IMC_Default.uasset'
+[2024.03.23-19.19.50:603][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 5.75 sec)
+[2024.03.23-19.19.50:605][487]AssetCheck: New page: Asset Save: IMC_Default
+[2024.03.23-19.19.50:605][487]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/FirstPerson/Input/IMC_Default.IMC_Default
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 0 (Found bundle for host: 0x9391b960f90 [serially])
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 6 (Closing connection)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 9 (  Trying 18.213.206.237:443...)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (18.213.206.237) port 443)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.23-19.22.06:143][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 25 (Server certificate:)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 34 (Closing connection)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: 00000939F948BE00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.23-19.22.06:144][664]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5A4F19D-4D6C-3055-1113-0C95DAA77620%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.23-19.22.22:316][521]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.22.22:373][521]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.03.23-19.22.23:228][554]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.22.23:375][554]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.22.23:375][554]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterD7B6897A4D9B93E01D13458D86D3F108.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.22.23:387][554]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 5.90 sec)
+[2024.03.23-19.22.23:388][554]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.22.23:388][554]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.23.25:373][310]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.03.23-19.23.25:432][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.03.23-19.23.26:447][363]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.23-19.23.26:566][363]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.03.23-19.23.26:566][363]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterB0A204EB45A53A3D08E6BA83EF59BB1A.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.03.23-19.23.26:575][363]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 6.03 sec)
+[2024.03.23-19.23.26:579][363]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.03.23-19.23.26:579][363]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.23-19.23.48:105][ 79]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.03.23-19.23.48:428][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X': Can't find file.
+[2024.03.23-19.23.48:428][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/G67_Grenade/SK_G67_X'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SK_KA74U_Y'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_X': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_Empty_X'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_X': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA74U/SM_KA74U_Mag_X'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SK_KA_Val_Y'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_MAG_Loaded_Y': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_MAG_Loaded_Y'
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_Y': Can't find file.
+[2024.03.23-19.23.48:446][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/KA_Val/SM_KA_Val_Mag_Y'
+[2024.03.23-19.23.48:447][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: Failed to load '/Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X': Can't find file.
+[2024.03.23-19.23.48:447][ 79]LogLinker: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\FPS_Weapon_Bundle\Maps\Weapons_Showcase.umap: VerifyImport: Failed to load package for import object 'Package /Game/FPS_Weapon_Bundle/Weapons/Meshes/M9_Knife/SK_M9_Knife_X'
+[2024.03.23-19.23.48:520][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Scope_25x56_Lens_M_MSK.T_Scope_25x56_Lens_M_MSK (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:521][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Scope_25x56_Lens_ALB.T_Scope_25x56_Lens_ALB (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:538][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/RDS/T_RDS_01.T_RDS_01 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.182285 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:538][ 79]LogStaticMesh: Display: Building static mesh SM_Suppressor5...
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Accessories/SM_Suppressor5.SM_Suppressor5
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:541][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:541][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogWorld: Warning: Extra World Settings '/Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1' actor found. Resave level /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel to clean up.
+[2024.03.23-19.23.48:542][ 79]LogSpawn: Warning: Destroying /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase:PersistentLevel.WorldSettings_1, which doesn't have a valid world pointer
+[2024.03.23-19.23.48:542][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_AR4...
+[2024.03.23-19.23.48:543][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Suppressor5_ALB.T_Suppressor5_ALB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:547][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4.SK_AR4
+[2024.03.23-19.23.48:548][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_KA47...
+[2024.03.23-19.23.48:551][ 79]LogStaticMesh: Display: Building static mesh SM_T4_Sight...
+[2024.03.23-19.23.48:551][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SK_KA47.SK_KA47
+[2024.03.23-19.23.48:552][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_SMG11_Nostock_Y...
+[2024.03.23-19.23.48:553][ 79]LogStaticMesh: Display: Building static mesh SM_Scope_25x56_Y...
+[2024.03.23-19.23.48:553][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Nostock_Y.SK_SMG11_Nostock_Y
+[2024.03.23-19.23.48:555][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Suppressor5_NRM.T_Suppressor5_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 258.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:563][ 79]LogStaticMesh: Display: Building static mesh SM_Vertgrip...
+[2024.03.23-19.23.48:564][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Accessories/SM_T4_Sight.SM_T4_Sight
+[2024.03.23-19.23.48:569][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_12Gauge...
+[2024.03.23-19.23.48:570][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Accessories/SM_Vertgrip.SM_Vertgrip
+[2024.03.23-19.23.48:571][ 79]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.23-19.23.48:571][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_12Gauge_Empty...
+[2024.03.23-19.23.48:571][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge.SM_Shell_12Gauge
+[2024.03.23-19.23.48:576][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_40mm_G_Empty...
+[2024.03.23-19.23.48:576][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_40mm_G...
+[2024.03.23-19.23.48:579][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_40mm_G_Empty.SM_Shell_40mm_G_Empty
+[2024.03.23-19.23.48:580][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_40mm_G.SM_Shell_40mm_G
+[2024.03.23-19.23.48:580][ 79]LogStaticMesh: Built static mesh [0.03s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Accessories/SM_Scope_25x56_Y.SM_Scope_25x56_Y
+[2024.03.23-19.23.48:581][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Suppressor5_M_MSK.T_Suppressor5_M_MSK (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:581][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_45ap_Empty...
+[2024.03.23-19.23.48:582][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_45ap...
+[2024.03.23-19.23.48:583][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_545x39...
+[2024.03.23-19.23.48:583][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_45ap.SM_Shell_45ap
+[2024.03.23-19.23.48:585][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_45ap_Empty.SM_Shell_45ap_Empty
+[2024.03.23-19.23.48:587][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_545x39.SM_Shell_545x39
+[2024.03.23-19.23.48:587][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_545x39_Empty...
+[2024.03.23-19.23.48:587][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty
+[2024.03.23-19.23.48:587][ 79]LogStaticMesh: Warning: Mesh SM_Shell_12Gauge_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_12Gauge_Empty.SM_Shell_12Gauge_Empty.
+[2024.03.23-19.23.48:588][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_556x45...
+[2024.03.23-19.23.48:588][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_556x45_Empty...
+[2024.03.23-19.23.48:590][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_545x39_Empty.SM_Shell_545x39_Empty
+[2024.03.23-19.23.48:591][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_556x45.SM_Shell_556x45
+[2024.03.23-19.23.48:594][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_762x39...
+[2024.03.23-19.23.48:594][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_762x51...
+[2024.03.23-19.23.48:594][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_762x51_Empty...
+[2024.03.23-19.23.48:594][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_556x45_Empty.SM_Shell_556x45_Empty
+[2024.03.23-19.23.48:596][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_762x39_Empty...
+[2024.03.23-19.23.48:597][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39.SM_Shell_762x39
+[2024.03.23-19.23.48:597][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x51_Empty.SM_Shell_762x51_Empty
+[2024.03.23-19.23.48:597][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x51.SM_Shell_762x51
+[2024.03.23-19.23.48:606][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_9mm_Empty...
+[2024.03.23-19.23.48:606][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_9x18_Empty...
+[2024.03.23-19.23.48:606][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_9mm...
+[2024.03.23-19.23.48:607][ 79]LogStaticMesh: Display: Building static mesh SM_Shell_9x18...
+[2024.03.23-19.23.48:609][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_9mm.SM_Shell_9mm
+[2024.03.23-19.23.48:609][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_9x18.SM_Shell_9x18
+[2024.03.23-19.23.48:609][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_9x18_Empty.SM_Shell_9x18_Empty
+[2024.03.23-19.23.48:611][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_9mm_Empty.SM_Shell_9mm_Empty
+[2024.03.23-19.23.48:611][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty
+[2024.03.23-19.23.48:611][ 79]LogStaticMesh: Warning: Mesh SM_Shell_762x39_Empty is recomputing physics on load. It must be resaved before it will cook deterministically. Please resave /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ammunition/SM_Shell_762x39_Empty.SM_Shell_762x39_Empty.
+[2024.03.23-19.23.48:616][ 79]LogStaticMesh: Display: Building static mesh SM_AR4_Mag_Empty...
+[2024.03.23-19.23.48:617][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Mag_Empty_X...
+[2024.03.23-19.23.48:618][ 79]LogStaticMesh: Display: Building static mesh SM_KA47_Mag_Empty...
+[2024.03.23-19.23.48:618][ 79]LogStaticMesh: Display: Building static mesh SM_AR4_Mag...
+[2024.03.23-19.23.48:619][ 79]LogStaticMesh: Display: Building static mesh SM_KA47_Mag...
+[2024.03.23-19.23.48:619][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Mag_X...
+[2024.03.23-19.23.48:620][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_Empty_X.SM_SMG11_Mag_Empty_X
+[2024.03.23-19.23.48:621][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SM_AR4_Mag_Empty.SM_AR4_Mag_Empty
+[2024.03.23-19.23.48:622][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47_Mag_Empty.SM_KA47_Mag_Empty
+[2024.03.23-19.23.48:624][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SM_AR4_Mag.SM_AR4_Mag
+[2024.03.23-19.23.48:625][ 79]LogStaticMesh: Built static mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47_Mag.SM_KA47_Mag
+[2024.03.23-19.23.48:629][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_V_Grip_ALB.T_V_Grip_ALB (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:637][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_V_Grip_M_MSK.T_V_Grip_M_MSK (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:637][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Tc4_ALB.T_Tc4_ALB (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:654][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Scope_25x56_ALB.T_Scope_25x56_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:654][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Scope_25x56_NRM.T_Scope_25x56_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:660][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_12Gauge_ALB.T_12Gauge_ALB (TFO_DXT1, 256x256 x1x1x1) (Required Memory Estimate: 7.520804 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:665][ 79]LogStaticMesh: Built static mesh [0.05s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_X.SM_SMG11_Mag_X
+[2024.03.23-19.23.48:671][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Tc4_NRM.T_Tc4_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 258.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:680][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_V_Grip_NRM.T_V_Grip_NRM (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 258.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:680][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Tc4_M_MSK.T_Tc4_M_MSK (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:683][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_12Gauge_M_MSK.T_12Gauge_M_MSK (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:685][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_40mm_Grenade_ALB.T_40mm_Grenade_ALB (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:687][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_12Gauge_NRM.T_12Gauge_NRM (TFO_BC5, 256x256 x1x1x1) (Required Memory Estimate: 18.812259 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:708][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_45ap_ALB.T_45ap_ALB (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:714][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_40mm_Grenade_NRM.T_40mm_Grenade_NRM (TFO_BC5, 512x512 x1x1x1) (Required Memory Estimate: 81.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:714][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_40mm_Grenade_M_MSK.T_40mm_Grenade_M_MSK (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:783][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Accessories/T_Scope_25x56_M_MSK.T_Scope_25x56_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:807][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/RDS/T_RDS_03.T_RDS_03 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.182285 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:807][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/RDS/T_RDS_02.T_RDS_02 (BGRA8, 64x64 x1x1x1) (Required Memory Estimate: 0.182285 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:824][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9x18_ALB.T_9x18_ALB (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:826][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9x18_M_MSK.T_9x18_M_MSK (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:858][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_AR4_X...
+[2024.03.23-19.23.48:864][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SK_AR4_X.SK_AR4_X
+[2024.03.23-19.23.48:874][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_KA47_X...
+[2024.03.23-19.23.48:878][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SK_KA47_X.SK_KA47_X
+[2024.03.23-19.23.48:880][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.HQ_Lightmap1_1 (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.713502 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:899][ 79]LogStaticMesh: Display: Building static mesh SM_Scope_25x56_X...
+[2024.03.23-19.23.48:907][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Y...
+[2024.03.23-19.23.48:913][ 79]LogStaticMesh: Display: Building static mesh SM_KA47...
+[2024.03.23-19.23.48:913][ 79]LogStaticMesh: Display: Building static mesh SM_KA47_X...
+[2024.03.23-19.23.48:919][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Accessories/SM_Scope_25x56_X.SM_Scope_25x56_X
+[2024.03.23-19.23.48:931][ 79]LogStaticMesh: Display: Building static mesh SM_AR4_X...
+[2024.03.23-19.23.48:934][ 79]LogStaticMesh: Display: Building static mesh SM_AR4...
+[2024.03.23-19.23.48:934][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_X...
+[2024.03.23-19.23.48:937][ 79]LogStaticMesh: Built static mesh [0.03s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Y.SM_SMG11_Y
+[2024.03.23-19.23.48:941][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_SMG11_X...
+[2024.03.23-19.23.48:945][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_X.SK_SMG11_X
+[2024.03.23-19.23.48:946][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Nostock_Y...
+[2024.03.23-19.23.48:959][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_X.SM_SMG11_X
+[2024.03.23-19.23.48:962][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Nostock_Y.SM_SMG11_Nostock_Y
+[2024.03.23-19.23.48:963][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Nostock_X...
+[2024.03.23-19.23.48:963][ 79]LogSkeletalMesh: Building Skeletal Mesh SK_SMG11_Nostock_X...
+[2024.03.23-19.23.48:965][ 79]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SK_SMG11_Nostock_X.SK_SMG11_Nostock_X
+[2024.03.23-19.23.48:968][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.LQ_Lightmap_1_1 (TFO_DXT1, 64x64 x1x1x1) (Required Memory Estimate: 0.533824 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:969][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.LQ_Lightmap_1_2 (TFO_DXT1, 128x128 x1x1x1) (Required Memory Estimate: 1.947886 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:970][ 79]LogStaticMesh: Display: Building static mesh SM_SMG11_Mag_Empty_Y...
+[2024.03.23-19.23.48:974][ 79]LogStaticMesh: Built static mesh [0.00s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Mag_Empty_Y.SM_SMG11_Mag_Empty_Y
+[2024.03.23-19.23.48:978][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_9x18_NRM.T_9x18_NRM (TFO_BC5, 256x256 x1x1x1) (Required Memory Estimate: 18.562259 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:981][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.SkyOcclusion1_1 (TFO_AutoDXT, 64x32 x1x1x1) (Required Memory Estimate: 0.387945 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:982][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.SkyOcclusion1_2 (TFO_AutoDXT, 128x64 x1x1x1) (Required Memory Estimate: 1.364508 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:982][ 79]LogStaticMesh: Built static mesh [0.02s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/SMG11/SM_SMG11_Nostock_X.SM_SMG11_Nostock_X
+[2024.03.23-19.23.48:984][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.ShadowMapTexture2D_3 (G8, 64x32 x1x1x1) (Required Memory Estimate: 0.109365 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:984][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.ShadowMapTexture2D_4 (G8, 128x64 x1x1x1) (Required Memory Estimate: 0.24999 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.48:987][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Desert_Marpat_Pattern.T_Desert_Marpat_Pattern (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:000][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/AR4/T_AR4_NRM.T_AR4_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:013][ 79]LogStaticMesh: Built static mesh [0.08s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SM_AR4.SM_AR4
+[2024.03.23-19.23.49:016][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA47/T_KA47_NRM.T_KA47_NRM (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 426.562488 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:017][ 79]LogStaticMesh: Built static mesh [0.09s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SM_AR4_X.SM_AR4_X
+[2024.03.23-19.23.49:037][ 79]LogStaticMesh: Display: Building static mesh SM_AR4...
+[2024.03.23-19.23.49:048][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_45ap_M_MSK.T_45ap_M_MSK (TFO_AutoDXT, 256x256 x1x1x1) (Required Memory Estimate: 10.395709 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:080][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/AR4/T_AR4_ALB.T_AR4_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:084][ 79]LogObjectTools: Deleting 1 worlds: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.Weapons_Showcase
+[2024.03.23-19.23.49:084][ 79]LogObjectTools: Currently 27 active worlds: /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap, /Engine/Transient.World_9, /Engine/Transient.World_10, /Engine/Transient.World_11, /Engine/Transient.World_26, /Engine/Transient.World_35, /Engine/Transient.World_36, /Engine/Transient.World_37, /Engine/Transient.World_38, /Engine/Transient.World_39, /Engine/Transient.World_40, /Engine/Transient.World_41, /Engine/Transient.World_42, /Engine/Transient.World_43, /Engine/Transient.World_44, /Engine/Transient.World_45, /Engine/Transient.World_46, /Engine/Transient.World_48, /Engine/Transient.World_49, /Engine/Transient.World_51, /Engine/Transient.World_52, /Engine/Transient.World_53, /Engine/Transient.World_54, /Engine/Transient.World_55, /Engine/Transient.World_56, /Engine/Transient.World_57, /Engine/Transient.World_58
+[2024.03.23-19.23.49:107][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.23-19.23.49:121][ 79]LogStaticMesh: Built static mesh [0.08s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/AR4/SM_AR4.SM_AR4
+[2024.03.23-19.23.49:125][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Maps/Weapons_Showcase.HQ_Lightmap1_2 (TFO_AutoDXT, 128x128 x1x1x1) (Required Memory Estimate: 2.666627 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:151][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA47/T_KA47_ALB.T_KA47_ALB (TFO_DXT1, 2048x2048 x1x1x1) (Required Memory Estimate: 301.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:247][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA47/T_KA47_Gold_ALB.T_KA47_Gold_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:254][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA47/T_KA47_M_MSK.T_KA47_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:317][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Wood_Marpat_Pattern.T_Wood_Marpat_Pattern (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:370][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA47/T_KA47_Gold_M_MSK.T_KA47_Gold_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:373][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Ammunition/T_45ap_NRM.T_45ap_NRM (TFO_BC5, 256x256 x1x1x1) (Required Memory Estimate: 18.562259 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:374][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Urban_Marpat_Pattern.T_Urban_Marpat_Pattern (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:473][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/KA_Val/T_KA_Val_Black_ALB.T_KA_Val_Black_ALB (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:557][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/AR4/T_AR4_M_MSK.T_AR4_M_MSK (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:595][ 79]LogStaticMesh: Built static mesh [0.68s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47_X.SM_KA47_X
+[2024.03.23-19.23.49:611][ 79]LogStaticMesh: Display: Building static mesh SM_KA47_X...
+[2024.03.23-19.23.49:617][ 79]LogStaticMesh: Built static mesh [0.70s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47.SM_KA47
+[2024.03.23-19.23.49:630][ 79]LogStaticMesh: Display: Building static mesh SM_KA47...
+[2024.03.23-19.23.49:889][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_W90_Pattern.T_W90_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:897][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Ink_Pattern.T_Ink_Pattern (TFO_AutoDXT, 64x64 x1x1x1) (Required Memory Estimate: 0.708295 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:920][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_W90K_Pattern.T_W90K_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:920][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Net01_Pattern.T_Net01_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:938][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Hexagon_Pattern.T_Hexagon_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:950][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Hexagon_Glow_Pattern.T_Hexagon_Glow_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.49:993][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Cracks_Pattern.T_Cracks_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.50:065][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_80s_Pattern.T_80s_Pattern (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.50:082][ 79]LogTexture: Display: Building textures: /Game/FPS_Weapon_Bundle/Weapons/Textures/Patterns/T_Chochip_Pattern.T_Chochip_Pattern (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 146.645823 MB), EncodeSpeed: Fast
+[2024.03.23-19.23.50:214][ 79]LogStaticMesh: Built static mesh [0.60s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47_X.SM_KA47_X
+[2024.03.23-19.23.50:223][ 79]LogStaticMesh: Built static mesh [0.59s] /Game/FPS_Weapon_Bundle/Weapons/Meshes/Ka47/SM_KA47.SM_KA47
