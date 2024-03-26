@@ -1579,3 +1579,203 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.26-13.00.53:864][247]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 17.8 sec)
 [2024.03.26-13.00.53:866][247]AssetCheck: New page: Asset Save: Tutorial
 [2024.03.26-13.00.53:866][247]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.06.45:387][ 54]LogInterchangeEngine: [Pending] Importing
+[2024.03.26-13.06.45:387][ 54]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Switch Image.png]
+[2024.03.26-13.06.45:387][ 54]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.26-13.06.45:387][ 54]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Shooting-Aiming Image.png]
+[2024.03.26-13.06.45:389][ 54]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.26-13.06.45:389][ 54]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Movement Image.png]
+[2024.03.26-13.06.45:390][ 54]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.06.45:390][ 54]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.06.45:391][ 54]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.06.45:392][ 54]LogTexture: Display: Building textures: /Game/Textures/Switch_Image.Switch_Image (BGRA8, 763x88 x1x1x1) (Required Memory Estimate: 2.026188 MB), EncodeSpeed: Fast
+[2024.03.26-13.06.45:400][ 55]LogTexture: Display: Building textures: /Game/Textures/Shooting-Aiming_Image.Shooting-Aiming_Image (BGRA8, 647x85 x1x1x1) (Required Memory Estimate: 1.670872 MB), EncodeSpeed: Fast
+[2024.03.26-13.06.45:401][ 55]LogTexture: Display: Building textures: /Game/Textures/Movement_Image.Movement_Image (BGRA8, 415x88 x1x1x1) (Required Memory Estimate: 1.130558 MB), EncodeSpeed: Fast
+[2024.03.26-13.06.45:401][ 55]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.26-13.06.45:427][ 55]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.26-13.06.45:445][ 55]LogInterchangeEngine: [Success] Import Done
+[2024.03.26-13.06.45:451][ 55]LogInterchangeEngine: [Success] Import Done
+[2024.03.26-13.06.45:806][ 56]LogInterchangeEngine: [Success] Import Done
+[2024.03.26-13.07.21:631][717]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.07.21:661][717]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.03.26-13.07.22:215][743]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.07.22:311][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.07.22:318][743]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.07.22:320][743]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial3256564A43E6B0B5C5388D8C9D610E3C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.07.22:335][743]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 18.0 sec)
+[2024.03.26-13.07.22:338][743]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.07.22:338][743]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.08.03:534][609]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-13.09.16:547][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.03.26-13.09.16:550][285]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.013
+[2024.03.26-13.09.16:550][285]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Tutorial] ([2] browsable assets)...
+[2024.03.26-13.09.16:555][285]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Tutorial.Tutorial]
+[2024.03.26-13.09.16:555][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Tutorial]
+[2024.03.26-13.09.16:560][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Tutorial_Auto4
+[2024.03.26-13.09.16:560][285]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial_Auto4200BE03649E25C0C1F7CF5A56B17D512.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Widgets/Tutorial_Auto4.uasset'
+[2024.03.26-13.09.16:560][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Switch_Image] ([1] browsable assets)...
+[2024.03.26-13.09.16:565][285]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Switch_Image.Switch_Image]
+[2024.03.26-13.09.16:565][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Switch_Image]
+[2024.03.26-13.09.16:566][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Switch_Image_Auto4
+[2024.03.26-13.09.16:567][285]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Switch_Image_Auto48C42F924440248E8397A7AA501D5EDCB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Switch_Image_Auto4.uasset'
+[2024.03.26-13.09.16:567][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Shooting-Aiming_Image] ([1] browsable assets)...
+[2024.03.26-13.09.16:569][285]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Shooting-Aiming_Image.Shooting-Aiming_Image]
+[2024.03.26-13.09.16:569][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Shooting-Aiming_Image]
+[2024.03.26-13.09.16:570][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto4
+[2024.03.26-13.09.16:570][285]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Shooting-Aiming_Image_Auto4BD964E3D4A7F4FFCEE87E6BD3FF17FBF.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto4.uasset'
+[2024.03.26-13.09.16:570][285]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Movement_Image] ([1] browsable assets)...
+[2024.03.26-13.09.16:573][285]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Movement_Image.Movement_Image]
+[2024.03.26-13.09.16:573][285]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Movement_Image]
+[2024.03.26-13.09.16:574][285]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Movement_Image_Auto4
+[2024.03.26-13.09.16:574][285]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Movement_Image_Auto47DC86734428836119E1063AF2947C5CC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Movement_Image_Auto4.uasset'
+[2024.03.26-13.09.16:575][285]LogFileHelpers: Auto-saving content packages took 0.025
+[2024.03.26-13.12.24:934][937]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.12.24:960][937]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.26-13.12.25:697][977]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.12.25:758][977]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.12.25:763][977]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.12.25:763][977]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialF2690BC54E6C3FE34BBC8CBB77AE01BD.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.12.25:768][977]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 18.0 sec)
+[2024.03.26-13.12.25:769][977]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.12.25:769][977]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.12.30:644][415]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.03.26-13.12.32:268][415]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.26-13.12.45:233][305]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.12.45:262][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-13.12.45:695][317]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.12.45:787][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.12.45:793][317]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.12.45:794][317]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial7691CBF6464AB8AC12EB2A8E30A64439.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.12.45:810][317]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 18.2 sec)
+[2024.03.26-13.12.45:811][317]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.12.45:812][317]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.12.50:675][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-13.12.51:764][730]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.26-13.12.51:821][730]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Textures/Movement_Image.Movement_Image
+	Asset Type: Texture2D
+[2024.03.26-13.12.52:087][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.03.26-13.12.52:115][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.26-13.12.52:138][730]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.03.26-13.12.54:788][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.03.26-13.12.55:947][955]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.26-13.12.55:970][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.03.26-13.12.55:984][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-13.12.55:999][955]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.03.26-13.12.57:414][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.03.26-13.12.58:943][ 96]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.26-13.12.58:970][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.03.26-13.12.58:993][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.03.26-13.12.59:020][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.03.26-13.13.28:950][ 61]LogInterchangeEngine: [Pending] Importing
+[2024.03.26-13.13.28:950][ 61]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Switch Image.png]
+[2024.03.26-13.13.28:951][ 61]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.26-13.13.28:951][ 61]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Shooting-Aiming Image.png]
+[2024.03.26-13.13.28:951][ 61]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.03.26-13.13.28:951][ 61]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ASUS/Downloads/Movement Image.png]
+[2024.03.26-13.13.28:953][ 61]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.13.28:953][ 61]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.13.28:953][ 61]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.26-13.13.28:954][ 61]LogTexture: Display: Building textures: /Game/Textures/Switch_Image.Switch_Image (BGRA8, 556x58 x1x1x1) (Required Memory Estimate: 1.005619 MB), EncodeSpeed: Fast
+[2024.03.26-13.13.28:955][ 61]LogTexture: Display: Building textures: /Game/Textures/Shooting-Aiming_Image.Shooting-Aiming_Image (BGRA8, 464x58 x1x1x1) (Required Memory Estimate: 0.849556 MB), EncodeSpeed: Fast
+[2024.03.26-13.13.28:956][ 61]LogTexture: Display: Building textures: /Game/Textures/Movement_Image.Movement_Image (BGRA8, 301x46 x1x1x1) (Required Memory Estimate: 0.467434 MB), EncodeSpeed: Fast
+[2024.03.26-13.13.28:957][ 61]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.26-13.13.28:957][ 61]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.26-13.13.28:968][ 61]LogInterchangeEngine: [Success] Import Done
+[2024.03.26-13.13.29:003][ 62]LogInterchangeEngine: [Success] Import Done
+[2024.03.26-13.14.31:417][946]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-13.15.13:476][827]LogEditorTransaction: Undo Resize Widget
+[2024.03.26-13.15.13:999][835]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.03.26-13.15.14:427][845]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.03.26-13.15.14:977][867]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.03.26-13.15.15:500][888]LogEditorTransaction: Undo Edit Bottom
+[2024.03.26-13.15.16:048][909]LogEditorTransaction: Undo Edit Right
+[2024.03.26-13.15.27:696][594]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.03.26-13.15.54:254][236]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-13.16.17:209][666]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-13.17.17:889][297]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.26-13.17.37:519][617]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.17.37:547][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.03.26-13.17.38:428][676]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.17.38:509][676]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.17.38:519][676]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.17.38:519][676]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialE720550847E53429B4B3FC92483A3671.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.17.38:534][676]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 18.3 sec)
+[2024.03.26-13.17.38:537][676]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.17.38:537][676]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.18.16:932][887]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.18.16:932][887]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.18.21:560][212]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.26-13.18.21:560][212]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.26-13.18.50:470][255]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.18.50:493][255]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-13.18.50:893][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.18.50:981][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.18.50:990][268]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.18.50:990][268]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial1B77CC7A4B1CB725D3462F9294FDDE75.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.18.51:003][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 18.4 sec)
+[2024.03.26-13.18.51:007][268]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.18.51:007][268]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.19.05:629][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.19.05:712][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.19.05:719][380]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.19.05:719][380]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialE1756DF74B1D987ACDADE9A39E28F74B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.19.05:725][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 18.5 sec)
+[2024.03.26-13.19.05:726][380]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.19.05:726][380]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.19.46:113][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.26-13.19.46:115][433]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.017
+[2024.03.26-13.19.46:116][433]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/Tutorial] ([2] browsable assets)...
+[2024.03.26-13.19.46:119][433]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/Tutorial.Tutorial]
+[2024.03.26-13.19.46:120][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/Tutorial]
+[2024.03.26-13.19.46:129][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/Tutorial_Auto5
+[2024.03.26-13.19.46:129][433]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial_Auto5FDFE99DC40F79D9E5AEDFABA045004F1.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Widgets/Tutorial_Auto5.uasset'
+[2024.03.26-13.19.46:130][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Switch_Image] ([1] browsable assets)...
+[2024.03.26-13.19.46:132][433]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Switch_Image.Switch_Image]
+[2024.03.26-13.19.46:132][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Switch_Image]
+[2024.03.26-13.19.46:134][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Switch_Image_Auto5
+[2024.03.26-13.19.46:134][433]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Switch_Image_Auto5CA52A5A74EC5079CF47C59BB5A828261.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Switch_Image_Auto5.uasset'
+[2024.03.26-13.19.46:135][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Shooting-Aiming_Image] ([1] browsable assets)...
+[2024.03.26-13.19.46:138][433]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Shooting-Aiming_Image.Shooting-Aiming_Image]
+[2024.03.26-13.19.46:138][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Shooting-Aiming_Image]
+[2024.03.26-13.19.46:141][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto5
+[2024.03.26-13.19.46:141][433]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Shooting-Aiming_Image_Auto5BF394E934FB80D42EACD96A8A8F030BE.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto5.uasset'
+[2024.03.26-13.19.46:142][433]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/Movement_Image] ([1] browsable assets)...
+[2024.03.26-13.19.46:144][433]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/Movement_Image.Movement_Image]
+[2024.03.26-13.19.46:144][433]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Movement_Image]
+[2024.03.26-13.19.46:146][433]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Movement_Image_Auto5
+[2024.03.26-13.19.46:146][433]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Movement_Image_Auto583DCA2EE498FCB54EA173FB54504CD8F.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Movement_Image_Auto5.uasset'
+[2024.03.26-13.19.46:147][433]LogFileHelpers: Auto-saving content packages took 0.032
+[2024.03.26-13.19.58:402][353]LogEditorTransaction: Undo Edit Line Height Percentage
+[2024.03.26-13.20.31:813][847]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.20.31:813][847]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.20.48:460][ 94]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.26-13.20.48:460][ 94]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.03.26-13.21.08:765][650]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.21.08:785][650]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.26-13.21.09:440][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.21.09:534][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.21.09:544][678]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.21.09:544][678]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial0383094E48946D2369CC929EEBD01CFD.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.21.09:553][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 18.6 sec)
+[2024.03.26-13.21.09:555][678]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.21.09:555][678]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.21.36:523][665]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.101 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4169 files in 5665 folders with total size 232 MiB.
+[2024.03.26-13.23.12:746][454]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.23.12:772][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-13.23.13:570][494]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.23.13:672][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.23.13:683][494]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.23.13:684][494]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial95FADAF34D8CE222096761B39EE9633E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.23.13:694][494]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 18.7 sec)
+[2024.03.26-13.23.13:696][494]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.23.13:696][494]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.24.02:063][976]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.24.02:087][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.03.26-13.24.03:142][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.24.03:217][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.24.03:229][ 37]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.24.03:229][ 37]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial531D1BED4674249E32D3B6A9565CFCD3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.24.03:243][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 18.8 sec)
+[2024.03.26-13.24.03:246][ 37]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.24.03:246][ 37]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
