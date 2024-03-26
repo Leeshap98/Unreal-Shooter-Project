@@ -1779,3 +1779,460 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.26-13.24.03:243][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 18.8 sec)
 [2024.03.26-13.24.03:246][ 37]AssetCheck: New page: Asset Save: Tutorial
 [2024.03.26-13.24.03:246][ 37]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.29.46:562][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.03.26-13.29.46:565][294]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.031
+[2024.03.26-13.29.46:565][294]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Switch_Image] ([1] browsable assets)...
+[2024.03.26-13.29.46:566][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Switch_Image]
+[2024.03.26-13.29.46:567][294]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Switch_Image_Auto6
+[2024.03.26-13.29.46:567][294]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Switch_Image_Auto6670C5F794786AE261E21908749A3E86E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Switch_Image_Auto6.uasset'
+[2024.03.26-13.29.46:567][294]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Shooting-Aiming_Image] ([1] browsable assets)...
+[2024.03.26-13.29.46:567][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Shooting-Aiming_Image]
+[2024.03.26-13.29.46:568][294]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto6
+[2024.03.26-13.29.46:568][294]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Shooting-Aiming_Image_Auto685CFEDD046F31984366CF194183511D7.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Shooting-Aiming_Image_Auto6.uasset'
+[2024.03.26-13.29.46:569][294]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Textures/Movement_Image] ([1] browsable assets)...
+[2024.03.26-13.29.46:569][294]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/Movement_Image]
+[2024.03.26-13.29.46:570][294]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Textures/Movement_Image_Auto6
+[2024.03.26-13.29.46:570][294]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Movement_Image_Auto6B82E5DE945943F1E6C73CA8A81EACC69.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Textures/Movement_Image_Auto6.uasset'
+[2024.03.26-13.29.46:570][294]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.03.26-13.36.55:870][311]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.36.55:894][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.03.26-13.36.56:468][331]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.36.56:572][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.36.56:583][331]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.36.56:584][331]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialDB772399447D8A062B6F75BBC97A41D4.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.36.56:591][331]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 18.9 sec)
+[2024.03.26-13.36.56:593][331]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.36.56:593][331]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.37.06:773][ 21]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.37.06:800][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.26-13.37.07:347][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.07:431][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.37.07:439][ 45]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.37.07:441][ 45]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial026C0EB54A1EDDBB133AECA664572C84.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.37.07:448][ 45]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 19.0 sec)
+[2024.03.26-13.37.07:451][ 45]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.37.07:451][ 45]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.37.17:338][777]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.37.17:361][777]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.26-13.37.18:232][841]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.18:313][841]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.37.18:325][841]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.37.18:326][841]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Tutorial41307A104FE4CDFD46C5AAB1625712F9.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.37.18:333][841]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 19.1 sec)
+[2024.03.26-13.37.18:335][841]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.37.18:335][841]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.37.33:539][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.33:627][ 12]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.03.26-13.37.33:639][ 12]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.03.26-13.37.33:640][ 12]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenuBC70AC344980C4FDDA2100AC761B81CE.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.03.26-13.37.33:646][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 19.2 sec)
+[2024.03.26-13.37.33:648][ 12]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.03.26-13.37.33:648][ 12]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.03.26-13.37.34:781][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.34:864][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Settings.uasset" SILENT=true
+[2024.03.26-13.37.34:871][ 97]LogSavePackage: Moving output files for package: /Game/Widgets/Settings
+[2024.03.26-13.37.34:871][ 97]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SettingsB37C34EA4158C2527550DD99F1791607.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Settings.uasset'
+[2024.03.26-13.37.34:879][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 19.3 sec)
+[2024.03.26-13.37.34:880][ 97]AssetCheck: New page: Asset Save: Settings
+[2024.03.26-13.37.34:880][ 97]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Settings.Settings
+[2024.03.26-13.37.36:284][214]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.36:361][214]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.37.36:371][214]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.37.36:371][214]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialA2B345334CB65A99B47873A5CF2F9135.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.37.36:379][214]LogFileHelpers: InternalPromptForCheckoutAndSave took 94 ms (total: 19.4 sec)
+[2024.03.26-13.37.36:381][214]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.37.36:381][214]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.37.37:598][318]BlueprintLog: New page: Compile Tutorial
+[2024.03.26-13.37.37:621][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.03.26-13.37.37:985][345]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.37.38:045][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset" SILENT=true
+[2024.03.26-13.37.38:052][345]LogSavePackage: Moving output files for package: /Game/Widgets/Tutorial
+[2024.03.26-13.37.38:053][345]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/TutorialDA94AC1E464574F386D395BBC8204E18.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/Tutorial.uasset'
+[2024.03.26-13.37.38:057][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 19.5 sec)
+[2024.03.26-13.37.38:059][345]AssetCheck: New page: Asset Save: Tutorial
+[2024.03.26-13.37.38:059][345]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Tutorial.Tutorial
+[2024.03.26-13.38.41:888][946]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.38.41:888][946]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.03.26-13.39.18:456][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.26-13.39.20:687][ 62]LogSlate: Window 'Save Content' being destroyed
+[2024.03.26-13.39.20:699][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.26-13.39.20:785][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Movement_Image" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Movement_Image.uasset" SILENT=true
+[2024.03.26-13.39.20:788][ 62]LogSavePackage: Moving output files for package: /Game/Textures/Movement_Image
+[2024.03.26-13.39.20:788][ 62]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Movement_ImageCB661ACD48A2CD4A325B7599ED1F30D8.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Movement_Image.uasset'
+[2024.03.26-13.39.20:795][ 62]LogSavePackage: Moving output files for package: /Game/Textures/Shooting-Aiming_Image
+[2024.03.26-13.39.20:795][ 62]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Shooting-Aiming_Image69F4B7184A4B83175387ADB1251F2784.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Shooting-Aiming_Image.uasset'
+[2024.03.26-13.39.20:796][ 62]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/Switch_Image" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Switch_Image.uasset" SILENT=true
+[2024.03.26-13.39.20:799][ 62]LogSavePackage: Moving output files for package: /Game/Textures/Switch_Image
+[2024.03.26-13.39.20:799][ 62]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Switch_ImageC9707A314014EB2A89C2ABAC4CAE5AF1.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Textures/Switch_Image.uasset'
+[2024.03.26-13.39.20:810][ 62]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 19.6 sec)
+[2024.03.26-13.39.20:931][ 62]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-13.39.20:933][ 62]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2024.03.26-13.39.20:933][ 62]Cmd: MAP LOAD FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.26-13.39.20:933][ 62]LightingResults: New page: Lighting Build
+[2024.03.26-13.39.20:935][ 62]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.03.26-13.39.20:955][ 62]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-13.39.20:955][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.20:956][ 62]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.26-13.39.20:956][ 62]MapCheck: New page: Map Check
+[2024.03.26-13.39.20:956][ 62]LightingResults: New page: Lighting Build
+[2024.03.26-13.39.20:966][ 62]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.26-13.39.20:973][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.03.26-13.39.20:975][ 62]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-13.39.20:975][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.20:991][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.26-13.39.21:005][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.03.26-13.39.21:012][ 62]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.03.26-13.39.21:012][ 62]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-13.39.21:012][ 62]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-13.39.21:013][ 62]LogAIModule: Creating AISystem for world MainMenu
+[2024.03.26-13.39.21:025][ 62]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.26-13.39.21:040][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.03.26-13.39.21:043][ 62]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.26-13.39.21:043][ 62]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.12ms to complete.
+[2024.03.26-13.39.21:054][ 62]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.26-13.39.21:054][ 62]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Movement_Image.Movement_Image
+[2024.03.26-13.39.21:054][ 62]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Shooting-Aiming_Image.Shooting-Aiming_Image
+[2024.03.26-13.39.21:054][ 62]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Textures/Switch_Image.Switch_Image
+[2024.03.26-13.39.22:718][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-13.39.22:727][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-13.39.22:728][231]PIE: New page: PIE session: MainMenu (Mar 26, 2024, 5:39:22 PM)
+[2024.03.26-13.39.22:728][231]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2024.03.26-13.39.22:731][231]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.03.26-13.39.22:738][232]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.39.22:740][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001835s)
+[2024.03.26-13.39.22:740][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001928s)
+[2024.03.26-13.39.22:752][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.03.26-13.39.22:752][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-13.39.22:752][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-13.39.22:754][232]LogAIModule: Creating AISystem for world MainMenu
+[2024.03.26-13.39.22:754][232]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2024.03.26-13.39.22:754][232]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-13.39.22:754][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-13.39.22:754][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-13.39.22:755][232]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-13.39.22:755][232]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-13.39.22:755][232]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-13.39.22:758][232]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-13.39.22:860][232]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.26-13.39.22:861][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-13.39.22:861][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-13.39.22:861][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-13.39.22:863][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.26-13.39.22:863][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.26-13.39.22:866][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.26-13.39.22:866][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.26-13.39.22:866][232]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.26-13.39.22:866][232]LogAudio: Display: Audio Device (ID: 2) registered with world 'MainMenu'.
+[2024.03.26-13.39.22:866][232]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-13.39.22:873][232]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.26-13.39.22:873][232]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.03.26-15.39.22
+[2024.03.26-13.39.22:874][232]LogWorld: Bringing up level for play took: 0.000968
+[2024.03.26-13.39.22:896][232]PIE: Server logged in
+[2024.03.26-13.39.22:896][232]PIE: Play in editor total start time 0.17 seconds.
+[2024.03.26-13.39.29:335][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.39.29:335][979]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.39.29:335][979]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-13.39.29:335][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.29:339][979]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-13.39.29:342][979]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.29:357][979]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.39.29:357][979]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.26-13.39.29:357][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-13.39.29:359][979]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.26-13.39.29:389][979]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.03.26-13.39.29:405][980]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.03.26-13.39.33:688][472]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-13.39.33:694][472]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-13.39.33:694][472]PIE: New page: PIE session: MainMenu (Mar 26, 2024, 5:39:33 PM)
+[2024.03.26-13.39.33:694][472]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2024.03.26-13.39.33:696][472]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.03.26-13.39.33:702][473]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.39.33:703][473]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001109s)
+[2024.03.26-13.39.33:703][473]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001156s)
+[2024.03.26-13.39.33:719][473]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.03.26-13.39.33:721][473]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-13.39.33:721][473]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-13.39.33:721][473]LogAIModule: Creating AISystem for world MainMenu
+[2024.03.26-13.39.33:721][473]LogPlayLevel: PIE: World Init took: (0.001520s)
+[2024.03.26-13.39.33:721][473]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-13.39.33:721][473]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-13.39.33:721][473]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-13.39.33:723][473]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-13.39.33:723][473]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-13.39.33:723][473]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-13.39.33:726][473]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-13.39.33:841][473]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.26-13.39.33:841][473]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-13.39.33:841][473]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-13.39.33:841][473]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-13.39.33:842][473]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.03.26-13.39.33:842][473]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.03.26-13.39.33:845][473]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.03.26-13.39.33:845][473]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.03.26-13.39.33:845][473]LogInit: FAudioDevice initialized with ID 3.
+[2024.03.26-13.39.33:845][473]LogAudio: Display: Audio Device (ID: 3) registered with world 'MainMenu'.
+[2024.03.26-13.39.33:845][473]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-13.39.33:848][473]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.26-13.39.33:849][473]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.03.26-15.39.33
+[2024.03.26-13.39.33:849][473]LogWorld: Bringing up level for play took: 0.000416
+[2024.03.26-13.39.33:854][473]PIE: Server logged in
+[2024.03.26-13.39.33:855][473]PIE: Play in editor total start time 0.162 seconds.
+[2024.03.26-13.39.37:171][858]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:171][858]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:179][859]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:179][859]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:187][860]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:188][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:196][861]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:196][861]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:205][862]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:205][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:212][863]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:213][863]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:221][864]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:221][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:229][865]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:229][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:238][866]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:238][866]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:246][867]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:246][867]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:254][868]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:254][868]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:263][869]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:263][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:271][870]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:271][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:279][871]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:279][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:287][872]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:287][872]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:296][873]LogScript: Warning: Accessed None trying to read property Weapon
+	BP_FirstPersonCharacter_C /Game/Maps/UEDPIE_0_MainMenu.MainMenu:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:ExecuteUbergraph_BP_FirstPersonCharacter:05E9
+[2024.03.26-13.39.37:296][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:304][874]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:529][901]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:537][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:546][903]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:554][904]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:563][905]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:572][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:580][907]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:588][908]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:596][909]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:605][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:612][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:621][912]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:629][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:638][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:645][915]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:655][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:663][917]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:671][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:771][930]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:779][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:788][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:796][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:805][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:813][935]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:821][936]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:829][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:838][938]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:846][939]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:855][940]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:863][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:871][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:879][943]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:888][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:896][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:979][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:988][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.37:997][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:004][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:013][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:021][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:030][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:038][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:046][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:055][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:063][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:071][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:079][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:088][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:096][969]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:105][970]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:113][971]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:121][972]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:130][973]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:137][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:146][975]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:355][  0]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:363][  1]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:372][  2]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:379][  3]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:388][  4]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:396][  5]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:405][  6]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:455][ 12]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:463][ 13]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:471][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:479][ 15]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:488][ 16]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:496][ 17]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:505][ 18]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:513][ 19]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:521][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:529][ 21]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:538][ 22]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:547][ 23]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:555][ 24]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:563][ 25]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:571][ 26]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:580][ 27]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:588][ 28]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:596][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:605][ 30]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:612][ 31]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:621][ 32]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:631][ 33]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:639][ 34]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:647][ 35]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:655][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:663][ 37]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:672][ 38]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:681][ 39]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:689][ 40]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:696][ 41]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:705][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:714][ 43]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:721][ 44]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:729][ 45]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:739][ 46]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:748][ 47]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:755][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:781][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:789][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:797][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:805][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:814][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:822][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:831][ 57]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:838][ 58]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:847][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:915][ 67]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:922][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:931][ 69]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.38:939][ 70]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Weapon". Node:  Set Skeletal Mesh Asset Graph:  EventGraph Function:  Execute Ubergraph BP First Person Character Blueprint:  BP_FirstPersonCharacter
+[2024.03.26-13.39.41:763][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.39.41:763][405]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.39.41:763][405]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-13.39.41:763][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.41:767][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-13.39.41:771][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.39.41:779][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.39.41:779][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.03.26-13.39.41:779][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-13.39.41:781][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.03.26-13.39.41:806][405]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.26-13.39.42:058][406]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.03.26-13.39.52:750][661]LogSlate: Window 'Message Log' being destroyed
+[2024.03.26-13.39.52:755][661]LogSlate: Window 'Message Log' being destroyed
+[2024.03.26-13.39.59:420][438]LogSlate: Window 'Message Log' being destroyed
+[2024.03.26-13.39.59:424][438]LogSlate: Window 'Message Log' being destroyed
+[2024.03.26-13.40.00:338][540]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.26-13.40.00:344][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.26-13.40.00:344][540]PIE: New page: PIE session: MainMenu (Mar 26, 2024, 5:40:00 PM)
+[2024.03.26-13.40.00:381][540]LogPlayLevel: Display: Creating online subsystem for client :Context_9
+[2024.03.26-13.40.00:385][540]LogOnline: OSS: Created online subsystem instance for: :Context_9
+[2024.03.26-13.40.00:394][541]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.40.00:397][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002835s)
+[2024.03.26-13.40.00:397][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.002932s)
+[2024.03.26-13.40.00:412][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.03.26-13.40.00:417][541]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.26-13.40.00:417][541]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.26-13.40.00:418][541]LogAIModule: Creating AISystem for world MainMenu
+[2024.03.26-13.40.00:419][541]LogPlayLevel: PIE: World Init took: (0.001885s)
+[2024.03.26-13.40.00:419][541]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.26-13.40.00:419][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.26-13.40.00:419][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.26-13.40.00:420][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.26-13.40.00:420][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.26-13.40.00:420][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.26-13.40.00:422][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.26-13.40.00:517][541]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.26-13.40.00:518][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.26-13.40.00:518][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.26-13.40.00:518][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.26-13.40.00:518][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.03.26-13.40.00:519][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.03.26-13.40.00:522][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.03.26-13.40.00:522][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.03.26-13.40.00:522][541]LogInit: FAudioDevice initialized with ID 4.
+[2024.03.26-13.40.00:522][541]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMenu'.
+[2024.03.26-13.40.00:522][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.26-13.40.00:525][541]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.03.26-13.40.00:526][541]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.03.26-15.40.00
+[2024.03.26-13.40.00:526][541]LogWorld: Bringing up level for play took: 0.000475
+[2024.03.26-13.40.00:531][541]PIE: Server logged in
+[2024.03.26-13.40.00:532][541]PIE: Play in editor total start time 0.188 seconds.
+[2024.03.26-13.40.40:173][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.40.40:173][368]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.03.26-13.40.40:173][368]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.26-13.40.40:173][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.40.40:176][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.26-13.40.40:178][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.26-13.40.40:193][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.26-13.40.40:193][368]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.03.26-13.40.40:193][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.26-13.40.40:197][368]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.03.26-13.40.40:225][368]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.03.26-13.40.40:241][369]LogPlayLevel: Display: Destroying online subsystem :Context_9
