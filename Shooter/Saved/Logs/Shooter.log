@@ -1450,3 +1450,53 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.30-16.03.25:685][200]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
 [2024.03.30-16.03.25:698][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
 [2024.03.30-16.03.25:751][202]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.03.30-16.04.07:339][886]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.619 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4171 files in 5667 folders with total size 232 MiB.
+[2024.03.30-16.05.19:277][125]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.05.19:378][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.05.19:431][127]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.05.23:011][317]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.03.30-16.05.23:038][317]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.05.23:038][317]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-16.05.23:059][317]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.03.30-16.05.24:312][317]LogSlate: Took 0.000446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.03.30-16.05.24:315][317]LogSlate: Took 0.000810 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.03.30-16.05.26:072][389]LogSlate: Took 0.001296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.03.30-16.06.04:253][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.03.30-16.06.04:360][151]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.06.04:361][151]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.30-16.06.04:361][151]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.30-16.06.04:361][151]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.30-16.06.04:459][151]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.30-16.06.04:459][151]LogWorldPartition: Display: WorldPartition initialize took 98 ms (total: 335 ms)
+[2024.03.30-16.06.04:468][151]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.03.30-16.06.04:468][151]Cmd: MAP LOAD FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.03.30-16.06.04:468][151]LightingResults: New page: Lighting Build
+[2024.03.30-16.06.04:468][151]LoadErrors: New page: Loading map: FirstPersonMap.umap
+[2024.03.30-16.06.04:511][151]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-16.06.04:511][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-16.06.04:511][151]MapCheck: New page: Map Check
+[2024.03.30-16.06.04:511][151]LightingResults: New page: Lighting Build
+[2024.03.30-16.06.04:536][151]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.30-16.06.04:540][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.03.30-16.06.04:546][151]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.30-16.06.04:546][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.30-16.06.04:547][151]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.03.30-16.06.04:583][151]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2024.03.30-16.06.04:606][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.03.30-16.06.04:617][151]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.03.30-16.06.04:617][151]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.06.04:617][151]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.30-16.06.04:617][151]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.03.30-16.06.04:618][151]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.03.30-16.06.04:618][151]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.30-16.06.04:618][151]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.30-16.06.04:664][151]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.03.30-16.06.04:664][151]LogWorldPartition: Display: WorldPartition initialize took 45 ms (total: 381 ms)
+[2024.03.30-16.06.04:712][151]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.03.30-16.06.04:726][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.03.30-16.06.04:729][151]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.03.30-16.06.04:729][151]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.268ms to complete.
+[2024.03.30-16.06.26:084][383]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.06.26:318][393]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.06.32:034][711]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.06.35:482][907]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
