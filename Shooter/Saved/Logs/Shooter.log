@@ -2450,3 +2450,26 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.30-16.08.21:403][323]SourceControl: [Roy_Branch 9e96b4f] Fix for bug
 [2024.03.30-16.08.21:403][323]SourceControl:  5 files changed, 0 insertions(+), 0 deletions(-)
 [2024.03.30-16.08.21:429][323]SourceControl: Commited [Roy_Branch 9e96b4f] Fix for bug.
+[2024.03.30-16.11.13:389][287]LogViewport: Scene viewport resized to 1122x423, mode Windowed.
+[2024.03.30-16.11.13:403][288]LogViewport: Scene viewport resized to 1122x436, mode Windowed.
+[2024.03.30-16.11.13:421][289]LogViewport: Scene viewport resized to 1122x461, mode Windowed.
+[2024.03.30-16.11.13:437][290]LogViewport: Scene viewport resized to 1122x475, mode Windowed.
+[2024.03.30-16.11.13:455][291]LogViewport: Scene viewport resized to 1122x483, mode Windowed.
+[2024.03.30-16.11.13:473][292]LogViewport: Scene viewport resized to 1122x491, mode Windowed.
+[2024.03.30-16.11.13:493][293]LogViewport: Scene viewport resized to 1122x500, mode Windowed.
+[2024.03.30-16.11.13:512][294]LogViewport: Scene viewport resized to 1122x509, mode Windowed.
+[2024.03.30-16.11.13:528][295]LogViewport: Scene viewport resized to 1122x513, mode Windowed.
+[2024.03.30-16.11.13:545][296]LogViewport: Scene viewport resized to 1122x514, mode Windowed.
+[2024.03.30-16.11.13:570][297]LogViewport: Scene viewport resized to 1122x515, mode Windowed.
+[2024.03.30-16.11.13:583][298]LogViewport: Scene viewport resized to 1122x519, mode Windowed.
+[2024.03.30-16.11.13:598][299]LogViewport: Scene viewport resized to 1122x522, mode Windowed.
+[2024.03.30-16.11.13:616][300]LogViewport: Scene viewport resized to 1122x524, mode Windowed.
+[2024.03.30-16.11.13:634][301]LogViewport: Scene viewport resized to 1122x525, mode Windowed.
+[2024.03.30-16.11.13:659][303]LogViewport: Scene viewport resized to 1122x523, mode Windowed.
+[2024.03.30-16.11.13:672][304]LogViewport: Scene viewport resized to 1122x511, mode Windowed.
+[2024.03.30-16.11.13:688][305]LogViewport: Scene viewport resized to 1122x497, mode Windowed.
+[2024.03.30-16.11.13:706][306]LogViewport: Scene viewport resized to 1122x492, mode Windowed.
+[2024.03.30-16.11.13:723][307]LogViewport: Scene viewport resized to 1122x491, mode Windowed.
+[2024.03.30-16.11.14:579][400]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.03.30-16.11.14:580][400]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.30-16.11.14:580][400]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
