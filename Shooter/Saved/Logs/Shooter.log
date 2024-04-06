@@ -1702,3 +1702,141 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.04.06-10.13.28:476][269]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
 [2024.04.06-10.13.28:484][269]AssetCheck: New page: Asset Save: ANM_Attack
 [2024.04.06-10.13.28:484][269]LogContentValidation: Display: Validating /Script/Engine.AnimSequence /Game/Mixamo/Animations/ANM_Attack.ANM_Attack
+[2024.04.06-10.15.05:755][295]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.06-10.15.05:778][295]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.06-10.15.05:790][296]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.06-10.15.19:909][691]LogContentBrowser: Attempting asset rename: NewFolder -> Big_Enemy
+[2024.04.06-10.15.19:910][691]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.06-10.16.33:864][192]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\ASUS\Downloads\Maw J Laygo.fbx)
+[2024.04.06-10.16.33:927][192]LogFbx: Loading FBX Scene from C:\Users\ASUS\Downloads\Maw J Laygo.fbx
+[2024.04.06-10.16.34:000][192]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.06-10.16.38:861][192]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.06-10.16.38:910][192]LogFbx: Valid bind pose for Pose (skinCluster2) - MAW
+[2024.04.06-10.16.38:916][192]LogMaterial: Display: Material /Game/Mixamo/Big_Enemy/MAW_MAT.MAW_MAT needed to have new flag set bUsedWithSkeletalMesh !
+[2024.04.06-10.16.39:117][192]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.06-10.16.39:139][192]LogTexture: Display: Building textures: /Game/Mixamo/Big_Enemy/MAW_diffuse.MAW_diffuse (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.06-10.16.39:204][192]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.06-10.16.39:206][192]LogTexture: Display: Building textures: /Game/Mixamo/Big_Enemy/MAW_glow.MAW_glow (TFO_AutoDXT, 512x512 x1x1x1) (Required Memory Estimate: 45.145823 MB), EncodeSpeed: Fast
+[2024.04.06-10.16.39:373][192]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.06-10.16.39:394][192]LogTexture: Display: Building textures: /Game/Mixamo/Big_Enemy/maria_specular.maria_specular (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.06-10.16.39:484][192]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.06-10.16.39:494][192]LogTexture: Display: Building textures: /Game/Mixamo/Big_Enemy/MAW_normal.MAW_normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 258.562488 MB), EncodeSpeed: Fast
+[2024.04.06-10.16.39:512][192]LogFbx: Triangulating skeletal mesh MAW
+[2024.04.06-10.16.39:850][192]LogFbx: Bones digested - 64  Depth of hierarchy - 12
+[2024.04.06-10.16.40:471][192]LogSkeletalMesh: Section 0: Material=0, 13910 triangles
+[2024.04.06-10.16.40:552][192]LogSkeletalMesh: Building Skeletal Mesh Maw_J_Laygo...
+[2024.04.06-10.16.40:570][192]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Maw_J_Laygo) ...
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: ================================================
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Total job queries 160, among them cache hits 42 (26.25%)
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Tracking 48 distinct input hashes that result in 31 distinct outputs (64.58%)
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: RAM used: 1.28 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Shaders Compiled: 42
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Jobs assigned 60, completed 42 (70.00%)
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Average time worker was idle: 84.05 s
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Time job spent in pending queue: average 0.30 s, longest 1.42 s
+[2024.04.06-10.16.40:570][192]LogShaderCompilers: Display: Job execution time: average 0.90 s, max 1.64 s
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Job life time (pending + execution): average 1.29 s, max 1.88
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Shader code size: average 45.051 KiB, min 32.898 KiB, max 62.508 KiB
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.51 s
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Jobs were issued in 47 batches (only local compilation was used), average 1.28 jobs/batch
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Average processing rate: 6.45 jobs/sec
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Total thread time: 19.911 s
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Total thread preprocess time: 1.878 s
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Percentage time preprocessing: 9.43%
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Effective parallelization: 3.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.54 sec, max 0.58 sec, min 0.52 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    3 times, average 0.54 sec, max 0.58 sec, min 0.51 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.53 sec, max 0.56 sec, min 0.47 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    3 times, average 0.53 sec, max 0.56 sec, min 0.51 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    3 times, average 0.53 sec, max 0.56 sec, min 0.50 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 10.64% of total time (compiled    4 times, average 0.53 sec, max 0.56 sec, min 0.47 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.19% of total time (compiled    3 times, average 0.54 sec, max 0.58 sec, min 0.52 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 8.13% of total time (compiled    3 times, average 0.54 sec, max 0.58 sec, min 0.51 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 7.96% of total time (compiled    3 times, average 0.53 sec, max 0.56 sec, min 0.51 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy - 7.92% of total time (compiled    3 times, average 0.53 sec, max 0.56 sec, min 0.50 sec)
+[2024.04.06-10.16.40:571][192]LogShaderCompilers: Display: ================================================
+[2024.04.06-10.16.40:986][192]LogSkeletalMesh: Built Skeletal Mesh [0.43s] /Game/Mixamo/Big_Enemy/Maw_J_Laygo.Maw_J_Laygo
+[2024.04.06-10.16.41:459][192]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.06-10.16.41:459][192]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.06-10.16.41:486][192]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.04.06-10.16.41:487][192]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(0) Hips
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(1) Spine
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(2) Spine1
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(3) Spine2
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(4) Neck
+[2024.04.06-10.16.41:522][192]LogFbx: SortedLinks :(5) Head
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(6) HeadTop_End
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(7) RightRope1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(8) RightRope2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(9) RightRope3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(10) RightRope4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(11) LeftShoulder
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(12) LeftArm
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(13) LeftForeArm
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(14) LeftHand
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(15) LeftHandThumb1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(16) LeftHandThumb2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(17) LeftHandThumb3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(18) LeftHandThumb4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(19) LeftHandIndex1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(20) LeftHandIndex2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(21) LeftHandIndex3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(22) LeftHandIndex4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(23) LeftHandMiddle1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(24) LeftHandMiddle2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(25) LeftHandMiddle3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(26) LeftHandMiddle4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(27) LeftHandRing1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(28) LeftHandRing2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(29) LeftHandRing3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(30) LeftHandRing4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(31) RightShoulder
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(32) RightArm
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(33) RightForeArm
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(34) RightHand
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(35) RightHandThumb1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(36) RightHandThumb2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(37) RightHandThumb3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(38) RightHandThumb4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(39) RightHandIndex1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(40) RightHandIndex2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(41) RightHandIndex3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(42) RightHandIndex4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(43) RightHandMiddle1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(44) RightHandMiddle2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(45) RightHandMiddle3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(46) RightHandMiddle4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(47) RightHandRing1
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(48) RightHandRing2
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(49) RightHandRing3
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(50) RightHandRing4
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(51) LeftUpLeg
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(52) LeftLeg
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(53) LeftFoot
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(54) LeftToeBase
+[2024.04.06-10.16.41:523][192]LogFbx: SortedLinks :(55) LeftToe_End
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(56) RightUpLeg
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(57) RightLeg
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(58) RightFoot
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(59) RightToeBase
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(60) RightToe_End
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(61) RightChain1
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(62) RightChain2
+[2024.04.06-10.16.41:524][192]LogFbx: SortedLinks :(63) RightChain3
+[2024.04.06-10.16.41:524][192]LogFbx: Parsing AnimStack mixamo.com
+[2024.04.06-10.16.42:311][192]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Mixamo/Big_Enemy/Maw_J_Laygo_Anim.Maw_J_Laygo_Anim
+[2024.04.06-10.16.42:313][192]LogAnimationCompression: Display: Storing compressed animation data for /Game/Mixamo/Big_Enemy/Maw_J_Laygo_Anim.Maw_J_Laygo_Anim, at AnimationSequence/612502ccf0a68343ab38673cf4f418cd9161a9f2
+[2024.04.06-10.16.42:330][192]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (Maw_J_Laygo) ...
+[2024.04.06-10.16.42:343][192]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.06-10.16.42:787][192]LogAutomationController: Ignoring very large delta of 8.98 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.06-10.16.43:065][194]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.06-10.16.44:424][230]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.06-10.16.45:176][261]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.06-10.16.45:189][261]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.06-10.16.50:200][451]LogSlate: Window 'Message Log' being destroyed
+[2024.04.06-10.16.50:219][451]LogSlate: Window 'Message Log' being destroyed
