@@ -1577,3 +1577,763 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.04.07-15.51.27:564][966]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
 [2024.04.07-15.51.27:593][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
 [2024.04.07-15.51.27:635][967]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.04.07-15.52.12:545][533]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.04.07-15.52.12:546][533]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-15.52.12:546][533]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-15.52.12:858][534]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-15.52.12:923][535]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-15.52.43:799][782]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-15.52.43:799][782]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-15.53.32:176][888]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\ASUS\Downloads\zombie-moans-29924.wav)
+[2024.04.07-15.53.32:182][888]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zombie-moans-29924...
+[2024.04.07-15.53.32:252][888]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/Wavs/zombie-moans-29924.zombie-moans-29924: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-15.53.32:254][888]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zombie-moans-29924...
+[2024.04.07-15.53.32:328][888]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/Wavs/zombie-moans-29924.zombie-moans-29924: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-15.53.35:173][ 23]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.07-15.53.35:186][ 23]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.07-15.53.49:932][451]LogContentBrowser: Attempting asset rename: zombie-moans-29924 -> zombie-moans-29924
+[2024.04.07-15.53.56:489][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.04.07-15.53.57:513][178]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.07-15.53.57:536][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.07-15.53.57:561][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.04.07-15.53.57:587][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.04.07-15.53.58:960][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.04.07-15.53.59:966][294]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.07-15.53.59:984][294]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/FirstPerson/Blueprints/zombie-moans-29924.zombie-moans-29924
+	Asset Type: SoundWave
+[2024.04.07-15.54.00:353][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.04.07-15.54.00:380][294]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.04.07-15.54.00:399][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.04.07-15.54.57:097][101]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\ASUS\Downloads\zombie-moans-29924.wav)
+[2024.04.07-15.54.57:104][101]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zombie-moans-29924...
+[2024.04.07-15.54.57:173][101]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/Wavs/zombie-moans-29924.zombie-moans-29924: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-15.54.57:174][101]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zombie-moans-29924...
+[2024.04.07-15.54.57:249][101]LogAudio: Display: Chunk sizes for SoundWave /Game/Sounds/Wavs/zombie-moans-29924.zombie-moans-29924: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-15.55.08:919][959]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'ם (U+05dd)'
+[2024.04.07-15.55.08:926][959]LogSlate: Took 0.005397 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2024.04.07-15.55.13:388][299]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-15.55.13:388][299]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-15.55.19:104][783]LogContentBrowser: Attempting asset rename: zombie-moans-29924 -> SFX_ZombieMoan
+[2024.04.07-15.55.19:132][783]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-15.55.19:244][783]LogSavePackage: Moving output files for package: /Game/Sounds/Wavs/SFX_ZombieMoan
+[2024.04.07-15.55.19:244][783]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieMoan0AD3D6E14802CB1ED07C19A2523C8360.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Sounds/Wavs/SFX_ZombieMoan.uasset'
+[2024.04.07-15.55.19:257][783]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 843 ms)
+[2024.04.07-15.55.19:283][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.04.07-15.55.19:309][783]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.07-15.55.19:331][783]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.04.07-15.55.19:333][783]AssetCheck: New page: Asset Save: SFX_ZombieMoan
+[2024.04.07-15.55.19:333][783]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Sounds/Wavs/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-15.55.20:572][860]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.07-15.55.20:583][860]LogSlate: Window 'Content Browser' being destroyed
+[2024.04.07-16.14.46:619][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.49:382][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.49:451][939]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.49:507][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.49:632][944]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.54:175][401]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.14.54:176][401]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.14.54:176][401]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.14.54:468][403]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.16.39:991][472]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.07-16.16.39:994][472]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.018
+[2024.04.07-16.16.39:995][472]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemies/BP_Enemy] ([2] browsable assets)...
+[2024.04.07-16.16.39:995][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.16.40:060][472]OBJ SavePackage:     Rendered thumbnail for [BlueprintGeneratedClass /Game/Enemies/BP_Enemy.BP_Enemy_C]
+[2024.04.07-16.16.40:072][472]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/BP_Enemy.BP_Enemy]
+[2024.04.07-16.16.40:072][472]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/BP_Enemy]
+[2024.04.07-16.16.40:091][472]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/BP_Enemy_Auto1
+[2024.04.07-16.16.40:091][472]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy_Auto1EAE448BB4E8604377AC47DB9D31DCDA4.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Enemies/BP_Enemy_Auto1.uasset'
+[2024.04.07-16.16.40:091][472]LogFileHelpers: Auto-saving content packages took 0.097
+[2024.04.07-16.17.01:861][122]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.17.01:949][122]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.04.07-16.17.01:961][122]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy
+[2024.04.07-16.17.01:962][122]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy2405CC2B4EC119791A93509D72464C77.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset'
+[2024.04.07-16.17.01:972][122]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 954 ms)
+[2024.04.07-16.17.01:974][122]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.17.01:974][122]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.17.21:803][ 10]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.04.07-16.17.24:786][237]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_PickupAmmo.BP_PickupAmmo
+[2024.04.07-16.17.24:787][237]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.17.24:787][237]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.17.35:007][958]LogViewport: Scene viewport resized to 1257x711, mode Windowed.
+[2024.04.07-16.20.15:308][670]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue:SoundCueGraph_24.SoundCueGraphNode_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.15:308][670]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_AmmoPickup_Cue.GrenadeLauncher_AmmoPickup_Cue:SoundCueGraph_24.SoundCueGraphNode_Root_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_145' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_146' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_147' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_148' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_149' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_152' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.22:288][912]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Bounce_Cue.GrenadeLauncher_Bounce_Cue:SoundCueGraph_23.SoundCueGraphNode_Root_23' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_154' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_155' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_156' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_157' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_158' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_159' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_24' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.36:065][494]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Explosion_Cue.GrenadeLauncher_Explosion_Cue:SoundCueGraph_25.SoundCueGraphNode_Root_25' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-16.20.49:362][ 18]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-16.20.49:473][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.04.07-16.20.50:160][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.20.50:319][ 39]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-16.20.50:319][ 39]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter420887384EE3741E9A3B08BACB482D5C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-16.20.50:327][ 39]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 1.12 sec)
+[2024.04.07-16.20.50:330][ 39]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-16.20.50:330][ 39]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-16.20.54:003][312]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.20.54:009][312]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.20.54:009][312]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.07-16.20.54:011][312]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 12 ms)
+[2024.04.07-16.20.54:012][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.20.54:012][312]PIE: New page: PIE session: FirstPersonMap (7 באפר׳ 2024, 22:20:54)
+[2024.04.07-16.20.54:012][312]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.04.07-16.20.54:015][312]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.04.07-16.20.54:031][313]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.20.54:039][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007168s)
+[2024.04.07-16.20.54:039][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007216s)
+[2024.04.07-16.20.54:051][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.07-16.20.54:055][313]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.20.54:055][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.20.54:055][313]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.07-16.20.54:056][313]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.20.54:056][313]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.20.54:056][313]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.20.54:056][313]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.20.54:058][313]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.20.54:058][313]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 262 ms)
+[2024.04.07-16.20.54:058][313]LogPlayLevel: PIE: World Init took: (0.003179s)
+[2024.04.07-16.20.54:058][313]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.20.54:058][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.07-16.20.54:058][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.20.54:058][313]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.20.54:059][313]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.20.54:059][313]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.20.54:061][313]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.20.54:158][313]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.07-16.20.54:159][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.20.54:159][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.20.54:159][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.20.54:161][313]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.07-16.20.54:161][313]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.04.07-16.20.54:163][313]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.07-16.20.54:163][313]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.07-16.20.54:163][313]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.07-16.20.54:163][313]LogAudio: Display: Audio Device (ID: 7) registered with world 'FirstPersonMap'.
+[2024.04.07-16.20.54:163][313]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.07-16.20.54:168][313]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.07-16.20.54:173][313]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.07-19.20.54
+[2024.04.07-16.20.54:175][313]LogWorld: Bringing up level for play took: 0.006242
+[2024.04.07-16.20.54:182][313]PIE: Server logged in
+[2024.04.07-16.20.54:183][313]PIE: Play in editor total start time 0.173 seconds.
+[2024.04.07-16.20.59:187][887]LogBlueprintUserMessages: [BP_Pickup_Rifle_C_UAID_C87F54CC1FEF45E501_1980793127] Cast to BP_FirstPersonCharacter FAILED
+[2024.04.07-16.21.12:552][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.21.12:552][976]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.21.12:552][976]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.21.12:553][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.21.12:553][976]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.21.12:561][976]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.21.12:567][976]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.21.12:583][976]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.21.12:583][976]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.07-16.21.12:583][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.07-16.21.12:587][976]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.07-16.21.12:618][976]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.04.07-16.21.12:672][977]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.04.07-16.21.38:576][108]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-16.21.38:663][108]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.04.07-16.21.39:326][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.21.39:519][129]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-16.21.39:519][129]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter38D9CE2949611576D9FE659FFA5A477F.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-16.21.39:527][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 1.32 sec)
+[2024.04.07-16.21.39:529][129]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-16.21.39:529][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-16.21.41:621][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.21.41:626][303]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.21.41:626][303]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.07-16.21.41:629][303]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 15 ms)
+[2024.04.07-16.21.41:629][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.21.41:629][303]PIE: New page: PIE session: FirstPersonMap (7 באפר׳ 2024, 22:21:41)
+[2024.04.07-16.21.41:651][303]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.04.07-16.21.41:655][303]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.04.07-16.21.41:678][304]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.21.41:685][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006998s)
+[2024.04.07-16.21.41:685][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007042s)
+[2024.04.07-16.21.41:708][304]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.07-16.21.41:713][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.21.41:714][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.21.41:714][304]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.07-16.21.41:715][304]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.21.41:715][304]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.21.41:715][304]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.21.41:715][304]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.21.41:716][304]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.21.41:717][304]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 265 ms)
+[2024.04.07-16.21.41:717][304]LogPlayLevel: PIE: World Init took: (0.003633s)
+[2024.04.07-16.21.41:717][304]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.21.41:717][304]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.07-16.21.41:717][304]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.21.41:717][304]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.21.41:717][304]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.21.41:717][304]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.21.41:720][304]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.21.41:829][304]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.07-16.21.41:830][304]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.21.41:830][304]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.21.41:830][304]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.21.41:831][304]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.07-16.21.41:831][304]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.04.07-16.21.41:834][304]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.07-16.21.41:834][304]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.07-16.21.41:834][304]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.07-16.21.41:834][304]LogAudio: Display: Audio Device (ID: 8) registered with world 'FirstPersonMap'.
+[2024.04.07-16.21.41:834][304]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.07-16.21.41:837][304]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.07-16.21.41:839][304]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.07-19.21.41
+[2024.04.07-16.21.41:840][304]LogWorld: Bringing up level for play took: 0.003480
+[2024.04.07-16.21.41:844][304]PIE: Server logged in
+[2024.04.07-16.21.41:844][304]PIE: Play in editor total start time 0.218 seconds.
+[2024.04.07-16.21.58:903][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.21.58:903][270]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.21.58:903][270]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.21.58:904][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.21.58:904][270]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.21.58:912][270]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.21.58:916][270]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.21.58:936][270]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.07-16.21.58:936][270]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.07-16.21.58:936][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.07-16.21.58:940][270]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.07-16.21.58:965][270]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.21.58:969][270]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.04.07-16.21.59:039][271]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.04.07-16.22.50:248][465]LogEditorTransaction: Undo Delete current selection
+[2024.04.07-16.22.54:854][695]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-16.22.54:950][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.04.07-16.22.55:476][709]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.22.55:639][709]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-16.22.55:639][709]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter048DADB44EF678AB7AB004BF40AEBC49.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-16.22.55:648][709]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 1.49 sec)
+[2024.04.07-16.22.55:650][709]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-16.22.55:650][709]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-16.23.20:304][869]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.23.20:304][869]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.23.51:229][ 66]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-16.23.51:229][ 66]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-16.24.22:345][ 64]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.07-16.24.22:445][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.07-16.24.22:821][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.24.22:968][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.04.07-16.24.22:984][ 74]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy
+[2024.04.07-16.24.22:985][ 74]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_EnemyC895381D4D67093C7343BE83798001D3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset'
+[2024.04.07-16.24.22:993][ 74]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1.66 sec)
+[2024.04.07-16.24.22:996][ 74]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.24.22:996][ 74]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.24.59:426][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.07-16.25.07:739][179]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.07-16.25.07:766][179]LogUObjectGlobals: Force Deleting 9 Package(s):
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/MAW_normal.MAW_normal
+	Asset Type: Texture2D
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/MAW_MAT.MAW_MAT
+	Asset Type: Material
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/Maw_J_Laygo_Skeleton.Maw_J_Laygo_Skeleton
+	Asset Type: Skeleton
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/Maw_J_Laygo_PhysicsAsset.Maw_J_Laygo_PhysicsAsset
+	Asset Type: PhysicsAsset
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/Maw_J_Laygo_Anim.Maw_J_Laygo_Anim
+	Asset Type: AnimSequence
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/Maw_J_Laygo.Maw_J_Laygo
+	Asset Type: SkeletalMesh
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/MAW_glow.MAW_glow
+	Asset Type: Texture2D
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/MAW_diffuse.MAW_diffuse
+	Asset Type: Texture2D
+	Asset Name: /Game/Enemies/Mixamo/Big_Enemy/maria_specular.maria_specular
+	Asset Type: Texture2D
+[2024.04.07-16.25.08:038][179]LogMaterial: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\Enemies\Mixamo\Big_Enemy\MAW_MAT.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.07-16.25.08:039][179]LogMaterial: Warning: [AssetLog] C:\Users\ASUS\Desktop\Git Repositories\Unreal-Shooter-Project\Shooter\Content\Enemies\Mixamo\Big_Enemy\MAW_MAT.uasset: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.07-16.25.08:412][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.07-16.25.08:440][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.07-16.25.08:463][179]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.04.07-16.25.08:922][184]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.25.09:073][186]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.25.09:370][194]LogLinker: Warning: Failed to load '/Game/FirstPersonArms/Character/Mesh/SKM_Mannequin': Can't find file.
+[2024.04.07-16.25.09:371][194]LogLinker: Warning: Failed to load '/Game/FirstPersonArms/Character/Mesh/SKM_Mannequin': Can't find file.
+[2024.04.07-16.25.09:371][194]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonArms/Character/Mesh/SKM_Mannequin.SKM_Mannequin'
+[2024.04.07-16.25.09:594][201]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.25.09:652][203]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.26.02:291][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.26.02:429][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/SFX_ZombieMoan" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/SFX_ZombieMoan.uasset" SILENT=true
+[2024.04.07-16.26.02:439][185]LogSavePackage: Moving output files for package: /Game/Enemies/SFX_ZombieMoan
+[2024.04.07-16.26.02:439][185]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieMoanD0FCE4834AE160BC5B2FF9961CC3F426.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/SFX_ZombieMoan.uasset'
+[2024.04.07-16.26.02:449][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.82 sec)
+[2024.04.07-16.26.02:478][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.04.07-16.26.02:497][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.04.07-16.26.02:521][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.04.07-16.26.02:587][185]AssetCheck: New page: Asset Save: SFX_ZombieMoan
+[2024.04.07-16.26.02:587][185]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-16.26.09:325][570]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.07-16.26.09:430][570]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.07-16.26.10:097][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.26.10:250][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.04.07-16.26.10:266][596]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy
+[2024.04.07-16.26.10:266][596]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy457577E048CDDB2C96499DA2976A8BAC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset'
+[2024.04.07-16.26.10:276][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 2.00 sec)
+[2024.04.07-16.26.10:277][596]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.26.10:277][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.26.25:063][444]LogAssetEditorSubsystem: Opening Asset editor for SoundWave /Game/Enemies/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-16.26.32:530][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.26.32:638][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/SFX_ZombieMoan" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/SFX_ZombieMoan.uasset" SILENT=true
+[2024.04.07-16.26.32:648][820]LogSavePackage: Moving output files for package: /Game/Enemies/SFX_ZombieMoan
+[2024.04.07-16.26.32:649][820]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieMoan474F3E1D45D514E79528E19116F51163.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/SFX_ZombieMoan.uasset'
+[2024.04.07-16.26.32:665][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 2.13 sec)
+[2024.04.07-16.26.32:668][820]AssetCheck: New page: Asset Save: SFX_ZombieMoan
+[2024.04.07-16.26.32:668][820]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-16.27.16:166][883]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.07-16.27.16:170][883]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.016
+[2024.04.07-16.27.16:170][883]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/BP_Enemy] ([2] browsable assets)...
+[2024.04.07-16.27.16:170][883]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/BP_Enemy]
+[2024.04.07-16.27.16:182][883]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/BP_Enemy_Auto2
+[2024.04.07-16.27.16:182][883]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy_Auto25DF53FDE4B15EAB612638AA8FF06542E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Enemies/BP_Enemy_Auto2.uasset'
+[2024.04.07-16.27.16:182][883]LogFileHelpers: Auto-saving content packages took 0.012
+[2024.04.07-16.29.42:049][584]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\ASUS\Downloads\zmb2_dead-92305.wav)
+[2024.04.07-16.29.42:052][584]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zmb2_dead-92305...
+[2024.04.07-16.29.42:073][584]LogAudio: Display: Chunk sizes for SoundWave /Game/zmb2_dead-92305.zmb2_dead-92305: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-16.29.42:074][584]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave zmb2_dead-92305...
+[2024.04.07-16.29.42:094][584]LogAudio: Display: Chunk sizes for SoundWave /Game/zmb2_dead-92305.zmb2_dead-92305: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-16.30.43:885][770]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.30.43:885][770]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.30.50:780][335]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.30.50:875][335]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/zmb2_dead-92305" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/zmb2_dead-92305.uasset" SILENT=true
+[2024.04.07-16.30.50:880][335]LogSavePackage: Moving output files for package: /Game/Enemies/zmb2_dead-92305
+[2024.04.07-16.30.50:880][335]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/zmb2_dead-92305E86A59024F2D7951095240BD305D5877.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/zmb2_dead-92305.uasset'
+[2024.04.07-16.30.50:894][335]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 2.25 sec)
+[2024.04.07-16.30.50:914][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.07-16.30.50:928][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.04.07-16.30.50:941][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.07-16.30.50:984][335]AssetCheck: New page: Asset Save: zmb2_dead-92305
+[2024.04.07-16.30.50:984][335]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/zmb2_dead-92305.zmb2_dead-92305
+[2024.04.07-16.30.56:457][800]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-16.30.56:490][800]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-16.30.56:504][801]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-16.31.00:129][135]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-16.31.00:129][135]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-16.31.01:121][223]LogContentBrowser: Attempting asset rename: NewFolder -> Sounds
+[2024.04.07-16.31.01:122][223]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-16.31.14:324][225]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.31.14:453][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.04.07-16.31.14:465][225]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy
+[2024.04.07-16.31.14:466][225]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy899AC4CB4B7D479BA8B7649E68E7C1DC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset'
+[2024.04.07-16.31.14:473][225]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/zmb2_dead-92305
+[2024.04.07-16.31.14:473][225]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/zmb2_dead-92305B5A263A24D948F46B1D6EE8FF1D6383A.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/zmb2_dead-92305.uasset'
+[2024.04.07-16.31.14:483][225]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SFX_ZombieMoan
+[2024.04.07-16.31.14:483][225]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieMoanFC04DD2F45FE9B47AED1B0915E08A966.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SFX_ZombieMoan.uasset'
+[2024.04.07-16.31.14:491][225]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 2.41 sec)
+[2024.04.07-16.31.14:516][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.07-16.31.14:533][225]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.04.07-16.31.14:546][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.07-16.31.14:591][225]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.31.14:591][225]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.31.14:591][225]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/zmb2_dead-92305.zmb2_dead-92305
+[2024.04.07-16.31.14:591][225]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-16.31.16:231][336]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-16.31.16:264][336]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-16.31.16:279][337]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-16.31.19:412][693]LogContentBrowser: Attempting asset rename: NewFolder -> Blueprints
+[2024.04.07-16.31.19:412][693]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnFail_68213A834464B0A1856C72B34043A01B' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnSuccess_68213A834464B0A1856C72B34043A01B' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnNotifyEnd_B3CC56A14BDEC0851496FAB8B0B71ADE' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnNotifyBegin_B3CC56A14BDEC0851496FAB8B0B71ADE' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:UserConstructionScript' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:You Died' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:Chase Player' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:Attack' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:ReceiveTick' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnInterrupted_B3CC56A14BDEC0851496FAB8B0B71ADE' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnBlendOut_B3CC56A14BDEC0851496FAB8B0B71ADE' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnCompleted_B3CC56A14BDEC0851496FAB8B0B71ADE' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.SKEL_BP_Enemy_C' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnNotifyEnd_433CAC784A1EAAE2A7C512A4442818B8' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnNotifyBegin_433CAC784A1EAAE2A7C512A4442818B8' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnInterrupted_433CAC784A1EAAE2A7C512A4442818B8' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnBlendOut_433CAC784A1EAAE2A7C512A4442818B8' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:OnCompleted_433CAC784A1EAAE2A7C512A4442818B8' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:167][ 37]LogMetaData: Removing '/Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:ReceiveBeginPlay' ref from Metadata '/Game/Enemies/BP_Enemy.PackageMetaData'
+[2024.04.07-16.31.23:176][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.31.23:326][ 37]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.07-16.31.23:326][ 37]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy5575F1794F95C17C7752A5948D08DFE8.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.07-16.31.23:329][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/BP_Enemy" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset" SILENT=true
+[2024.04.07-16.31.23:329][ 37]LogSavePackage: Moving output files for package: /Game/Enemies/BP_Enemy
+[2024.04.07-16.31.23:329][ 37]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy0E8342C4486120500881F290F4B08D91.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/BP_Enemy.uasset'
+[2024.04.07-16.31.23:340][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 2.58 sec)
+[2024.04.07-16.31.23:383][ 37]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.31.23:383][ 37]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.07-16.31.23:383][ 37]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Enemies/BP_Enemy.BP_Enemy_C
+[2024.04.07-16.31.23:383][ 37]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Enemies/BP_Enemy.BP_Enemy
+[2024.04.07-16.31.23:383][ 37]LogContentValidation: Display: Validating /Script/CoreUObject.ObjectRedirector /Game/Enemies/BP_Enemy.Default__BP_Enemy_C
+[2024.04.07-16.31.57:139][ 32]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.07-16.31.57:156][ 32]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.07-16.31.57:169][ 33]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.07-16.32.00:067][351]LogContentBrowser: Attempting asset rename: NewFolder -> WAVS
+[2024.04.07-16.32.00:067][351]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.07-16.32.12:024][540]LogContentBrowser: Deferred new asset file creation: SC_Pickup1
+[2024.04.07-16.32.12:031][540]LogContentBrowser: Creating deferred item: SC_Pickup1
+[2024.04.07-16.32.12:045][541]LogContentBrowser: Renaming the item being created (Deferred Item: SC_Pickup1).
+[2024.04.07-16.32.20:514][488]LogContentBrowser: Attempting asset rename: SC_Pickup1 -> SC_Zombie
+[2024.04.07-16.32.20:515][488]LogContentBrowser: End creating deferred item SC_Pickup1
+[2024.04.07-16.32.33:881][657]LogMetaData: Removing '/Game/Enemies/Sounds/SC_Zombie.SC_Zombie:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Sounds/SC_Zombie.PackageMetaData'
+[2024.04.07-16.32.33:883][657]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.32.33:977][657]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_Zombie
+[2024.04.07-16.32.33:977][657]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_Zombie3866CB6C47CD4FFBA49235BAEAC2B27C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_Zombie.uasset'
+[2024.04.07-16.32.33:991][657]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 2.69 sec)
+[2024.04.07-16.32.34:011][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.04.07-16.32.34:023][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.04.07-16.32.34:035][657]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.04.07-16.32.34:081][657]AssetCheck: New page: Asset Save: SC_Zombie
+[2024.04.07-16.32.34:081][657]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_Zombie.SC_Zombie
+[2024.04.07-16.32.43:512][591]LogContentBrowser: Attempting asset rename: SC_Zombie -> SC_ZombieMoan
+[2024.04.07-16.32.43:537][591]LogMetaData: Removing '/Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan:SoundCueGraph_0.SoundCueGraphNode_Root_0' ref from Metadata '/Game/Enemies/Sounds/SC_Zombie.PackageMetaData'
+[2024.04.07-16.32.43:538][591]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.32.43:628][591]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieMoan
+[2024.04.07-16.32.43:628][591]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieMoanB544A9E7495DA45A5C1B0BB2DAA205E2.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieMoan.uasset'
+[2024.04.07-16.32.43:638][591]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.79 sec)
+[2024.04.07-16.32.43:663][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.07-16.32.43:681][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.04.07-16.32.43:699][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.07-16.32.43:702][591]AssetCheck: New page: Asset Save: SC_ZombieMoan
+[2024.04.07-16.32.43:702][591]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.32.45:408][741]LogContentBrowser: Deferred new asset file creation: SC_ZombieMoan1
+[2024.04.07-16.32.45:420][741]LogContentBrowser: Creating deferred item: SC_ZombieMoan1
+[2024.04.07-16.32.45:451][742]LogContentBrowser: Renaming the item being created (Deferred Item: SC_ZombieMoan1).
+[2024.04.07-16.32.51:838][434]LogContentBrowser: Attempting asset rename: SC_ZombieMoan1 -> SC_ZombieDead
+[2024.04.07-16.32.51:839][434]LogContentBrowser: End creating deferred item SC_ZombieMoan1
+[2024.04.07-16.32.55:817][780]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.33.17:939][450]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.33.18:042][450]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieMoan
+[2024.04.07-16.33.18:042][450]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieMoanFE0FF62A41E2874B82E436BC0E992D12.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieMoan.uasset'
+[2024.04.07-16.33.18:051][450]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 2.90 sec)
+[2024.04.07-16.33.18:052][450]AssetCheck: New page: Asset Save: SC_ZombieMoan
+[2024.04.07-16.33.18:052][450]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.33.26:631][205]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.33.26:786][205]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.07-16.33.26:786][205]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy1C7B0B3D4680115AC1D0CEA31CFC86A1.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.07-16.33.26:788][205]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieMoan
+[2024.04.07-16.33.26:788][205]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieMoan8C3963734AC918A26129A3BD1F9E5413.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieMoan.uasset'
+[2024.04.07-16.33.26:797][205]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/WAVS/SFX_ZombieMoan
+[2024.04.07-16.33.26:797][205]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieMoan2DED863249C4261BDAA3FF82F8CD78FB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/WAVS/SFX_ZombieMoan.uasset'
+[2024.04.07-16.33.26:809][205]LogFileHelpers: InternalPromptForCheckoutAndSave took 177 ms (total: 3.07 sec)
+[2024.04.07-16.33.26:826][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.04.07-16.33.26:839][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.04.07-16.33.26:849][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.04.07-16.33.26:898][205]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.33.26:898][205]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.07-16.33.26:898][205]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.33.26:898][205]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/WAVS/SFX_ZombieMoan.SFX_ZombieMoan
+[2024.04.07-16.33.29:718][426]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Enemies/Sounds/SC_ZombieDead.SC_ZombieDead
+[2024.04.07-16.33.46:071][633]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.33.46:161][633]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieDead
+[2024.04.07-16.33.46:162][633]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieDeadCB0C063A424A11966E8E3BB527185767.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieDead.uasset'
+[2024.04.07-16.33.46:171][633]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 3.18 sec)
+[2024.04.07-16.33.46:172][633]AssetCheck: New page: Asset Save: SC_ZombieDead
+[2024.04.07-16.33.46:172][633]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieDead.SC_ZombieDead
+[2024.04.07-16.33.59:587][944]LogContentBrowser: Attempting asset rename: zmb2_dead-92305 -> ZombieDead
+[2024.04.07-16.33.59:617][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.33.59:685][944]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieDead
+[2024.04.07-16.33.59:685][944]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieDead57E2B04C4ED57132C88690B7182491B1.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieDead.uasset'
+[2024.04.07-16.33.59:689][944]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/ZombieDead
+[2024.04.07-16.33.59:689][944]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/ZombieDead6B200E044DDC3590FFE265A6A6FFAEA9.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/ZombieDead.uasset'
+[2024.04.07-16.33.59:701][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 3.26 sec)
+[2024.04.07-16.33.59:718][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.07-16.33.59:737][944]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.04.07-16.33.59:749][944]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.04.07-16.33.59:752][944]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.33.59:752][944]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieDead.SC_ZombieDead
+[2024.04.07-16.33.59:752][944]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/ZombieDead.ZombieDead
+[2024.04.07-16.34.13:233][369]LogContentBrowser: Attempting asset rename: ZombieDead -> SFX_ZombieDead
+[2024.04.07-16.34.13:263][369]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.34.13:337][369]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieDead
+[2024.04.07-16.34.13:338][369]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieDead21C0B90A493B19E6AFF7B69014B92079.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieDead.uasset'
+[2024.04.07-16.34.13:343][369]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SFX_ZombieDead
+[2024.04.07-16.34.13:343][369]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieDeadA48A6DF74CBA3CFD8AAE12ACD9928FB0.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SFX_ZombieDead.uasset'
+[2024.04.07-16.34.13:352][369]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 3.35 sec)
+[2024.04.07-16.34.13:376][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.04.07-16.34.13:389][369]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.04.07-16.34.13:401][369]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.04.07-16.34.13:405][369]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.34.13:405][369]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieDead.SC_ZombieDead
+[2024.04.07-16.34.13:405][369]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/SFX_ZombieDead.SFX_ZombieDead
+[2024.04.07-16.34.17:417][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.34.17:534][696]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieDead
+[2024.04.07-16.34.17:534][696]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieDeadA3666A7747420868F91995AA62675453.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieDead.uasset'
+[2024.04.07-16.34.17:538][696]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/WAVS/SFX_ZombieDead
+[2024.04.07-16.34.17:538][696]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieDead0565540449CB6AC7044F5DA7B8A3C376.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/WAVS/SFX_ZombieDead.uasset'
+[2024.04.07-16.34.17:549][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 3.48 sec)
+[2024.04.07-16.34.17:566][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.07-16.34.17:577][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.04.07-16.34.17:592][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.04.07-16.34.17:641][696]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.07-16.34.17:641][696]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieDead.SC_ZombieDead
+[2024.04.07-16.34.17:641][696]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/WAVS/SFX_ZombieDead.SFX_ZombieDead
+[2024.04.07-16.34.38:666][470]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.34.41:914][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.34.41:993][715]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieMoan
+[2024.04.07-16.34.41:993][715]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieMoanD8A379064B13E69A93D50C904A2F02C0.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieMoan.uasset'
+[2024.04.07-16.34.42:002][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 3.57 sec)
+[2024.04.07-16.34.42:003][715]AssetCheck: New page: Asset Save: SC_ZombieMoan
+[2024.04.07-16.34.42:003][715]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieMoan.SC_ZombieMoan
+[2024.04.07-16.36.07:624][959]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.07-16.36.07:733][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.07-16.36.08:321][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.36.08:455][980]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.07-16.36.08:455][980]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_EnemyC733FD8149170908D6569E80EA06948D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.07-16.36.08:465][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 3.71 sec)
+[2024.04.07-16.36.08:468][980]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.36.08:468][980]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.07-16.36.19:650][735]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:24.183 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 12528 files in 14785 folders with total size 1353 MiB.
+[2024.04.07-16.37.16:892][400]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2024.04.07-16.37.16:894][400]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.018
+[2024.04.07-16.37.16:894][400]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile] ([2] browsable assets)...
+[2024.04.07-16.37.17:043][400]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile]
+[2024.04.07-16.37.17:043][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile]
+[2024.04.07-16.37.17:057][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto3
+[2024.04.07-16.37.17:057][400]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonProjectile_Auto3B45153BF49992570523ABBB56D45035F.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto3.uasset'
+[2024.04.07-16.37.17:058][400]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Enemies/Mixamo/Enemy/BP_Zombie] ([2] browsable assets)...
+[2024.04.07-16.37.17:089][400]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Enemies/Mixamo/Enemy/BP_Zombie.BP_Zombie]
+[2024.04.07-16.37.17:092][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Mixamo/Enemy/BP_Zombie]
+[2024.04.07-16.37.17:114][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/Mixamo/Enemy/BP_Zombie_Auto3
+[2024.04.07-16.37.17:114][400]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Zombie_Auto3EC216C1D43FD1822F3DE7095F3157A2D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Enemies/Mixamo/Enemy/BP_Zombie_Auto3.uasset'
+[2024.04.07-16.37.17:116][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/Blueprints/BP_Enemy] ([2] browsable assets)...
+[2024.04.07-16.37.17:116][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Blueprints/BP_Enemy]
+[2024.04.07-16.37.17:134][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/Blueprints/BP_Enemy_Auto3
+[2024.04.07-16.37.17:134][400]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy_Auto3EC6EEA3A4EF019ECF3F0DE938D0456E6.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Enemies/Blueprints/BP_Enemy_Auto3.uasset'
+[2024.04.07-16.37.17:135][400]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Enemies/Sounds/SC_ZombieDead] ([1] browsable assets)...
+[2024.04.07-16.37.17:135][400]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Sounds/SC_ZombieDead]
+[2024.04.07-16.37.17:136][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Enemies/Sounds/SC_ZombieDead_Auto3
+[2024.04.07-16.37.17:136][400]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieDead_Auto3703AE22E43A9F3A6E93355AA02C4AE5A.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/Enemies/Sounds/SC_ZombieDead_Auto3.uasset'
+[2024.04.07-16.37.17:137][400]LogFileHelpers: Auto-saving content packages took 0.244
+[2024.04.07-16.38.52:485][212]LogFactory: FactoryCreateFile: SoundWave with SoundFactory (0 0 C:\Users\ASUS\Downloads\Zombie-Aggressive-Attack-A9-www.fesliyanstudios.com.wav)
+[2024.04.07-16.38.52:487][212]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com...
+[2024.04.07-16.38.52:507][212]LogAudio: Display: Chunk sizes for SoundWave /Game/Enemies/Sounds/WAVS/Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com.Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-16.38.52:508][212]LogAudioDerivedData: Display: Building compressed audio format BINKA hash BINKA_SCVER_5028_R4DV_false_SR0_-1.000000_SR1_-1.000000_SR2_-1.000000_SR3_-1.000000_SR4_-1.000000_QMOD_1.000000_CQLT_-1_ASTH_0.000000_INLC_false_CSZE_65536_LCF_false_ZCS_0_MCSO_-1_END wave Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com...
+[2024.04.07-16.38.52:531][213]LogAudio: Display: Chunk sizes for SoundWave /Game/Enemies/Sounds/WAVS/Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com.Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com: Chunk0=28 bytes, Chunk1-N=256k
+[2024.04.07-16.39.10:646][849]LogContentBrowser: Attempting asset rename: Zombie-Aggressive-Attack-A9-www_fesliyanstudios_com -> SFX_ZombieAttack
+[2024.04.07-16.39.10:714][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.39.10:818][849]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/WAVS/SFX_ZombieAttack
+[2024.04.07-16.39.10:818][849]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SFX_ZombieAttackAF7273A34FA1F73A812B438974F0CA90.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/WAVS/SFX_ZombieAttack.uasset'
+[2024.04.07-16.39.10:839][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 3.84 sec)
+[2024.04.07-16.39.10:867][849]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.04.07-16.39.10:899][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2024.04.07-16.39.10:927][849]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.07-16.39.10:929][849]AssetCheck: New page: Asset Save: SFX_ZombieAttack
+[2024.04.07-16.39.10:929][849]LogContentValidation: Display: Validating /Script/Engine.SoundWave /Game/Enemies/Sounds/WAVS/SFX_ZombieAttack.SFX_ZombieAttack
+[2024.04.07-16.39.15:067][214]LogContentBrowser: Deferred new asset file creation: SC_ZombieMoan1
+[2024.04.07-16.39.15:075][214]LogContentBrowser: Creating deferred item: SC_ZombieMoan1
+[2024.04.07-16.39.15:087][215]LogContentBrowser: Renaming the item being created (Deferred Item: SC_ZombieMoan1).
+[2024.04.07-16.39.23:079][142]LogContentBrowser: Attempting asset rename: SC_ZombieMoan1 -> SC_ZombieAttack
+[2024.04.07-16.39.23:080][142]LogContentBrowser: End creating deferred item SC_ZombieMoan1
+[2024.04.07-16.39.25:220][352]LogAssetEditorSubsystem: Opening Asset editor for SoundCue /Game/Enemies/Sounds/SC_ZombieAttack.SC_ZombieAttack
+[2024.04.07-16.39.40:805][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.39.40:891][451]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieAttack
+[2024.04.07-16.39.40:891][451]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieAttackBF1192B14802342B740FFB89127072F9.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieAttack.uasset'
+[2024.04.07-16.39.40:906][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 3.94 sec)
+[2024.04.07-16.39.40:908][451]AssetCheck: New page: Asset Save: SC_ZombieAttack
+[2024.04.07-16.39.40:908][451]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieAttack.SC_ZombieAttack
+[2024.04.07-16.39.43:421][627]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.39.43:427][627]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.39.43:427][627]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.07-16.39.43:429][627]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 17 ms)
+[2024.04.07-16.39.43:432][627]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.07-16.39.43:433][627]LogPlayLevel: [PlayLevel] Compiling BP_Zombie before play...
+[2024.04.07-16.39.43:434][627]LogPlayLevel: [PlayLevel]   Compiling BP_Enemy as a dependent...
+[2024.04.07-16.39.43:537][627]LogPlayLevel: [PlayLevel] Compiling BP_FirstPersonProjectile before play...
+[2024.04.07-16.39.43:568][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.04.07-16.39.43:569][627]LogPlayLevel: PlayLevel: Blueprint regeneration took 138 ms (3 blueprints)
+[2024.04.07-16.39.43:569][627]PIE: New page: PIE session: FirstPersonMap (7 באפר׳ 2024, 22:39:43)
+[2024.04.07-16.39.43:570][627]LogPlayLevel: Display: Creating online subsystem for client :Context_32
+[2024.04.07-16.39.43:573][627]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.04.07-16.39.43:602][628]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.39.43:609][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007218s)
+[2024.04.07-16.39.43:609][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.007266s)
+[2024.04.07-16.39.43:627][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.07-16.39.43:628][628]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.39.43:628][628]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.39.43:629][628]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.07-16.39.43:629][628]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.39.43:629][628]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.39.43:629][628]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.39.43:629][628]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.39.43:630][628]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.39.43:630][628]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 266 ms)
+[2024.04.07-16.39.43:630][628]LogPlayLevel: PIE: World Init took: (0.003054s)
+[2024.04.07-16.39.43:630][628]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.04.07-16.39.43:630][628]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.39.43:630][628]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.39.43:630][628]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.39.43:630][628]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.39.43:631][628]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.07-16.39.43:631][628]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.39.43:631][628]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.07-16.39.43:631][628]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.39.43:631][628]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.39.43:631][628]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.39.43:631][628]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.39.43:634][628]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.39.43:741][628]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.07-16.39.43:742][628]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.39.43:742][628]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.39.43:742][628]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.39.43:743][628]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.04.07-16.39.43:744][628]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.04.07-16.39.43:746][628]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.04.07-16.39.43:746][628]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.04.07-16.39.43:746][628]LogInit: FAudioDevice initialized with ID 9.
+[2024.04.07-16.39.43:746][628]LogAudio: Display: Audio Device (ID: 9) registered with world 'FirstPersonMap'.
+[2024.04.07-16.39.43:746][628]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.07-16.39.43:750][628]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.07-16.39.43:754][628]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.07-19.39.43
+[2024.04.07-16.39.43:755][628]LogWorld: Bringing up level for play took: 0.004945
+[2024.04.07-16.39.43:761][628]PIE: Server logged in
+[2024.04.07-16.39.43:762][628]PIE: Play in editor total start time 0.335 seconds.
+[2024.04.07-16.39.51:355][461]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SFX_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.39.55:754][950]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SFX_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.39.57:683][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.39.57:683][164]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.39.57:683][164]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.39.57:684][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.39.57:685][164]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.39.57:696][164]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.39.57:701][164]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.39.57:721][164]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.39.57:722][164]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.04.07-16.39.57:722][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.07-16.39.57:726][164]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.04.07-16.39.57:758][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2024.04.07-16.39.57:919][165]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.04.07-16.40.02:316][500]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.40.02:435][500]LogSavePackage: Moving output files for package: /Game/Enemies/Sounds/SC_ZombieAttack
+[2024.04.07-16.40.02:435][500]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/SC_ZombieAttack7A9678924C80E5AA5FB598909B1581C9.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Sounds/SC_ZombieAttack.uasset'
+[2024.04.07-16.40.02:452][500]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 4.07 sec)
+[2024.04.07-16.40.02:455][500]AssetCheck: New page: Asset Save: SC_ZombieAttack
+[2024.04.07-16.40.02:455][500]LogContentValidation: Display: Validating /Script/Engine.SoundCue /Game/Enemies/Sounds/SC_ZombieAttack.SC_ZombieAttack
+[2024.04.07-16.40.39:310][618]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.07-16.40.39:420][618]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.04.07-16.40.39:826][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.40.39:983][630]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.07-16.40.39:983][630]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_EnemyEDF499B4478CD1CB0B0F95ABC949D380.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.07-16.40.40:000][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 4.25 sec)
+[2024.04.07-16.40.40:004][630]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.40.40:004][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.07-16.40.54:394][460]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.07-16.40.54:502][460]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.04.07-16.40.54:893][465]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-16.40.55:064][465]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.07-16.40.55:064][465]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy3657323D44B5865424863CBE60BF895C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.07-16.40.55:080][465]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 4.44 sec)
+[2024.04.07-16.40.55:082][465]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.07-16.40.55:082][465]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.07-16.41.02:390][950]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.07-16.41.02:396][950]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.07-16.41.02:396][950]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.07-16.41.02:399][950]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 20 ms)
+[2024.04.07-16.41.02:399][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.07-16.41.02:399][950]PIE: New page: PIE session: FirstPersonMap (7 באפר׳ 2024, 22:41:02)
+[2024.04.07-16.41.02:422][950]LogPlayLevel: Display: Creating online subsystem for client :Context_33
+[2024.04.07-16.41.02:424][950]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.04.07-16.41.02:448][951]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.41.02:459][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011550s)
+[2024.04.07-16.41.02:459][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.011619s)
+[2024.04.07-16.41.02:483][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.04.07-16.41.02:487][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-16.41.02:487][951]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-16.41.02:488][951]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.07-16.41.02:489][951]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.07-16.41.02:489][951]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-16.41.02:489][951]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-16.41.02:489][951]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.07-16.41.02:493][951]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-16.41.02:493][951]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 270 ms)
+[2024.04.07-16.41.02:493][951]LogPlayLevel: PIE: World Init took: (0.005942s)
+[2024.04.07-16.41.02:493][951]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.04.07-16.41.02:493][951]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.07-16.41.02:493][951]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.07-16.41.02:493][951]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.07-16.41.02:493][951]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.07-16.41.02:493][951]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.07-16.41.02:494][951]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.07-16.41.02:494][951]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.07-16.41.02:494][951]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.07-16.41.02:494][951]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.07-16.41.02:494][951]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.07-16.41.02:494][951]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.07-16.41.02:497][951]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.07-16.41.02:626][951]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.07-16.41.02:626][951]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.07-16.41.02:626][951]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.07-16.41.02:626][951]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.07-16.41.02:629][951]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.04.07-16.41.02:629][951]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.04.07-16.41.02:631][951]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.04.07-16.41.02:631][951]LogInit: FAudioDevice initialized with ID 10.
+[2024.04.07-16.41.02:631][951]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.04.07-16.41.02:631][951]LogAudio: Display: Audio Device (ID: 10) registered with world 'FirstPersonMap'.
+[2024.04.07-16.41.02:631][951]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.07-16.41.02:635][951]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.07-16.41.02:641][951]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.07-19.41.02
+[2024.04.07-16.41.02:642][951]LogWorld: Bringing up level for play took: 0.006133
+[2024.04.07-16.41.02:649][951]PIE: Server logged in
+[2024.04.07-16.41.02:650][951]PIE: Play in editor total start time 0.253 seconds.
+[2024.04.07-16.41.06:418][214]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.41.10:851][580]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.41.15:252][ 54]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.41.19:658][556]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.41.24:632][ 70]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_ZombieMoan'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.07-16.41.31:962][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.41.31:962][934]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.07-16.41.31:962][934]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.41.31:963][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.41.31:963][934]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.07-16.41.31:982][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.07-16.41.31:987][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-16.41.32:010][934]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.07-16.41.32:010][934]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.04.07-16.41.32:010][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.07-16.41.32:012][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.04.07-16.41.32:038][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.07-16.41.32:043][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.04.07-16.41.32:178][935]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.04.07-16.43.02:490][257]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.43.02:490][257]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-16.44.02:331][671]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-16.44.02:331][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
