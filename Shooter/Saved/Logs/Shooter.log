@@ -2886,3 +2886,193 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2024.04.07-17.05.12:302][779]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
 [2024.04.07-17.05.12:339][781]LogPlayLevel: Display: Destroying online subsystem :Context_42
 [2024.04.07-17.05.13:608][851]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 0 (Too old connection (622 seconds idle), disconnect it)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 1 (Connection 1 seems to be dead)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 2 (Closing connection)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: 0000046D189DEB00: libcurl info message cache 5 (Closing connection)
+[2024.04.07-17.19.26:016][416]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC7F3C7BE-47FC-FB7F-ABD3-689387F3F03C%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.07-17.21.12:477][731]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-17.21.12:477][731]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-17.22.33:792][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.04.07-17.22.34:249][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.22.34:250][128]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.04.07-17.22.34:250][128]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-17.22.34:250][128]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-17.22.34:608][128]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-17.22.34:608][128]LogWorldPartition: Display: WorldPartition initialize took 357 ms (total: 693 ms)
+[2024.04.07-17.22.34:622][128]LogAssetEditorSubsystem: Opening Asset editor for World /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap
+[2024.04.07-17.22.34:622][128]Cmd: MAP LOAD FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Maps/FirstPersonMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.07-17.22.34:622][128]LightingResults: New page: Lighting Build
+[2024.04.07-17.22.34:622][128]LoadErrors: New page: Loading map: FirstPersonMap.umap
+[2024.04.07-17.22.34:656][128]LogSlate: Window 'MainMenu' being destroyed
+[2024.04.07-17.22.34:769][128]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-17.22.34:769][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.22.34:808][128]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-17.22.34:808][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.22.34:808][128]MapCheck: New page: Map Check
+[2024.04.07-17.22.34:808][128]LightingResults: New page: Lighting Build
+[2024.04.07-17.22.34:830][128]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.07-17.22.34:835][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.04.07-17.22.34:921][128]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-17.22.34:922][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.22.34:923][128]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.07-17.22.34:965][128]LogUObjectHash: Compacting FUObjectHashTables data took   5.71ms
+[2024.04.07-17.22.34:984][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.04.07-17.22.35:019][128]LogAudio: Display: Audio Device (ID: 1) registered with world 'FirstPersonMap'.
+[2024.04.07-17.22.35:019][128]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.22.35:019][128]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-17.22.35:020][128]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.07-17.22.35:021][128]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.04.07-17.22.35:021][128]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.07-17.22.35:021][128]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.07-17.22.35:102][128]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.07-17.22.35:102][128]LogWorldPartition: Display: WorldPartition initialize took 81 ms (total: 775 ms)
+[2024.04.07-17.22.35:177][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.07-17.22.35:203][128]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.04.07-17.22.35:207][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.07-17.22.35:207][128]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.422ms to complete.
+[2024.04.07-17.22.50:120][206]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.22.50:121][206]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.22.50:121][206]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-17.23.15:870][964]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-17.23.15:870][964]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.07-17.24.58:466][977]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-17.24.58:467][977]LogWindowsTextInputMethodSystem: Activated input method: Hebrew (Israel) - (Keyboard).
+[2024.04.07-17.25.14:056][830]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.25.14:096][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.04.07-17.25.14:585][848]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.25.14:752][848]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.25.14:752][848]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle4DDEBE2E47C7A92B3CC8D78A53354E41.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.25.14:764][848]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 6.43 sec)
+[2024.04.07-17.25.14:767][848]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.25.14:767][848]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.26.08:024][951]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_ReloadInsert_Cue.GrenadeLauncher_ReloadInsert_Cue:SoundCueGraph_28.SoundCueGraphNode_3' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.08:024][951]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_ReloadInsert_Cue.GrenadeLauncher_ReloadInsert_Cue:SoundCueGraph_28.SoundCueGraphNode_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.08:024][951]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_ReloadInsert_Cue.GrenadeLauncher_ReloadInsert_Cue:SoundCueGraph_28.SoundCueGraphNode_5' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.08:024][951]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_ReloadInsert_Cue.GrenadeLauncher_ReloadInsert_Cue:SoundCueGraph_28.SoundCueGraphNode_Root_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.52:152][583]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_160' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.52:152][583]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_161' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.52:152][583]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_162' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.52:152][583]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.26.52:152][583]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Reload_Cue.GrenadeLauncher_Reload_Cue:SoundCueGraph_28.SoundCueGraphNode_Root_28' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.27.58:049][591]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_AmmoPickup_Cue.Rifle_AmmoPickup_Cue:SoundCueGraph_4.SoundCueGraphNode_120' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.27.58:049][591]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_AmmoPickup_Cue.Rifle_AmmoPickup_Cue:SoundCueGraph_4.SoundCueGraphNode_Root_4' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_101' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_103' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_121' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_122' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_123' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.05:821][ 57]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_ReloadInsert_Cue.Rifle_ReloadInsert_Cue:SoundCueGraph_9.SoundCueGraphNode_Root_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.17:949][780]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_102' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.17:949][780]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_123' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.17:949][780]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Reload_Cue.Rifle_Reload_Cue:SoundCueGraph_9.SoundCueGraphNode_Root_9' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.43:517][307]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_150' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.43:517][307]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_151' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.43:517][307]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_152' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.43:517][307]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_153' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.28.43:517][307]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Reload_Cue.Shotgun_Reload_Cue:SoundCueGraph_58.SoundCueGraphNode_Root_58' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.29.49:519][513]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.29.49:560][513]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.07-17.29.50:092][537]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.29.50:280][537]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.29.50:280][537]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle068CF4D740CCE0F54F2F60AA8F33DE9E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.29.50:288][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 6.62 sec)
+[2024.04.07-17.29.50:289][537]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.29.50:289][537]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.30.37:287][  5]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.30.37:325][  5]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.07-17.30.37:822][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.30.38:003][ 25]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.30.38:003][ 25]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleE1BB4FAD4C645FD2194691A5DC917FCB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.30.38:012][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 6.81 sec)
+[2024.04.07-17.30.38:014][ 25]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.30.38:014][ 25]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.31.03:077][471]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.31.03:116][471]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.07-17.31.03:780][503]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.31.03:917][503]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.31.03:917][503]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleB8F9402846CF27F0EA12E6B65055B47E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.31.03:932][503]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 6.96 sec)
+[2024.04.07-17.31.03:934][503]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.31.03:934][503]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.31.19:694][141]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.31.19:695][141]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.07-17.31.19:695][141]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.07-17.32.10:757][757]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-17.32.10:870][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.07-17.32.11:537][775]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.32.11:693][775]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-17.32.11:693][775]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter17E589944B7CABC62989A5A672084EC7.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-17.32.11:701][775]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 7.13 sec)
+[2024.04.07-17.32.11:702][775]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-17.32.11:702][775]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.32.44:061][664]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Raise_Cue.Shotgun_Raise_Cue:SoundCueGraph_57.SoundCueGraphNode_56' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.32.44:061][664]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Shotgun/Shotgun_Raise_Cue.Shotgun_Raise_Cue:SoundCueGraph_57.SoundCueGraphNode_Root_57' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.33.12:777][920]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.33.12:821][920]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.07-17.33.13:405][944]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.33.13:588][944]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.33.13:589][944]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleECA0795342B74CE133292E8C0B300EC8.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.33.13:597][944]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 7.32 sec)
+[2024.04.07-17.33.13:600][944]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.33.13:600][944]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.33.22:807][488]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Raise_Cue.GrenadeLauncher_Raise_Cue:SoundCueGraph_27.SoundCueGraphNode_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.33.22:807][488]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Raise_Cue.GrenadeLauncher_Raise_Cue:SoundCueGraph_27.SoundCueGraphNode_Root_27' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.33.26:077][684]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Lower_Cue.GrenadeLauncher_Lower_Cue:SoundCueGraph_26.SoundCueGraphNode_25' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.33.26:077][684]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/GrenadeLauncher/GrenadeLauncher_Lower_Cue.GrenadeLauncher_Lower_Cue:SoundCueGraph_26.SoundCueGraphNode_Root_26' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.33.51:540][174]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.33.51:597][174]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.04.07-17.33.52:571][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.33.52:724][224]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.33.52:724][224]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_RifleEEA1AF2A4FFD13D08FC3A5B18842B2F3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.33.52:733][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 7.48 sec)
+[2024.04.07-17.33.52:735][224]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.33.52:735][224]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.34.06:256][ 23]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Raise_Cue.Rifle_Raise_Cue:SoundCueGraph_8.SoundCueGraphNode_104' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.34.06:256][ 23]LogBlueprint: Warning: Node '/Game/MilitaryWeapDark/Sound/Rifle/Rifle_Raise_Cue.Rifle_Raise_Cue:SoundCueGraph_8.SoundCueGraphNode_Root_8' missing NodeGuid because of upgrade from old package version, this can cause deterministic cooking issues please resave package.
+[2024.04.07-17.34.13:497][430]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.07-17.34.13:539][430]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.07-17.34.14:844][499]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.34.15:016][499]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.07-17.34.15:016][499]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle5597D4A1436BD5F80AF03D88FE42227B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.07-17.34.15:024][499]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 7.66 sec)
+[2024.04.07-17.34.15:026][499]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.07-17.34.15:026][499]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.07-17.34.23:016][950]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.04.07-17.34.23:016][950]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.07-17.34.24:377][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.34.24:524][ 27]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-17.34.24:525][ 27]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterB41B9C424D89AE60699E3C99B1BF1CDC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-17.34.24:532][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 7.82 sec)
+[2024.04.07-17.34.24:534][ 27]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-17.34.24:534][ 27]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.34.24:848][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.07-17.35.15:778][893]LogEditorTransaction: Undo Move Node
+[2024.04.07-17.35.34:919][955]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-17.35.35:024][955]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.07-17.35.35:760][975]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.35.35:973][975]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-17.35.35:974][975]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter1B63F6464E7379353F4D8BB38522EE89.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-17.35.35:983][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 223 ms (total: 8.04 sec)
+[2024.04.07-17.35.35:985][975]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-17.35.35:986][975]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.36.28:835][656]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-17.36.28:897][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.04.07-17.36.29:377][673]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.36.29:570][673]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-17.36.29:571][673]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterB001BC8C4AABEC7B141685B1BB4B95A2.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-17.36.29:580][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 8.25 sec)
+[2024.04.07-17.36.29:583][673]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-17.36.29:583][673]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.38.02:272][385]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.07-17.38.02:367][385]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.07-17.38.03:073][409]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.07-17.38.03:276][409]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.07-17.38.03:277][409]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter97BFA7B14A0722CEF9DCAD9F5B61D0DC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.07-17.38.03:285][409]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 8.46 sec)
+[2024.04.07-17.38.03:287][409]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.07-17.38.03:287][409]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.07-17.38.03:917][445]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
