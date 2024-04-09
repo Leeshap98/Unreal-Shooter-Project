@@ -2481,3 +2481,512 @@ LogInit: Object subsystem initialized
 [2024.04.09-07.26.53:326][332]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
 [2024.04.09-07.26.53:336][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
 [2024.04.09-07.26.53:395][334]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.04.09-07.28.19:494][201]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.09-07.28.19:549][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.04.09-07.28.20:045][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.28.20:231][216]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.09-07.28.20:232][216]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle5B0DABB14196E69A86A7F699376D0424.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.09-07.28.20:246][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 4.58 sec)
+[2024.04.09-07.28.20:249][216]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.09-07.28.20:249][216]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.09-07.29.13:256][705]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.09-07.29.13:307][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.09-07.29.14:204][741]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.29.14:376][741]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.09-07.29.14:376][741]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle3810A1DF4A0CE193E3F70E973602D16C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.09-07.29.14:394][741]LogFileHelpers: InternalPromptForCheckoutAndSave took 189 ms (total: 4.77 sec)
+[2024.04.09-07.29.14:400][741]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.09-07.29.14:400][741]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.09-07.30.07:247][359]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.09-07.30.07:298][359]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.09-07.30.07:816][376]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.30.07:993][376]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.09-07.30.07:994][376]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle4B5DCB12484518FF468C1E98643F6F1D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.09-07.30.08:014][376]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 4.97 sec)
+[2024.04.09-07.30.08:034][376]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.09-07.30.08:034][376]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.09-07.30.44:809][654]LogEditorTransaction: Undo Create Pin Link
+[2024.04.09-07.31.57:312][142]BlueprintLog: New page: Compile BP_Pickup_Rifle
+[2024.04.09-07.31.57:357][142]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.09-07.31.57:888][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.31.58:090][159]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Pickup_Rifle
+[2024.04.09-07.31.58:090][159]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Pickup_Rifle2B510CFC43CD6713B2CE03BAF5FEBF83.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Pickup_Rifle.uasset'
+[2024.04.09-07.31.58:101][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 5.18 sec)
+[2024.04.09-07.31.58:109][159]AssetCheck: New page: Asset Save: BP_Pickup_Rifle
+[2024.04.09-07.31.58:109][159]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Pickup_Rifle.BP_Pickup_Rifle
+[2024.04.09-07.32.01:046][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.04.09-07.32.01:052][300]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.32.01:188][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.04.09-07.32.01:214][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.04.09-07.32.01:235][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.04.09-07.32.01:250][300]LogFileHelpers: InternalPromptForCheckoutAndSave took 197 ms (total: 5.38 sec)
+[2024.04.09-07.32.03:484][441]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.09-07.32.03:493][441]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.09-07.32.03:493][441]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.09-07.32.03:495][441]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 60 ms)
+[2024.04.09-07.32.03:495][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.09-07.32.03:496][441]PIE: New page: PIE session: FirstPersonMap (9 באפר׳ 2024, 13:32:03)
+[2024.04.09-07.32.03:521][441]LogPlayLevel: Display: Creating online subsystem for client :Context_34
+[2024.04.09-07.32.03:524][441]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.04.09-07.32.03:530][442]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.09-07.32.03:543][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013075s)
+[2024.04.09-07.32.03:543][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.013137s)
+[2024.04.09-07.32.03:566][442]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2024.04.09-07.32.03:568][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.32.03:568][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.32.03:570][442]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.09-07.32.03:571][442]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.09-07.32.03:571][442]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.09-07.32.03:571][442]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.09-07.32.03:571][442]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.09-07.32.03:576][442]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.09-07.32.03:576][442]LogWorldPartition: Display: WorldPartition initialize took 4 ms (total: 305 ms)
+[2024.04.09-07.32.03:576][442]LogPlayLevel: PIE: World Init took: (0.007789s)
+[2024.04.09-07.32.03:576][442]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.09-07.32.03:576][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.09-07.32.03:577][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.09-07.32.03:577][442]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.09-07.32.03:577][442]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.09-07.32.03:577][442]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.09-07.32.03:580][442]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.09-07.32.03:659][442]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.09-07.32.03:659][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.09-07.32.03:659][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.09-07.32.03:659][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.09-07.32.03:661][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.04.09-07.32.03:661][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.04.09-07.32.03:664][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.04.09-07.32.03:664][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.04.09-07.32.03:664][442]LogInit: FAudioDevice initialized with ID 18.
+[2024.04.09-07.32.03:664][442]LogAudio: Display: Audio Device (ID: 18) registered with world 'FirstPersonMap'.
+[2024.04.09-07.32.03:664][442]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.09-07.32.03:668][442]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.09-07.32.03:671][442]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.09-10.32.03
+[2024.04.09-07.32.03:672][442]LogWorld: Bringing up level for play took: 0.002790
+[2024.04.09-07.32.03:677][442]PIE: Server logged in
+[2024.04.09-07.32.03:678][442]PIE: Play in editor total start time 0.185 seconds.
+[2024.04.09-07.32.03:682][442]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.09-07.32.10:942][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.32.10:942][973]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.09-07.32.10:942][973]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.32.10:943][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.32.10:943][973]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.09-07.32.10:946][973]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.09-07.32.10:949][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.32.10:973][973]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.32.10:975][973]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.04.09-07.32.10:975][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.09-07.32.10:978][973]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.04.09-07.32.10:989][973]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.09-07.32.11:008][974]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.04.09-07.32.51:424][827]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.32.51:424][827]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.32.51:425][827]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.34.37:115][512]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.09-07.34.37:239][512]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.09-07.34.38:073][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.34.38:254][526]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.09-07.34.38:255][526]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter953DB8C0477A8AC79F142B8454E2F761.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.09-07.34.38:270][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms (total: 5.58 sec)
+[2024.04.09-07.34.38:273][526]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.09-07.34.38:274][526]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.35.53:980][ 80]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.09-07.35.54:098][ 80]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.09-07.35.54:849][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.35.55:065][ 91]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.09-07.35.55:066][ 91]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterEB8DA0A349E2AA2AD4BFC6893AA349A7.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.09-07.35.55:079][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 5.81 sec)
+[2024.04.09-07.35.55:083][ 91]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.09-07.35.55:083][ 91]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.36.11:506][205]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.09-07.36.11:625][205]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.04.09-07.36.12:101][207]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.36.12:292][207]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.09-07.36.12:293][207]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterAE2CEEC84EF9EC558555489A8EC5FC2E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.09-07.36.12:308][207]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 6.02 sec)
+[2024.04.09-07.36.12:312][207]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.09-07.36.12:312][207]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.37.20:359][961]LogEditorTransaction: Undo Move Node
+[2024.04.09-07.37.24:713][969]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.09-07.37.24:888][969]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2024.04.09-07.37.26:459][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.37.29:321][972]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.09-07.37.29:322][972]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacterC5E81E5A4381665F533F75937A97B4EB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.09-07.37.31:533][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 5.07 sec (total: 11.0 sec)
+[2024.04.09-07.37.31:619][972]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.09-07.37.31:619][972]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.37.56:455][807]BlueprintLog: New page: Compile BP_FirstPersonCharacter
+[2024.04.09-07.37.56:564][807]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.04.09-07.37.57:305][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.37.57:568][818]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.09-07.37.57:568][818]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter465330814A87FE9AB670CDA81E8147B3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.09-07.37.57:578][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 272 ms (total: 11.3 sec)
+[2024.04.09-07.37.57:581][818]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
+[2024.04.09-07.37.57:581][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.09-07.38.10:763][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.04.09-07.38.10:892][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.38.10:896][149]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/MainMenu.MainMenu
+[2024.04.09-07.38.10:896][149]Cmd: MAP LOAD FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Maps/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.04.09-07.38.10:897][149]LightingResults: New page: Lighting Build
+[2024.04.09-07.38.10:900][149]LoadErrors: New page: Loading map: MainMenu.umap
+[2024.04.09-07.38.10:919][149]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.38.10:919][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.38.10:921][149]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.09-07.38.10:921][149]MapCheck: New page: Map Check
+[2024.04.09-07.38.10:921][149]LightingResults: New page: Lighting Build
+[2024.04.09-07.38.10:942][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.09-07.38.10:957][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2024.04.09-07.38.10:962][149]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.38.10:964][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.38.10:994][149]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.04.09-07.38.11:017][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.04.09-07.38.11:029][149]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2024.04.09-07.38.11:029][149]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.38.11:029][149]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.38.11:029][149]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.09-07.38.11:062][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.04.09-07.38.11:079][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.04.09-07.38.11:084][149]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.04.09-07.38.11:084][149]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.091ms to complete.
+[2024.04.09-07.38.12:123][218]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.09-07.38.12:131][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.09-07.38.12:131][218]PIE: New page: PIE session: MainMenu (9 באפר׳ 2024, 13:38:12)
+[2024.04.09-07.38.12:171][218]LogPlayLevel: Display: Creating online subsystem for client :Context_36
+[2024.04.09-07.38.12:177][218]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.04.09-07.38.12:184][219]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.04.09-07.38.12:186][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001714s)
+[2024.04.09-07.38.12:186][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001772s)
+[2024.04.09-07.38.12:200][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.04.09-07.38.12:203][219]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.38.12:203][219]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.38.12:203][219]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.09-07.38.12:204][219]LogPlayLevel: PIE: World Init took: (0.001229s)
+[2024.04.09-07.38.12:204][219]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.09-07.38.12:204][219]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.09-07.38.12:204][219]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.09-07.38.12:204][219]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.09-07.38.12:204][219]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.09-07.38.12:205][219]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.09-07.38.12:207][219]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.09-07.38.12:292][219]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.09-07.38.12:293][219]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.09-07.38.12:293][219]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.09-07.38.12:293][219]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.09-07.38.12:293][219]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.04.09-07.38.12:293][219]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.04.09-07.38.12:295][219]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.04.09-07.38.12:295][219]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.04.09-07.38.12:295][219]LogInit: FAudioDevice initialized with ID 19.
+[2024.04.09-07.38.12:295][219]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2024.04.09-07.38.12:295][219]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.09-07.38.12:298][219]LogLoad: Game class is 'GameMode'
+[2024.04.09-07.38.12:298][219]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.09-10.38.12
+[2024.04.09-07.38.12:298][219]LogWorld: Bringing up level for play took: 0.000336
+[2024.04.09-07.38.12:300][219]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.09-07.38.12:300][219]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.09-07.38.12:300][219]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.04.09-07.38.12:301][219]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.04.09-07.38.12:301][219]PIE: Server logged in
+[2024.04.09-07.38.12:302][219]PIE: Play in editor total start time 0.17 seconds.
+[2024.04.09-07.38.40:332][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.38.40:333][269]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.04.09-07.38.40:333][269]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.38.40:333][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.38.40:337][269]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.09-07.38.40:339][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.38.40:347][269]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.38.40:348][269]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.04.09-07.38.40:348][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.09-07.38.40:350][269]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.04.09-07.38.40:414][269]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.04.09-07.38.40:431][270]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.04.09-07.38.50:803][894]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.38.50:803][894]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.39.19:466][764]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.39.19:467][764]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.39.19:467][764]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.39.19:474][764]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.39.19:474][764]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.39.22:116][924]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.39.22:117][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.39.22:117][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.39.22:126][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.39.22:126][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.40.11:722][301]LogEditorTransaction: Undo Resize Widget
+[2024.04.09-07.40.13:016][339]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.04.09-07.40.14:574][398]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.04.09-07.40.16:113][484]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.40.16:144][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.09-07.40.16:816][524]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.40.16:903][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.40.16:917][524]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.40.16:918][524]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenu53A835BF4AB036F73C886AA54C7EF48E.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.40.16:936][524]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 11.4 sec)
+[2024.04.09-07.40.16:937][524]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.40.16:937][524]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.40.20:643][750]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:646][750]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:654][750]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:745][751]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:749][751]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:813][752]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:818][752]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:828][752]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:913][753]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:959][753]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.20:990][754]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.21:130][755]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.21:152][756]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.21:313][758]LogEditorTransaction: Warning: Canceling transaction partially is unsupported. Canceling Drag and Drop Widget entirely.
+[2024.04.09-07.40.21:758][764]LogEditorTransaction: Undo Drag and Drop Widget
+[2024.04.09-07.40.29:231][ 41]BlueprintLog: New page: Compile W_Settings
+[2024.04.09-07.40.29:258][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.09-07.40.29:796][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.40.29:956][ 49]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset" SILENT=true
+[2024.04.09-07.40.29:966][ 49]LogSavePackage: Moving output files for package: /Game/Widgets/W_Settings
+[2024.04.09-07.40.29:966][ 49]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_SettingsC572753C464D258975F8578B9097D172.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset'
+[2024.04.09-07.40.29:979][ 49]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 11.6 sec)
+[2024.04.09-07.40.29:982][ 49]AssetCheck: New page: Asset Save: W_Settings
+[2024.04.09-07.40.29:982][ 49]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.40.36:309][338]BlueprintLog: New page: Compile W_Settings
+[2024.04.09-07.40.36:337][338]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.04.09-07.40.37:088][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.40.37:211][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset" SILENT=true
+[2024.04.09-07.40.37:222][356]LogSavePackage: Moving output files for package: /Game/Widgets/W_Settings
+[2024.04.09-07.40.37:223][356]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_Settings45B3FC9247D58EE7BA17E891212F2260.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset'
+[2024.04.09-07.40.37:234][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 11.8 sec)
+[2024.04.09-07.40.37:238][356]AssetCheck: New page: Asset Save: W_Settings
+[2024.04.09-07.40.37:238][356]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.41.02:801][502]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.41.02:829][502]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.04.09-07.41.03:983][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.41.04:093][547]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.41.04:108][547]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.41.04:108][547]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenuED843A504F216B9DE828339C50455F6F.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.41.04:121][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 11.9 sec)
+[2024.04.09-07.41.04:125][547]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.41.04:126][547]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.41.26:334][610]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.41.26:370][610]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.04.09-07.41.27:008][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.41.27:111][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.41.27:130][626]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.41.27:131][626]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenuC724E7504A54496ED90EDAB316575FA3.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.41.27:145][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 12.0 sec)
+[2024.04.09-07.41.27:148][626]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.41.27:148][626]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.41.27:688][647]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.09-07.42.48:585][527]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.42.48:616][527]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.04.09-07.42.49:567][556]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.42.49:660][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.42.49:680][556]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.42.49:682][556]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenu1165CB8946E76E34B26E2F965F244D22.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.42.49:699][556]LogFileHelpers: InternalPromptForCheckoutAndSave took 132 ms (total: 12.2 sec)
+[2024.04.09-07.42.49:703][556]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.42.49:703][556]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.43.17:367][825]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.43.17:402][825]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.04.09-07.43.18:142][860]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.43.18:224][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.43.18:236][860]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.43.18:237][860]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenuEA5D31474D272D1104B324ACB0ABFACB.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.43.18:253][860]LogFileHelpers: InternalPromptForCheckoutAndSave took 110 ms (total: 12.3 sec)
+[2024.04.09-07.43.18:255][860]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.43.18:255][860]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.43.44:889][297]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.43.44:919][297]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.04.09-07.43.45:512][311]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.43.45:591][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.43.45:604][311]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.43.45:605][311]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenu8DE6C8054B03D00C2AB462836A739573.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.43.45:617][311]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 12.4 sec)
+[2024.04.09-07.43.45:619][311]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.43.45:620][311]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.45.13:782][361]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.45.13:814][361]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.09-07.45.14:509][391]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.45.14:608][391]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.45.14:622][391]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.45.14:623][391]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenuBD16ED4C44B5106ABEEAB98FB0A3C42B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.45.14:631][391]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 12.5 sec)
+[2024.04.09-07.45.14:634][391]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.45.14:634][391]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.45.47:565][273]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.45.47:597][273]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.04.09-07.45.48:263][306]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.45.48:372][306]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.45.48:394][306]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.45.48:395][306]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenu049976374078C34B6B840B80ABA51A9B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.45.48:413][306]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 12.7 sec)
+[2024.04.09-07.45.48:418][306]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.45.48:418][306]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.46.40:483][344]BlueprintLog: New page: Compile W_Settings
+[2024.04.09-07.46.40:520][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.04.09-07.46.42:060][432]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.46.42:157][432]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset" SILENT=true
+[2024.04.09-07.46.42:172][432]LogSavePackage: Moving output files for package: /Game/Widgets/W_Settings
+[2024.04.09-07.46.42:173][432]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_SettingsBB0B141B4E0B34006C27768C6D4CA47C.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset'
+[2024.04.09-07.46.42:186][432]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 12.8 sec)
+[2024.04.09-07.46.42:188][432]AssetCheck: New page: Asset Save: W_Settings
+[2024.04.09-07.46.42:188][432]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.46.59:150][340]BlueprintLog: New page: Compile W_Tutorial
+[2024.04.09-07.46.59:191][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2024.04.09-07.46.59:706][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.46.59:777][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Tutorial.uasset" SILENT=true
+[2024.04.09-07.46.59:783][358]LogSavePackage: Moving output files for package: /Game/Widgets/W_Tutorial
+[2024.04.09-07.46.59:784][358]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_Tutorial344668AB42D3352ED0422688D0C3874A.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Tutorial.uasset'
+[2024.04.09-07.46.59:793][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 12.9 sec)
+[2024.04.09-07.46.59:794][358]AssetCheck: New page: Asset Save: W_Tutorial
+[2024.04.09-07.46.59:794][358]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Tutorial.W_Tutorial
+[2024.04.09-07.47.18:058][383]BlueprintLog: New page: Compile W_Settings
+[2024.04.09-07.47.18:093][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.09-07.47.18:600][408]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.47.18:674][408]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset" SILENT=true
+[2024.04.09-07.47.18:681][408]LogSavePackage: Moving output files for package: /Game/Widgets/W_Settings
+[2024.04.09-07.47.18:681][408]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_SettingsEE718BDF4D46AA92879534BE02C9913D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset'
+[2024.04.09-07.47.18:692][408]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 13.0 sec)
+[2024.04.09-07.47.18:694][408]AssetCheck: New page: Asset Save: W_Settings
+[2024.04.09-07.47.18:694][408]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.47.50:908][627]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.09-07.47.50:917][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.09-07.47.50:917][627]PIE: New page: PIE session: MainMenu (9 באפר׳ 2024, 13:47:50)
+[2024.04.09-07.47.50:918][627]LogPlayLevel: Display: Creating online subsystem for client :Context_41
+[2024.04.09-07.47.50:921][627]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.04.09-07.47.50:928][628]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_MainMenu
+[2024.04.09-07.47.50:929][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001719s)
+[2024.04.09-07.47.50:929][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/MainMenu.MainMenu to /Game/Maps/UEDPIE_0_MainMenu.MainMenu (0.001781s)
+[2024.04.09-07.47.50:956][628]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.04.09-07.47.50:958][628]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.47.50:958][628]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.47.50:960][628]LogAIModule: Creating AISystem for world MainMenu
+[2024.04.09-07.47.50:960][628]LogPlayLevel: PIE: World Init took: (0.002010s)
+[2024.04.09-07.47.50:960][628]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.04.09-07.47.50:960][628]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.09-07.47.50:961][628]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.09-07.47.50:961][628]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.09-07.47.50:961][628]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.09-07.47.50:961][628]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.09-07.47.50:961][628]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.09-07.47.50:964][628]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.09-07.47.51:077][628]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.09-07.47.51:077][628]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.09-07.47.51:077][628]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.09-07.47.51:077][628]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.09-07.47.51:078][628]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.04.09-07.47.51:078][628]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.04.09-07.47.51:080][628]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.04.09-07.47.51:080][628]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.04.09-07.47.51:080][628]LogInit: FAudioDevice initialized with ID 20.
+[2024.04.09-07.47.51:080][628]LogAudio: Display: Audio Device (ID: 20) registered with world 'MainMenu'.
+[2024.04.09-07.47.51:080][628]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.09-07.47.51:083][628]LogLoad: Game class is 'GameMode'
+[2024.04.09-07.47.51:084][628]LogWorld: Bringing World /Game/Maps/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2024.04.09-10.47.51
+[2024.04.09-07.47.51:084][628]LogWorld: Bringing up level for play took: 0.000368
+[2024.04.09-07.47.51:084][628]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.09-07.47.51:084][628]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.04.09-07.47.51:084][628]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.04.09-07.47.51:086][628]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.04.09-07.47.51:086][628]PIE: Server logged in
+[2024.04.09-07.47.51:087][628]PIE: Play in editor total start time 0.17 seconds.
+[2024.04.09-07.47.59:433][468]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CapturePermanently
+[2024.04.09-07.47.59:435][468]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.04.09-07.47.59:435][468]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.04.09-07.47.59:435][468]LogNet: Browse: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.09-07.47.59:436][468]LogLoad: LoadMap: /Game/FirstPerson/Maps/FirstPersonMap
+[2024.04.09-07.47.59:436][468]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_MainMenu
+[2024.04.09-07.47.59:437][468]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.47.59:437][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.47.59:472][468]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.09-07.47.59:476][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.04.09-07.47.59:506][468]LogAudio: Display: Audio Device (ID: 20) registered with world 'FirstPersonMap'.
+[2024.04.09-07.47.59:506][468]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.09-07.47.59:506][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.09-07.47.59:506][468]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.09-07.47.59:507][468]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.09-07.47.59:507][468]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.09-07.47.59:507][468]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 1, IsCooking = 0
+[2024.04.09-07.47.59:507][468]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.09-07.47.59:509][468]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.09-07.47.59:552][468]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 42 ms (total: 103 ms)
+[2024.04.09-07.47.59:554][468]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.09-07.47.59:554][468]LogWorldPartition: Display: WorldPartition initialize took 46 ms (total: 352 ms)
+[2024.04.09-07.47.59:554][468]LogPlayLevel: PIE: World Init took: (0.047942s)
+[2024.04.09-07.47.59:554][468]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2024.04.09-07.47.59:561][468]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 0) at 2024.04.09-10.47.59
+[2024.04.09-07.47.59:562][468]LogWorld: Bringing up level for play took: 0.008180
+[2024.04.09-07.47.59:566][468]LogLoad: Took 0.130682 seconds to LoadMap(/Game/FirstPerson/Maps/FirstPersonMap)
+[2024.04.09-07.47.59:570][468]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.09-07.48.00:652][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.48.00:652][560]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.09-07.48.00:652][560]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.09-07.48.00:653][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.48.00:653][560]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.09-07.48.00:665][560]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.09-07.48.00:669][560]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.09-07.48.00:681][560]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.09-07.48.00:681][560]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.04.09-07.48.00:681][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.09-07.48.00:683][560]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.04.09-07.48.00:698][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.09-07.48.00:726][561]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.04.09-07.48.31:794][386]BlueprintLog: New page: Compile W_Settings
+[2024.04.09-07.48.31:826][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.04.09-07.48.32:417][396]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.48.32:499][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Settings" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset" SILENT=true
+[2024.04.09-07.48.32:508][396]LogSavePackage: Moving output files for package: /Game/Widgets/W_Settings
+[2024.04.09-07.48.32:508][396]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_SettingsA2DCC68D4E6210BAEAB8DDB498A6B1D5.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Settings.uasset'
+[2024.04.09-07.48.32:519][396]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 13.1 sec)
+[2024.04.09-07.48.32:522][396]AssetCheck: New page: Asset Save: W_Settings
+[2024.04.09-07.48.32:522][396]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Settings.W_Settings
+[2024.04.09-07.48.47:665][ 60]BlueprintLog: New page: Compile W_MainMenu
+[2024.04.09-07.48.47:705][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.04.09-07.48.48:391][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.48.48:503][ 76]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_MainMenu" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset" SILENT=true
+[2024.04.09-07.48.48:527][ 76]LogSavePackage: Moving output files for package: /Game/Widgets/W_MainMenu
+[2024.04.09-07.48.48:527][ 76]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_MainMenu5B4F2FA74B83A1FE05D653976870102D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_MainMenu.uasset'
+[2024.04.09-07.48.48:544][ 76]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 13.2 sec)
+[2024.04.09-07.48.48:547][ 76]AssetCheck: New page: Asset Save: W_MainMenu
+[2024.04.09-07.48.48:547][ 76]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_MainMenu.W_MainMenu
+[2024.04.09-07.49.43:507][563]BlueprintLog: New page: Compile W_Tutorial
+[2024.04.09-07.49.43:552][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.04.09-07.49.44:267][574]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.49.44:355][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/W_Tutorial" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Tutorial.uasset" SILENT=true
+[2024.04.09-07.49.44:368][574]LogSavePackage: Moving output files for package: /Game/Widgets/W_Tutorial
+[2024.04.09-07.49.44:369][574]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/W_Tutorial2EFEB3B344327454F6F965A87E287E0B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Widgets/W_Tutorial.uasset'
+[2024.04.09-07.49.44:379][574]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 13.3 sec)
+[2024.04.09-07.49.44:380][574]AssetCheck: New page: Asset Save: W_Tutorial
+[2024.04.09-07.49.44:380][574]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/W_Tutorial.W_Tutorial
+[2024.04.09-07.49.57:237][428]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.04.09-07.50.07:938][  1]LogDerivedDataCache: C:/Users/ASUS/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:24.156 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 12696 files in 14965 folders with total size 1395 MiB.
+[2024.04.09-07.50.09:446][ 92]LogContentBrowser: Deferred new asset file creation: NewSoundClass
+[2024.04.09-07.50.09:457][ 92]LogContentBrowser: Creating deferred item: NewSoundClass
+[2024.04.09-07.50.09:468][ 93]LogContentBrowser: Renaming the item being created (Deferred Item: NewSoundClass).
+[2024.04.09-07.50.17:428][774]LogContentBrowser: Attempting asset rename: NewSoundClass -> AllSounds
+[2024.04.09-07.50.17:429][774]LogContentBrowser: End creating deferred item NewSoundClass
+[2024.04.09-07.50.18:821][890]LogAssetEditorSubsystem: Opening Asset editor for SoundClass /Game/Structs/AllSounds.AllSounds
+[2024.04.09-07.50.39:727][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.04.09-07.50.39:736][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.09-07.50.39:813][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Structs/AllSounds" FILE="../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Structs/AllSounds.uasset" SILENT=true
+[2024.04.09-07.50.39:815][221]LogSavePackage: Moving output files for package: /Game/Structs/AllSounds
+[2024.04.09-07.50.39:815][221]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/AllSounds7900C433460AF14183535ABCFB9B94A8.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Structs/AllSounds.uasset'
+[2024.04.09-07.50.39:837][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 13.4 sec)
+[2024.04.09-07.50.39:838][221]AssetCheck: New page: Asset Save: AllSounds
+[2024.04.09-07.50.39:838][221]LogContentValidation: Display: Validating /Script/Engine.SoundClass /Game/Structs/AllSounds.AllSounds
