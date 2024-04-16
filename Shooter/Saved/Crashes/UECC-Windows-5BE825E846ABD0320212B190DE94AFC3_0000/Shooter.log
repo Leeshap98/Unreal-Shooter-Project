@@ -7142,38 +7142,3 @@ Script Stack (1 frames) :
 [2024.04.16-09.00.49:326][120]LogOutputDevice: Error: [Callstack] 0x00007ff89252257d KERNEL32.DLL!UnknownFunction []
 [2024.04.16-09.00.49:326][120]LogOutputDevice: Error: [Callstack] 0x00007ff893beaa48 ntdll.dll!UnknownFunction []
 [2024.04.16-09.00.49:326][120]LogOutputDevice: Error: 
-[2024.04.16-09.00.49:332][120]LogStats:                SubmitErrorReport -  0.000 s
-[2024.04.16-09.00.50:678][120]LogStats:                    SendNewReport -  1.347 s
-[2024.04.16-09.00.50:678][120]LogStats:             FDebug::EnsureFailed -  1.369 s
-[2024.04.16-09.00.54:402][334]LogScript: Warning: Accessed None trying to read property WalkingSound
-	BP_Enemy_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Enemy_C_3
-	Function /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:0684
-[2024.04.16-09.00.54:402][334]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WalkingSound". Node:  Set Active Graph:  EventGraph Function:  Execute Ubergraph BP Enemy Blueprint:  BP_Enemy
-[2024.04.16-09.00.54:402][334]PIE: Warning: BP_Enemy3.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
-[2024.04.16-09.00.58:765][552]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUD". Node:  Set Percent Graph:  EventGraph Function:  Execute Ubergraph BP Shooter GM Blueprint:  BP_ShooterGM
-[2024.04.16-09.00.58:765][552]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Percent Graph:  EventGraph Function:  Execute Ubergraph BP Shooter GM Blueprint:  BP_ShooterGM
-[2024.04.16-09.01.00:788][657]LogScript: Warning: Accessed None trying to read property WalkingSound
-	BP_Enemy_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_Enemy_C_8
-	Function /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy_C:ExecuteUbergraph_BP_Enemy:0684
-[2024.04.16-09.01.00:790][657]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property WalkingSound". Node:  Set Active Graph:  EventGraph Function:  Execute Ubergraph BP Enemy Blueprint:  BP_Enemy
-[2024.04.16-09.01.00:790][657]PIE: Warning: BP_Enemy8.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
-[2024.04.16-09.01.04:831][874]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_0 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
-[2024.04.16-09.01.05:145][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property HUD". Node:  Set Percent Graph:  EventGraph Function:  Execute Ubergraph BP Shooter GM Blueprint:  BP_ShooterGM
-[2024.04.16-09.01.05:145][889]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  Set Percent Graph:  EventGraph Function:  Execute Ubergraph BP Shooter GM Blueprint:  BP_ShooterGM
-[2024.04.16-09.01.07:757][ 26]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
-[2024.04.16-09.01.07:757][ 26]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
-[2024.04.16-09.01.11:683][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.04.16-09.01.11:683][234]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
-[2024.04.16-09.01.11:684][234]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
-[2024.04.16-09.01.11:686][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.04.16-09.01.11:686][234]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
-[2024.04.16-09.01.11:691][234]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2024.04.16-09.01.11:697][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2024.04.16-09.01.11:730][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2024.04.16-09.01.11:731][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
-[2024.04.16-09.01.11:731][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
-[2024.04.16-09.01.11:734][234]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
-[2024.04.16-09.01.11:758][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
-[2024.04.16-09.01.12:020][235]LogPlayLevel: Display: Destroying online subsystem :Context_91
-[2024.04.16-09.01.24:646][798]LogSlate: Window 'Message Log' being destroyed
-[2024.04.16-09.01.24:672][798]LogSlate: Window 'Message Log' being destroyed
