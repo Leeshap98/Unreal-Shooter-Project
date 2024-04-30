@@ -4060,3 +4060,1264 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.30-08.36.51:270][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 8.16 sec)
 [2024.04.30-08.36.51:272][744]AssetCheck: New page: Asset Save: BP_FirstPersonCharacter
 [2024.04.30-08.36.51:273][744]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.30-08.39.00:689][208]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-08.39.00:695][208]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.30-08.39.00:695][208]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.30-08.39.00:697][208]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 68 ms)
+[2024.04.30-08.39.00:698][208]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.30-08.39.00:698][208]PIE: New page: PIE session: FirstPersonMap (30 באפר׳ 2024, 14:39:00)
+[2024.04.30-08.39.00:736][208]LogPlayLevel: Display: Creating online subsystem for client :Context_39
+[2024.04.30-08.39.00:745][208]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.04.30-08.39.00:787][209]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.39.00:803][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015119s)
+[2024.04.30-08.39.00:803][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.015219s)
+[2024.04.30-08.39.00:838][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.04.30-08.39.00:849][209]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.39.00:849][209]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.39.00:850][209]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.30-08.39.00:851][209]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.30-08.39.00:851][209]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.30-08.39.00:851][209]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.30-08.39.00:851][209]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.30-08.39.00:855][209]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.30-08.39.00:855][209]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 409 ms)
+[2024.04.30-08.39.00:855][209]LogPlayLevel: PIE: World Init took: (0.005782s)
+[2024.04.30-08.39.00:855][209]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.30-08.39.00:855][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.30-08.39.00:855][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-08.39.00:856][209]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-08.39.00:856][209]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-08.39.00:856][209]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-08.39.00:858][209]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-08.39.00:944][209]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.30-08.39.00:944][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-08.39.00:944][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-08.39.00:944][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-08.39.00:947][209]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.04.30-08.39.00:947][209]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.04.30-08.39.00:949][209]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.04.30-08.39.00:949][209]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.04.30-08.39.00:949][209]LogInit: FAudioDevice initialized with ID 28.
+[2024.04.30-08.39.00:950][209]LogAudio: Display: Audio Device (ID: 28) registered with world 'FirstPersonMap'.
+[2024.04.30-08.39.00:950][209]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.04.30-08.39.00:954][209]LogLoad: Game class is 'BP_ShooterGM_C'
+[2024.04.30-08.39.00:960][209]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.30-11.39.00
+[2024.04.30-08.39.00:961][209]LogWorld: Bringing up level for play took: 0.005810
+[2024.04.30-08.39.00:988][209]PIE: Server logged in
+[2024.04.30-08.39.00:989][209]PIE: Play in editor total start time 0.294 seconds.
+[2024.04.30-08.39.01:011][209]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.30-08.39.07:102][538]PIE: Warning: BP_FirstPersonProjectile1.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.07:102][538]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_1
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.07:103][538]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.07:103][538]PIE: Warning: BP_FirstPersonProjectile3.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.07:103][538]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_3
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.07:103][538]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.07:103][538]PIE: Warning: BP_FirstPersonProjectile5.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.07:103][538]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_5
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.07:103][538]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: Total job queries 20, among them cache hits 6 (30.00%)
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: Tracking 14 distinct input hashes that result in 14 distinct outputs (100.00%)
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: RAM used: 505.53 KiB of 1.60 GiB budget. Usage: 0.03%
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.30-08.39.07:144][540]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.39.09:764][681]PIE: Warning: BP_FirstPersonProjectile9.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.09:766][681]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_9
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.09:766][681]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.09:766][681]PIE: Warning: BP_FirstPersonProjectile11.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.09:766][681]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_11
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.09:766][681]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.09:767][681]PIE: Warning: BP_FirstPersonProjectile10.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.09:767][681]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_10
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.09:767][681]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.10:799][737]PIE: Warning: BP_FirstPersonProjectile14.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.10:799][737]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_14
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.10:799][737]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.10:799][737]PIE: Warning: BP_FirstPersonProjectile16.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.10:799][737]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_16
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.10:799][737]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.10:800][737]PIE: Warning: BP_FirstPersonProjectile17.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.10:800][737]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_17
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.10:800][737]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.11:587][780]PIE: Warning: BP_FirstPersonProjectile21.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.11:587][780]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_21
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.11:587][780]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.11:587][780]PIE: Warning: BP_FirstPersonProjectile20.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.11:588][780]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_20
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.11:588][780]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.11:588][780]PIE: Warning: BP_FirstPersonProjectile23.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.11:588][780]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_23
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.11:588][780]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:732][845]PIE: Warning: BP_FirstPersonProjectile26.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:732][845]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_26
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:732][845]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:732][845]PIE: Warning: BP_FirstPersonProjectile28.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:732][845]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_28
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:732][845]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:733][845]PIE: Warning: BP_FirstPersonProjectile29.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:733][845]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_29
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:733][845]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:984][860]PIE: Warning: BP_FirstPersonProjectile35.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:986][860]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_35
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:986][860]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:986][860]PIE: Warning: BP_FirstPersonProjectile34.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:986][860]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_34
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:987][860]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.12:987][860]PIE: Warning: BP_FirstPersonProjectile33.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.12:987][860]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_33
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.12:987][860]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:138][868]PIE: Warning: BP_FirstPersonProjectile41.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:138][868]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_41
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:138][868]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:139][868]PIE: Warning: BP_FirstPersonProjectile40.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:139][868]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_40
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:139][868]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:140][868]PIE: Warning: BP_FirstPersonProjectile39.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:140][868]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_39
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:140][868]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:409][883]PIE: Warning: BP_FirstPersonProjectile43.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:410][883]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_43
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:410][883]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:410][883]PIE: Warning: BP_FirstPersonProjectile46.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:410][883]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_46
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:410][883]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.13:411][883]PIE: Warning: BP_FirstPersonProjectile47.Sphere1 has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.39.13:411][883]LogScript: Warning: Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)
+	BP_FirstPersonProjectile_C /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.BP_FirstPersonProjectile_C_47
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile_C:ExecuteUbergraph_BP_FirstPersonProjectile:103E
+[2024.04.30-08.39.13:411][883]PIE: Error: Blueprint Runtime Error: "Attempted to access CollisionComponent via property K2Node_Event_OtherComp, but CollisionComponent is not valid (pending kill or garbage)". Node:  Add Impulse at Location Graph:  EventGraph Function:  Execute Ubergraph BP First Person Projectile Blueprint:  BP_FirstPersonProjectile
+[2024.04.30-08.39.15:078][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.39.15:078][977]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.39.15:079][977]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.39.15:081][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.39.15:081][977]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.30-08.39.15:086][977]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-08.39.15:090][977]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.39.15:112][977]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.30-08.39.15:114][977]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.04.30-08.39.15:114][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.04.30-08.39.15:118][977]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.04.30-08.39.15:129][977]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.39.15:134][977]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.04.30-08.39.15:489][978]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.04.30-08.39.21:021][207]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.39.21:041][207]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.40.48:594][ 39]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile
+[2024.04.30-08.40.48:594][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.40.48:594][ 39]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.40.51:979][140]LogViewport: Scene viewport resized to 1245x805, mode Windowed.
+[2024.04.30-08.41.01:617][491]LogViewport: Scene viewport resized to 1243x805, mode Windowed.
+[2024.04.30-08.41.01:681][492]LogViewport: Scene viewport resized to 1199x805, mode Windowed.
+[2024.04.30-08.41.01:716][493]LogViewport: Scene viewport resized to 1179x805, mode Windowed.
+[2024.04.30-08.41.01:760][494]LogViewport: Scene viewport resized to 1125x805, mode Windowed.
+[2024.04.30-08.41.01:792][495]LogViewport: Scene viewport resized to 1066x805, mode Windowed.
+[2024.04.30-08.41.01:824][496]LogViewport: Scene viewport resized to 1039x805, mode Windowed.
+[2024.04.30-08.41.01:876][497]LogViewport: Scene viewport resized to 1035x805, mode Windowed.
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: Total job queries 34, among them cache hits 18 (52.94%)
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: Tracking 16 distinct input hashes that result in 16 distinct outputs (100.00%)
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: RAM used: 579.34 KiB of 1.60 GiB budget. Usage: 0.03%
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.30-08.45.01:801][922]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.30-08.45.01:802][922]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.30-08.45.01:802][922]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.45.15:889][506]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.04.30-08.45.15:890][506]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.45.15:891][506]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.45.16:387][508]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.46.08:189][432]BlueprintLog: New page: Compile BP_Weapon_Component
+[2024.04.30-08.46.08:250][432]LogUObjectHash: Compacting FUObjectHashTables data took   3.85ms
+[2024.04.30-08.46.08:947][439]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.46.09:099][439]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2024.04.30-08.46.09:099][439]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Weapon_Component8659727D425964BB656A20AF422D4B20.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2024.04.30-08.46.09:111][439]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 8.33 sec)
+[2024.04.30-08.46.09:113][439]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2024.04.30-08.46.09:113][439]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.04.30-08.47.15:654][937]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2024.04.30-08.47.15:659][937]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.029
+[2024.04.30-08.47.15:660][937]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2024.04.30-08.47.15:721][937]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2024.04.30-08.47.15:721][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2024.04.30-08.47.15:784][937]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto5
+[2024.04.30-08.47.15:784][937]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter_Auto50096A5F340905BD245C7C5A11B694155.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto5.uasset'
+[2024.04.30-08.47.15:784][937]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile] ([2] browsable assets)...
+[2024.04.30-08.47.15:793][937]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile]
+[2024.04.30-08.47.15:793][937]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile]
+[2024.04.30-08.47.15:847][937]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto5
+[2024.04.30-08.47.15:847][937]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonProjectile_Auto50419015E499DC759CC8C4198AFEEE07D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto5.uasset'
+[2024.04.30-08.47.15:848][937]LogFileHelpers: Auto-saving content packages took 0.189
+[2024.04.30-08.48.19:467][245]BlueprintLog: New page: Compile BP_Weapon_Component
+[2024.04.30-08.48.19:525][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.04.30-08.48.20:461][268]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.48.20:583][268]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_Weapon_Component
+[2024.04.30-08.48.20:584][268]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Weapon_Component709056174CD205899120B0851859A9CC.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_Weapon_Component.uasset'
+[2024.04.30-08.48.20:591][268]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 8.46 sec)
+[2024.04.30-08.48.20:593][268]AssetCheck: New page: Asset Save: BP_Weapon_Component
+[2024.04.30-08.48.20:593][268]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_Weapon_Component.BP_Weapon_Component
+[2024.04.30-08.50.25:140][934]BlueprintLog: New page: Compile BP_FirstPersonProjectile
+[2024.04.30-08.50.25:228][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2024.04.30-08.50.25:824][945]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.50.26:018][945]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile
+[2024.04.30-08.50.26:018][945]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonProjectileC9BBB739402463F034BB409575B3F36D.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset'
+[2024.04.30-08.50.26:030][945]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 8.66 sec)
+[2024.04.30-08.50.26:033][945]AssetCheck: New page: Asset Save: BP_FirstPersonProjectile
+[2024.04.30-08.50.26:033][945]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile
+[2024.04.30-08.50.28:566][ 68]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-08.50.28:574][ 68]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.30-08.50.28:574][ 68]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.30-08.50.28:576][ 68]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 71 ms)
+[2024.04.30-08.50.28:578][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.30-08.50.28:578][ 68]PIE: New page: PIE session: FirstPersonMap (30 באפר׳ 2024, 14:50:28)
+[2024.04.30-08.50.28:578][ 68]LogPlayLevel: Display: Creating online subsystem for client :Context_43
+[2024.04.30-08.50.28:580][ 68]LogOnline: OSS: Created online subsystem instance for: :Context_43
+[2024.04.30-08.50.28:617][ 69]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.50.28:634][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016505s)
+[2024.04.30-08.50.28:634][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.016611s)
+[2024.04.30-08.50.28:659][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.30-08.50.28:673][ 69]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.50.28:673][ 69]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.50.28:674][ 69]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.30-08.50.28:676][ 69]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.30-08.50.28:676][ 69]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.30-08.50.28:676][ 69]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.30-08.50.28:676][ 69]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.30-08.50.28:679][ 69]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.30-08.50.28:679][ 69]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 413 ms)
+[2024.04.30-08.50.28:680][ 69]LogPlayLevel: PIE: World Init took: (0.006462s)
+[2024.04.30-08.50.28:680][ 69]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.30-08.50.28:680][ 69]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.30-08.50.28:680][ 69]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-08.50.28:681][ 69]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-08.50.28:681][ 69]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-08.50.28:681][ 69]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-08.50.28:684][ 69]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-08.50.28:801][ 69]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.30-08.50.28:801][ 69]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-08.50.28:801][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-08.50.28:801][ 69]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-08.50.28:802][ 69]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.04.30-08.50.28:802][ 69]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.04.30-08.50.28:806][ 69]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.04.30-08.50.28:806][ 69]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.04.30-08.50.28:806][ 69]LogInit: FAudioDevice initialized with ID 29.
+[2024.04.30-08.50.28:806][ 69]LogAudio: Display: Audio Device (ID: 29) registered with world 'FirstPersonMap'.
+[2024.04.30-08.50.28:806][ 69]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.04.30-08.50.28:810][ 69]LogLoad: Game class is 'BP_ShooterGM_C'
+[2024.04.30-08.50.28:813][ 69]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.30-11.50.28
+[2024.04.30-08.50.28:814][ 69]LogWorld: Bringing up level for play took: 0.003749
+[2024.04.30-08.50.28:837][ 69]PIE: Server logged in
+[2024.04.30-08.50.28:838][ 69]PIE: Play in editor total start time 0.264 seconds.
+[2024.04.30-08.50.28:856][ 69]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.30-08.50.52:228][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.50.52:229][346]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.50.52:229][346]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.50.52:232][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.50.52:233][346]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.30-08.50.52:241][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-08.50.52:250][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.50.52:278][346]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.30-08.50.52:278][346]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.04.30-08.50.52:278][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.04.30-08.50.52:282][346]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.04.30-08.50.52:294][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.50.52:300][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.04.30-08.50.52:401][347]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2024.04.30-08.52.30:158][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-08.52.30:167][253]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.30-08.52.30:167][253]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.30-08.52.30:169][253]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 73 ms)
+[2024.04.30-08.52.30:169][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.30-08.52.30:169][253]PIE: New page: PIE session: FirstPersonMap (30 באפר׳ 2024, 14:52:30)
+[2024.04.30-08.52.30:207][253]LogPlayLevel: Display: Creating online subsystem for client :Context_44
+[2024.04.30-08.52.30:210][253]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2024.04.30-08.52.30:248][254]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.52.30:257][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009080s)
+[2024.04.30-08.52.30:257][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.009147s)
+[2024.04.30-08.52.30:279][254]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.04.30-08.52.30:281][254]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.52.30:281][254]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.52.30:282][254]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.30-08.52.30:283][254]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.30-08.52.30:283][254]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.30-08.52.30:283][254]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.30-08.52.30:283][254]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.30-08.52.30:284][254]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.30-08.52.30:284][254]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 415 ms)
+[2024.04.30-08.52.30:284][254]LogPlayLevel: PIE: World Init took: (0.003291s)
+[2024.04.30-08.52.30:284][254]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.30-08.52.30:284][254]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.30-08.52.30:284][254]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-08.52.30:285][254]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-08.52.30:285][254]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-08.52.30:285][254]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-08.52.30:287][254]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-08.52.30:372][254]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.30-08.52.30:373][254]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-08.52.30:373][254]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-08.52.30:373][254]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-08.52.30:374][254]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.04.30-08.52.30:374][254]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.04.30-08.52.30:378][254]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.04.30-08.52.30:378][254]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.04.30-08.52.30:378][254]LogInit: FAudioDevice initialized with ID 30.
+[2024.04.30-08.52.30:378][254]LogAudio: Display: Audio Device (ID: 30) registered with world 'FirstPersonMap'.
+[2024.04.30-08.52.30:378][254]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.04.30-08.52.30:382][254]LogLoad: Game class is 'BP_ShooterGM_C'
+[2024.04.30-08.52.30:384][254]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.30-11.52.30
+[2024.04.30-08.52.30:384][254]LogWorld: Bringing up level for play took: 0.002475
+[2024.04.30-08.52.30:402][254]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=1726.257 Y=1102.122 Z=75.000] for [BP_Enemy_C]
+[2024.04.30-08.52.30:404][254]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=2217.391 Y=683.942 Z=75.000] for [BP_Enemy_C]
+[2024.04.30-08.52.30:417][254]PIE: Server logged in
+[2024.04.30-08.52.30:417][254]PIE: Play in editor total start time 0.251 seconds.
+[2024.04.30-08.52.30:448][254]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.30-08.52.39:706][752]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_0] 20000.0
+[2024.04.30-08.52.39:743][754]PIE: Warning: BP_Enemy0.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: Total job queries 36, among them cache hits 18 (50.00%)
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: Tracking 18 distinct input hashes that result in 18 distinct outputs (100.00%)
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: RAM used: 653.08 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.30-08.52.39:752][754]LogShaderCompilers: Display: ================================================
+[2024.04.30-08.52.48:348][237]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_1] 20000.0
+[2024.04.30-08.52.48:382][239]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.49:636][312]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_2] 20000.0
+[2024.04.30-08.52.49:684][315]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.52:073][452]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_3] 20000.0
+[2024.04.30-08.52.52:075][452]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.53:473][532]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_4] 20000.0
+[2024.04.30-08.52.54:128][570]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_5] 20000.0
+[2024.04.30-08.52.55:821][664]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_6] 20000.0
+[2024.04.30-08.52.55:824][664]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.56:586][707]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_7] 20000.0
+[2024.04.30-08.52.56:589][707]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.56:737][716]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_8] 20000.0
+[2024.04.30-08.52.56:739][716]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.56:904][726]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_9] 20000.0
+[2024.04.30-08.52.56:907][726]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.57:041][734]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_10] 20000.0
+[2024.04.30-08.52.57:045][734]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.57:175][742]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_11] 20000.0
+[2024.04.30-08.52.57:177][742]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.57:294][749]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_12] 20000.0
+[2024.04.30-08.52.57:296][749]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.57:439][757]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_13] 20000.0
+[2024.04.30-08.52.57:441][757]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.57:590][766]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_14] 20000.0
+[2024.04.30-08.52.57:594][766]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.52.59:388][867]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_15] 20000.0
+[2024.04.30-08.52.59:390][867]PIE: Warning: BP_Enemy11.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.00:347][922]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_16] 20000.0
+[2024.04.30-08.53.00:350][922]PIE: Warning: BP_Enemy15.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.03:773][113]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_17] 20000.0
+[2024.04.30-08.53.03:776][113]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.04:529][157]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_18] 20000.0
+[2024.04.30-08.53.04:533][157]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.04:909][179]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_19] 20000.0
+[2024.04.30-08.53.04:913][179]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.05:372][204]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_20] 20000.0
+[2024.04.30-08.53.05:375][204]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.06:469][265]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_21] 20000.0
+[2024.04.30-08.53.06:485][266]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.06:890][290]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_22] 20000.0
+[2024.04.30-08.53.06:916][291]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.07:232][309]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_23] 20000.0
+[2024.04.30-08.53.07:247][310]PIE: Warning: BP_Enemy1.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.07:383][318]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_24] 20000.0
+[2024.04.30-08.53.07:386][318]PIE: Warning: BP_Enemy1.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.09:337][429]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_25] 20000.0
+[2024.04.30-08.53.09:373][431]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.11:038][523]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_26] 20000.0
+[2024.04.30-08.53.11:041][523]PIE: Warning: BP_Enemy10.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.53.11:363][541]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_27] 20000.0
+[2024.04.30-08.53.11:369][541]PIE: Warning: BP_Enemy10.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.00:283][314]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_28] 20000.0
+[2024.04.30-08.54.00:288][314]PIE: Warning: BP_Enemy14.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.00:854][346]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_29] 20000.0
+[2024.04.30-08.54.00:860][346]PIE: Warning: BP_Enemy14.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.01:466][380]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_30] 20000.0
+[2024.04.30-08.54.01:483][381]PIE: Warning: BP_Enemy12.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.02:162][419]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_31] 20000.0
+[2024.04.30-08.54.02:167][419]PIE: Warning: BP_Enemy14.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.02:689][448]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_32] 20000.0
+[2024.04.30-08.54.02:691][448]PIE: Warning: BP_Enemy16.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.04:344][541]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_33] 20000.0
+[2024.04.30-08.54.04:578][554]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_UAID_C87F54CC1FEFE1EB01_1124826919 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.05:416][601]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_34] 20000.0
+[2024.04.30-08.54.05:420][601]PIE: Warning: BP_Enemy13.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.54.09:628][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.54.09:628][839]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.54.09:629][839]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.54.09:630][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.54.09:630][839]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.30-08.54.09:637][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-08.54.09:644][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.54.09:669][839]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.30-08.54.09:671][839]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.04.30-08.54.09:672][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.04.30-08.54.09:676][839]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.04.30-08.54.09:691][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.54.09:701][839]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2024.04.30-08.54.09:975][840]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2024.04.30-08.54.12:320][923]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.54.12:343][923]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.55.13:480][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.55.14:630][ 30]LogAssetEditorSubsystem: Opening Asset editor for AnimMontage /Game/Enemies/Mixamo/Animations/Attack_Montage.Attack_Montage
+[2024.04.30-08.55.14:661][ 30]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.55.14:661][ 30]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.55.14:712][ 30]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_16:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.30-08.55.15:113][ 30]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.55.15:113][ 30]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.55.15:365][ 30]LogSlate: Took 0.000487 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.04.30-08.55.15:380][ 30]LogViewport: Scene viewport resized to 1134x500, mode Windowed.
+[2024.04.30-08.55.15:503][ 32]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.55.21:411][242]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.55.21:411][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.55.21:511][242]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.55.21:511][242]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.55.48:516][280]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.30-08.55.48:606][280]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.04.30-08.55.49:274][298]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.55.49:448][298]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.30-08.55.49:449][298]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy4764783E4DB6ED516C73CF988E436291.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.30-08.55.49:462][298]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 8.85 sec)
+[2024.04.30-08.55.49:464][298]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.30-08.55.49:464][298]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.30-08.56.01:811][814]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.30-08.56.01:818][814]LogContentBundle: [FirstPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.30-08.56.01:818][814]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' started...
+[2024.04.30-08.56.01:821][814]LogWorldPartition: Display: GenerateStreaming for 'FirstPersonMap' took 2 ms (total: 75 ms)
+[2024.04.30-08.56.01:821][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.30-08.56.01:821][814]PIE: New page: PIE session: FirstPersonMap (30 באפר׳ 2024, 14:56:01)
+[2024.04.30-08.56.01:821][814]LogPlayLevel: Display: Creating online subsystem for client :Context_49
+[2024.04.30-08.56.01:824][814]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.04.30-08.56.01:847][815]LogPlayLevel: Creating play world package: /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.56.01:858][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010018s)
+[2024.04.30-08.56.01:858][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPerson/Maps/FirstPersonMap.FirstPersonMap to /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap (0.010091s)
+[2024.04.30-08.56.01:888][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.04.30-08.56.01:896][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.30-08.56.01:896][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.30-08.56.01:898][815]LogAIModule: Creating AISystem for world FirstPersonMap
+[2024.04.30-08.56.01:898][815]LogWorldPartition: ULevel::OnLevelLoaded(FirstPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.30-08.56.01:898][815]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.30-08.56.01:898][815]LogWorldPartition: UWorldPartition::Initialize : World = FirstPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.30-08.56.01:898][815]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.30-08.56.01:900][815]LogContentBundle: [FirstPersonMap(Standalone)] Creating new contrainer.
+[2024.04.30-08.56.01:900][815]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 417 ms)
+[2024.04.30-08.56.01:900][815]LogPlayLevel: PIE: World Init took: (0.003497s)
+[2024.04.30-08.56.01:900][815]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.30-08.56.01:900][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.30-08.56.01:900][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.30-08.56.01:901][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.30-08.56.01:901][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.30-08.56.01:901][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.30-08.56.01:903][815]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.30-08.56.01:982][815]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.30-08.56.01:982][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.30-08.56.01:982][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.30-08.56.01:982][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.30-08.56.01:984][815]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2024.04.30-08.56.01:984][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2024.04.30-08.56.01:987][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2024.04.30-08.56.01:987][815]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2024.04.30-08.56.01:987][815]LogInit: FAudioDevice initialized with ID 31.
+[2024.04.30-08.56.01:987][815]LogAudio: Display: Audio Device (ID: 31) registered with world 'FirstPersonMap'.
+[2024.04.30-08.56.01:987][815]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2024.04.30-08.56.01:991][815]LogLoad: Game class is 'BP_ShooterGM_C'
+[2024.04.30-08.56.01:994][815]LogWorld: Bringing World /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap up for play (max tick rate 60) at 2024.04.30-11.56.01
+[2024.04.30-08.56.01:996][815]LogWorld: Bringing up level for play took: 0.004072
+[2024.04.30-08.56.02:005][815]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=3504.801 Y=1860.960 Z=75.000] for [BP_Enemy_C]
+[2024.04.30-08.56.02:032][815]PIE: Server logged in
+[2024.04.30-08.56.02:033][815]PIE: Play in editor total start time 0.215 seconds.
+[2024.04.30-08.56.02:056][815]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'SC_SceneMusic'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.04.30-08.56.35:474][635]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_0] 20000.0
+[2024.04.30-08.56.35:477][635]PIE: Warning: BP_Enemy12.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.35:678][646]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_1] 20000.0
+[2024.04.30-08.56.35:683][646]PIE: Warning: BP_Enemy15.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.36:092][668]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_2] 20000.0
+[2024.04.30-08.56.36:099][668]PIE: Warning: BP_Enemy13.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.36:607][694]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_3] 20000.0
+[2024.04.30-08.56.36:611][694]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_35 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.39:392][843]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_4] 20000.0
+[2024.04.30-08.56.39:394][843]PIE: Warning: BP_Enemy10.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.47:919][306]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_5] 20000.0
+[2024.04.30-08.56.47:923][306]PIE: Warning: BP_Enemy11.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.48:357][330]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_6] 20000.0
+[2024.04.30-08.56.48:360][330]PIE: Warning: BP_Enemy11.Attack_Sphere has to have 'Simulate Physics' enabled if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.49:023][366]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_7] 20000.0
+[2024.04.30-08.56.49:056][368]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_3 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.49:558][396]LogBlueprintUserMessages: [BP_FirstPersonProjectile_C_8] 20000.0
+[2024.04.30-08.56.49:608][399]PIE: Warning: Mobility of /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap.FirstPersonMap:PersistentLevel.StaticMeshActor_10 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2024.04.30-08.56.50:438][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.56.50:438][442]LogWorld: BeginTearingDown for /Game/FirstPerson/Maps/UEDPIE_0_FirstPersonMap
+[2024.04.30-08.56.50:438][442]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-08.56.50:440][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.56.50:440][442]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.30-08.56.50:446][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.30-08.56.50:450][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-08.56.50:474][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.30-08.56.50:475][442]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2024.04.30-08.56.50:475][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.04.30-08.56.50:481][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.04.30-08.56.50:514][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.30-08.56.50:525][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2024.04.30-08.56.50:820][443]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.04.30-08.56.52:095][494]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.56.52:116][494]LogSlate: Window 'Message Log' being destroyed
+[2024.04.30-08.58.11:580][319]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.30-08.58.11:654][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.04.30-08.58.12:323][337]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.58.12:535][337]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.30-08.58.12:536][337]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy52569C474B6A2BD2E89533A1B6906763.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.30-08.58.12:545][337]LogFileHelpers: InternalPromptForCheckoutAndSave took 221 ms (total: 9.07 sec)
+[2024.04.30-08.58.12:551][337]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.30-08.58.12:551][337]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.30-08.58.18:080][538]LogViewport: Scene viewport resized to 1236x805, mode Windowed.
+[2024.04.30-08.59.35:447][714]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.30-08.59.35:548][714]LogUObjectHash: Compacting FUObjectHashTables data took   4.12ms
+[2024.04.30-08.59.36:076][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.59.36:266][727]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.30-08.59.36:267][727]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_Enemy3A15F7104263A09A2AAB69B982AA373F.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.30-08.59.36:277][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 200 ms (total: 9.27 sec)
+[2024.04.30-08.59.36:280][727]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.30-08.59.36:280][727]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.30-08.59.41:737][940]BlueprintLog: New page: Compile BP_Enemy
+[2024.04.30-08.59.41:819][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.04.30-08.59.42:392][953]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-08.59.42:580][953]LogSavePackage: Moving output files for package: /Game/Enemies/Blueprints/BP_Enemy
+[2024.04.30-08.59.42:580][953]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_EnemyCDD72293464EEBD0DDBE8DA8F175FB64.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/Enemies/Blueprints/BP_Enemy.uasset'
+[2024.04.30-08.59.42:588][953]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 9.47 sec)
+[2024.04.30-08.59.42:590][953]AssetCheck: New page: Asset Save: BP_Enemy
+[2024.04.30-08.59.42:590][953]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Enemies/Blueprints/BP_Enemy.BP_Enemy
+[2024.04.30-09.00.07:724][ 19]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.04.30-09.00.07:729][ 19]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FirstPerson/Maps/FirstPersonMap' took 0.023
+[2024.04.30-09.00.07:730][ 19]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter] ([2] browsable assets)...
+[2024.04.30-09.00.07:771][ 19]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter]
+[2024.04.30-09.00.07:771][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter]
+[2024.04.30-09.00.07:834][ 19]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto6
+[2024.04.30-09.00.07:834][ 19]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter_Auto67732FBFF414559D3CD26C3958A1B8145.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter_Auto6.uasset'
+[2024.04.30-09.00.07:835][ 19]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile] ([2] browsable assets)...
+[2024.04.30-09.00.07:843][ 19]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile]
+[2024.04.30-09.00.07:843][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile]
+[2024.04.30-09.00.07:881][ 19]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto6
+[2024.04.30-09.00.07:881][ 19]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonProjectile_Auto695D7E79C4D8FCE8303420AA49A19B92B.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/Autosaves/Game/FirstPerson/Blueprints/BP_FirstPersonProjectile_Auto6.uasset'
+[2024.04.30-09.00.07:882][ 19]LogFileHelpers: Auto-saving content packages took 0.152
+[2024.04.30-09.00.46:059][684]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.04.30-09.00.46:067][684]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.30-09.00.46:218][684]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter
+[2024.04.30-09.00.46:218][684]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonCharacter16AA4DA5452054414214E78CB55E7CCE.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonCharacter.uasset'
+[2024.04.30-09.00.46:256][684]LogSavePackage: Moving output files for package: /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile
+[2024.04.30-09.00.46:256][684]LogSavePackage: Moving '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Saved/BP_FirstPersonProjectile902E545D4DF16BCBFB25E7AEA454A9B0.tmp' to '../../../../../../Users/ASUS/Desktop/Git Repositories/Unreal-Shooter-Project/Shooter/Content/FirstPerson/Blueprints/BP_FirstPersonProjectile.uasset'
+[2024.04.30-09.00.46:266][684]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 9.67 sec)
+[2024.04.30-09.00.46:270][684]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.30-09.00.46:270][684]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter
+[2024.04.30-09.00.46:270][684]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/FirstPerson/Blueprints/BP_FirstPersonProjectile.BP_FirstPersonProjectile
+[2024.04.30-09.00.47:788][746]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.04.30-09.00.47:794][746]LogSlate: Window 'BP_Weapon_Component' being destroyed
+[2024.04.30-09.00.47:802][746]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.47:803][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.47:916][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.30-09.00.47:916][746]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.47:916][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.47:953][746]LogScript: Warning: Script Msg: The widget 'W_YouDied_C_0' does not have a World.
+[2024.04.30-09.00.47:953][746]LogScript: Warning: Script Msg called by: BP_FirstPersonCharacter_C /Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0
+[2024.04.30-09.00.47:953][746]PIE: Error: SetInputMode_UIOnly expects a valid player controller as 'PlayerController' target
+[2024.04.30-09.00.47:953][746]LogScript: Warning: Accessed None trying to read property CallFunc_GetPlayerController_ReturnValue
+	BP_FirstPersonCharacter_C /Engine/Transient.World_11:PersistentLevel.BP_FirstPersonCharacter_C_0
+	Function /Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C:YouDiedAction:00CF
+[2024.04.30-09.00.47:956][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.30-09.00.47:956][746]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.47:956][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.48:045][746]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.30-09.00.48:045][746]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.48:045][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.48:093][746]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.48:093][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.48:664][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.04.30-09.00.48:738][773]LogSlate: Window 'Shooter - Unreal Editor' being destroyed
+[2024.04.30-09.00.48:895][774]Cmd: QUIT_EDITOR
+[2024.04.30-09.00.48:895][774]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.04.30-09.00.48:904][774]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.04.30-09.00.48:904][774]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.04.30-09.00.48:904][774]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.04.30-09.00.48:904][774]LogWorld: UWorld::CleanupWorld for FirstPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.48:905][774]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.30-09.00.48:905][774]LogContentBundle: [FirstPersonMap(Standalone)] Deleting container.
+[2024.04.30-09.00.48:910][774]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.04.30-09.00.49:431][774]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.04.30-09.00.49:431][774]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.04.30-09.00.49:431][774]LogAudio: Display: Audio Device unregistered from world 'FirstPersonMap'.
+[2024.04.30-09.00.49:431][774]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.04.30-09.00.49:431][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.04.30-09.00.49:435][774]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.04.30-09.00.49:457][774]LogAudio: Display: Audio Device Manager Shutdown
+[2024.04.30-09.00.49:459][774]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.04.30-09.00.49:472][774]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.04.30-09.00.49:473][774]LogExit: Preparing to exit.
+[2024.04.30-09.00.49:532][774]LogUObjectHash: Compacting FUObjectHashTables data took   3.06ms
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.49:551][774]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.04.30-09.00.50:461][774]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:463][774]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:465][774]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:467][774]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:469][774]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:470][774]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:472][774]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:474][774]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:475][774]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:476][774]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:477][774]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:480][774]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.04.30-09.00.50:546][774]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.04.30-09.00.50:565][774]LogExit: Editor shut down
+[2024.04.30-09.00.50:566][774]LogExit: Transaction tracking system shut down
+[2024.04.30-09.00.50:713][774]LogExit: Object subsystem successfully closed.
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: ================================================
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: Total job queries 38, among them cache hits 20 (52.63%)
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: Tracking 18 distinct input hashes that result in 18 distinct outputs (100.00%)
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: RAM used: 653.08 KiB of 1.60 GiB budget. Usage: 0.04%
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.04.30-09.00.50:720][774]LogShaderCompilers: Display: ================================================
+[2024.04.30-09.00.50:723][774]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.04.30-09.00.50:739][774]LogVirtualization: UE::Virtualization was shutdown
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SequencerWidgets (1064)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module PinnedCommandList (1062)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SkeletonEditor (1060)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AnimationEditor (1058)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module DataTableEditor (1056)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (1054)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module Voice (1052)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SceneOutliner (1050)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1048)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1046)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AddContentDialog (1044)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1043)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module StatusBar (1040)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1038)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1036)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1034)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module StatsViewer (1032)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1030)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AutomationWorker (1028)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (1026)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (1024)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1022)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1020)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WebMMedia (1018)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1016)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1014)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1012)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1010)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1009)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1006)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1004)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (1002)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (1000)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (998)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (996)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (994)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (992)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (990)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module WaveTableEditor (988)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module RigVMEditor (986)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (984)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module GooglePADEditor (982)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (980)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (978)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (976)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module TextureAlignMode (974)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module BspMode (972)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module GeometryMode (970)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module PlanarCut (968)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module ControlRigEditor (966)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module CharacterAI (964)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module FractureEngine (962)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module IKRigEditor (960)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SmartSnapping (958)
+[2024.04.30-09.00.50:769][774]LogModuleManager: Shutting down and abandoning module SessionServices (956)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module MeshPaint (954)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (952)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module PlacementMode (951)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module FoliageEdit (948)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module LandscapeEditor (946)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (944)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module ActorPickerMode (942)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module ViewportSnapping (940)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module EditorWidgets (938)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module ViewportInteraction (936)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module ClothPainter (934)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (933)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module WidgetRegistration (930)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module LogVisualizer (928)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (926)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (924)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (923)
+[2024.04.30-09.00.50:770][774]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (921)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (918)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (916)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (914)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (912)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (910)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (908)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module AnimationSettings (906)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (904)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module CSVtoSVG (902)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (900)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module EditorConfig (898)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module EditorFramework (896)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (894)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module TraceInsights (892)
+[2024.04.30-09.00.51:477][774]MemoryProfiler: Shutdown
+[2024.04.30-09.00.51:477][774]NetworkingProfiler: Shutdown
+[2024.04.30-09.00.51:477][774]LoadingProfiler: Shutdown
+[2024.04.30-09.00.51:477][774]TimingProfiler: Shutdown
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module TraceServices (891)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module TraceAnalysis (890)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (886)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (885)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module InputBindingEditor (882)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module MergeActors (880)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (878)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module LocalizationService (877)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module HardwareTargeting (874)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (872)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module UndoHistory (870)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module XmlParser (868)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module Blutility (866)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (864)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (863)
+[2024.04.30-09.00.51:477][774]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (860)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (859)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module SettingsEditor (856)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module ProjectLauncher (854)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module SessionFrontend (852)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module ProfilerClient (850)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module DeviceManager (848)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module AutomationController (846)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module AutomationWindow (844)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module Layers (842)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (840)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module DetailCustomizations (838)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module PackagesDialog (836)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (834)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module Persona (832)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (831)
+[2024.04.30-09.00.51:478][774]LogModuleManager: Shutting down and abandoning module Kismet (828)
+[2024.04.30-09.00.51:491][774]LogModuleManager: Shutting down and abandoning module KismetWidgets (827)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module GraphEditor (824)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module StructViewer (822)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module ClassViewer (820)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (818)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (816)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module SourceControlWindows (814)
+[2024.04.30-09.00.51:492][774]LogModuleManager: Shutting down and abandoning module OutputLog (812)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module Documentation (810)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (808)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (806)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module MovieScene (804)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (802)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (800)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (798)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AudioMixer (797)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AudioMixerCore (796)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module LauncherPlatform (792)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AnalyticsET (790)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module PortalServices (788)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module PortalRpc (786)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module MessagingRpc (784)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AIModule (782)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module GameplayDebugger (781)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module AITestSuite (779)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module NavigationSystem (777)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (774)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (772)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module TypedElementFramework (770)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (768)
+[2024.04.30-09.00.51:493][774]LogModuleManager: Shutting down and abandoning module ProfilerService (766)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (764)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (762)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (760)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (758)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module TakesCore (756)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (754)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module MegascansPlugin (752)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module Bridge (750)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (748)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (746)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module LightMixer (744)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (742)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (740)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (738)
+[2024.04.30-09.00.51:610][774]LogModuleManager: Shutting down and abandoning module CollectionManager (737)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (734)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module ModelingOperators (732)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (730)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module ModelingComponents (728)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module GeometryFramework (727)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (724)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module MeshModelingTools (722)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module TakeSequencer (720)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module TakeMovieScene (718)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module PluginUtils (716)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (714)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module UObjectPlugin (712)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (710)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module InterchangeTests (708)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (704)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module MediaPlate (702)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module MediaCompositing (700)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module ImgMedia (698)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (696)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module SequencerScripting (694)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module TemplateSequence (692)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (690)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (688)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (686)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (684)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (682)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module GitSourceControl (680)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module DumpGPUServices (678)
+[2024.04.30-09.00.51:611][774]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (676)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (674)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module SynthesisEditor (672)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ResonanceAudio (670)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (668)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GooglePAD (666)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (664)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module DynamicMesh (662)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (660)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (658)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module InputDebugging (656)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (654)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module EditorDebugTools (652)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (650)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (648)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (646)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (644)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AssetTags (642)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AudioCapture (640)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (639)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (636)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AppleImageUtils (634)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AndroidPermission (632)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (630)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (628)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (626)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AlembicImporter (624)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module AlembicLibrary (623)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryCache (622)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (621)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (616)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module UVEditorTools (614)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module UVEditor (612)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (610)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (608)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module PluginBrowser (606)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (604)
+[2024.04.30-09.00.51:612][774]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (602)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (600)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (598)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (596)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module CryptoKeys (594)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (592)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module CurveEditorTools (590)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module ChangelistReview (588)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (586)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (584)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (582)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (580)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (578)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (576)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (574)
+[2024.04.30-09.00.51:613][774]LogOpenImageDenoise: OIDN shutting down
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (572)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (570)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (569)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (567)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (564)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module MeshLODToolset (562)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (560)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (558)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (556)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (554)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (552)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (550)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module LocalizableMessage (548)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (546)
+[2024.04.30-09.00.51:613][774]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (544)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (542)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module DataflowNodes (540)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (538)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module DataflowEditor (536)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (534)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module ChaosNiagara (532)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (530)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module FractureEditor (528)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (526)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (524)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module AutomationUtils (522)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module BackChannel (520)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (518)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module VariantManager (516)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (514)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (512)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module InterchangeEditor (510)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module ControlRigSpline (508)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (506)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (504)
+[2024.04.30-09.00.51:616][774]LogModuleManager: Shutting down and abandoning module Paper2DEditor (502)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (500)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (498)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (496)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (494)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (492)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (490)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InterchangeExport (488)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InterchangeMessages (486)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module GLTFCore (484)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (482)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (480)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module TraceUtilities (478)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (476)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (474)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module InputEditor (472)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (470)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module ActorSequence (468)
+[2024.04.30-09.00.51:617][774]LogModuleManager: Shutting down and abandoning module TcpMessaging (466)
+[2024.04.30-09.00.51:718][774]LogModuleManager: Shutting down and abandoning module UdpMessaging (464)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (462)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module Niagara (460)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module NiagaraEditor (459)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module NiagaraCore (456)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (454)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (452)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module GameplayCameras (450)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module AnimationSharing (448)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module Synthesis (446)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module SoundFields (444)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (442)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module RigVM (440)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module SignificanceManager (438)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (436)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (434)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (432)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (430)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MetasoundEditor (428)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module AudioWidgets (427)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (426)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (422)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MetasoundEngine (420)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module WaveTable (419)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (417)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (414)
+[2024.04.30-09.00.51:818][774]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (412)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (410)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (408)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (406)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (405)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (402)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module SignalProcessing (401)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (398)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (396)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module CableComponent (394)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (392)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module FacialAnimation (390)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module DataValidation (388)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (386)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ContentBrowser (385)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ToolMenus (384)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ContentBrowserData (382)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module TreeMap (379)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module StructUtils (376)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (374)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (372)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ControlRig (370)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module Constraints (369)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module PBIK (366)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module FullBodyIK (364)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (362)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module TakeRecorder (361)
+[2024.04.30-09.00.51:819][774]LogModuleManager: Shutting down and abandoning module LevelEditor (359)
+[2024.04.30-09.00.51:823][774]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (358)
+[2024.04.30-09.00.51:823][774]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (356)
+[2024.04.30-09.00.51:823][774]LogModuleManager: Shutting down and abandoning module MainFrame (354)
+[2024.04.30-09.00.51:823][774]LogModuleManager: Shutting down and abandoning module HotReload (353)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module ChaosCaching (348)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module LevelSequence (347)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (344)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module IKRig (342)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module Paper2D (340)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module AnimationData (338)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module InterchangePipelines (336)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module InterchangeImport (334)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (332)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module InterchangeNodes (330)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (328)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2024.04.30-09.00.51:824][774]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2024.04.30-09.00.51:827][774]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.04.30-09.00.51:828][774]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2024.04.30-09.00.51:831][774]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2024.04.30-09.00.51:847][774]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2024.04.30-09.00.51:847][774]LogModuleManager: Shutting down and abandoning module Core (244)
+[2024.04.30-09.00.51:847][774]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2024.04.30-09.00.51:847][774]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2024.04.30-09.00.51:847][774]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2024.04.30-09.00.51:848][774]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2024.04.30-09.00.51:859][774]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2024.04.30-09.00.51:859][774]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2024.04.30-09.00.51:859][774]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2024.04.30-09.00.51:859][774]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2024.04.30-09.00.51:862][774]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (122)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (120)
+[2024.04.30-09.00.51:864][774]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (118)
+[2024.04.30-09.00.51:865][774]LogModuleManager: Shutting down and abandoning module XMPP (113)
+[2024.04.30-09.00.51:865][774]LogModuleManager: Shutting down and abandoning module WebSockets (112)
+[2024.04.30-09.00.51:898][774]LogModuleManager: Shutting down and abandoning module HTTP (109)
+[2024.04.30-09.00.51:899][774]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.04.30-09.00.51:899][774]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2FAA120D-415F-4402-FD8F-5885D747CB90%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=aa6f388d4c9096519fb30dad180c9410%7C5786188296524b0f85b2471753ba3ed4%7Ce8f4f809-34d5-4a51-97e8-6321c149aae2&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.04.30-09.00.51:914][774]LogModuleManager: Shutting down and abandoning module SSL (108)
+[2024.04.30-09.00.51:914][774]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (104)
+[2024.04.30-09.00.51:914][774]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (102)
+[2024.04.30-09.00.51:914][774]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (100)
+[2024.04.30-09.00.51:914][774]LogModuleManager: Shutting down and abandoning module WmfMedia (98)
+[2024.04.30-09.00.51:923][774]LogModuleManager: Shutting down and abandoning module Media (97)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (94)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PixWinPlugin (90)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (88)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module NiagaraShader (86)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (84)
+[2024.04.30-09.00.51:926][774]RenderDocPlugin: plugin has been unloaded.
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (82)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module ChunkDownloader (78)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module ChaosCloth (76)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module VariantManagerContent (74)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module ACLPlugin (72)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module AISupportModule (70)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module GLTFExporter (68)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module DatasmithContent (66)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (62)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (60)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (56)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (54)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PlatformCrypto (52)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (50)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.04.30-09.00.51:926][774]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.04.30-09.00.51:927][774]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.04.30-09.00.51:929][774]LogPakFile: Destroying PakPlatformFile
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.04.30-09.00.51:929][774]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.04.30-09.00.52:192][774]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.04.30-09.00.52:288][774]LogExit: Exiting.
+[2024.04.30-09.00.52:310][774]Log file closed, 04/30/24 12:00:52
