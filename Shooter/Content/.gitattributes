@@ -1,0 +1,2 @@
+.uasset filter=lfs diff=lfs merge=lfs -text
+MOUT_Arabian filter=lfs diff=lfs merge=lfs -text
